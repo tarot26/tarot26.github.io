@@ -1,14 +1,19 @@
-<div class="page-header page-header-small" filter-color="purple" style="height: 40vh;">
-    <div class="page-header-image" data-parallax="true" style="background-image: url('/img/lisbon2.jpg');">
-    </div>
-    <div class="container">
-        <div class="content-center" style="padding-top: 5cm; padding-bottom: 1cm">
-            <h1 class="title">SBFT 2024</h1>
-            <div class="text-center">
-                <h5>21th TAROT Summer School on Software Testing, Verification & Validation</h5>
-                <h5>July 2026, Munich, Germany</h5>
-                
-            </div>
-        </div>
-    </div>
-</div>
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="TAROT logo" class="logo"/>
+      <span class="brand-text">{{ site.title }}</span>
+    </a>
+
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+      ☰
+    </button>
+
+    <nav id="nav-menu" class="nav">
+      {% assign current = page.url | remove: 'index.html' %}
+      <a class="nav-link {% if current == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="nav-link {% if current contains '/important-dates' %}active{% endif %}" href="{{ '/important-dates/' | relative_url }}">Important dates</a>
+      <a class="nav-link {% if current contains '/past-editions' %}active{% endif %}" href="{{ '/past-editions/' | relative_url }}">Past editions</a>
+    </nav>
+  </div>
+</header>
