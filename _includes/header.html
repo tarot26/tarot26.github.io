@@ -10,10 +10,15 @@
     </button>
 
     <nav id="nav-menu" class="nav">
-      {% assign current = page.url | remove: 'index.html' %}
-      <a class="nav-link {% if current == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
-      <a class="nav-link {% if current contains '/important-dates' %}active{% endif %}" href="{{ '/important-dates/' | relative_url }}">Important dates</a>
-      <a class="nav-link {% if current contains '/past-editions' %}active{% endif %}" href="{{ '/past-editions/' | relative_url }}">Past editions</a>
+    {% assign current = page.url | remove: 'index.html' %}
+    <a class="nav-link {% if current == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+    <a class="nav-link {% if current contains '/school' %}active{% endif %}" href="{{ '/school/' | relative_url }}">School</a>
+    <a class="nav-link {% if current contains '/organisation' %}active{% endif %}" href="{{ '/organisation/' | relative_url }}">Organisation</a>
+    <a class="nav-link {% if current contains '/venue' %}active{% endif %}" href="{{ '/venue/' | relative_url }}">Venue</a>
+    <a class="nav-link {% if current contains '/sponsors' %}active{% endif %}" href="{{ '/sponsors/' | relative_url }}">Sponsors</a>
+    <a class="nav-link {% if current contains '/registration' %}active{% endif %}" href="{{ '/registration/' | relative_url }}">Registration</a>
+    <a class="nav-link {% if current contains '/important-dates' %}active{% endif %}" href="{{ '/important-dates/' | relative_url }}">Important dates</a>
+    <a class="nav-link {% if current contains '/past-editions' %}active{% endif %}" href="{{ '/past-editions/' | relative_url }}">Past editions</a>
     </nav>
   </div>
 </header>
