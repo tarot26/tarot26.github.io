@@ -3,7 +3,7 @@ title: Venue
 layout: default
 permalink: /venue/
 ---
-<div class="hero-small">
+<div class="hero">
   <img src="{{ '/assets/img/hero_garching.webp' | relative_url }}" alt="Venue banner">
   <div class="hero-overlay">
     <h1>Venue</h1>

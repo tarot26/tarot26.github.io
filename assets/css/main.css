@@ -88,19 +88,12 @@ body { overflow-x: hidden; }
 }
 .brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
 .logo { height: clamp(64px, 9vw, 80px); width: auto; display: block; }
-.brand-text {
-  font-weight: 700;
-  color: var(--ink);
-  font-size: clamp(1rem, 2.2vw, 1.35rem);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+.brand-text { display: none;}
 
 .hero {
   position: relative;
   width: 100vw;               /* span full rendered screen width */
-  height: 500px; /* restore big main hero */
+  height: 300px; /* restore big main hero */
   overflow: hidden;
   margin: 0;
   left: 50%;                  
