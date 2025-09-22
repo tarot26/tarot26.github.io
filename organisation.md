@@ -1,10 +1,10 @@
 ---
-title: Organisation
+title: Organisers
 layout: default
 permalink: /organisation/
 ---
 
-# Organisation
+# Organisers
 
 <div class="org-grid">
   <!-- Alessio Gambi -->

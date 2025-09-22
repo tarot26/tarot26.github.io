@@ -6,4 +6,6 @@ permalink: /important-dates/
 
 # Important dates
 
-Coming soon
+The tentative dates are **20 July 2026 – 25 July 2026**.
+
+Further details coming soon.
