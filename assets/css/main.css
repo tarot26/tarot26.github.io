@@ -19,10 +19,15 @@ body {
 
 .container { max-width: var(--maxw); margin: 0 auto; padding: 0 1rem; }
 
+
+
 /* Header */
 .site-header {
   border-bottom: 1px solid var(--border);
   background: #f9fafb;
+  position: sticky;
+  top: 0;
+  z-index: 200;
 }
 .header-row {
   display: flex;
@@ -83,10 +88,11 @@ body {
   display: flex;
   align-items: center;
   gap: .5rem;
-  flex-wrap: nowrap;               /* never wrap */
-  overflow-x: auto;                /* enable sideways scroll on narrow screens */
-  -webkit-overflow-scrolling: touch;
-  white-space: nowrap;             /* keep each link on one line */
+  flex-wrap: nowrap;
+  overflow: visible;         /* ← important */
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
 }
 .nav::-webkit-scrollbar { display: none; }
 .nav-link {
@@ -103,6 +109,53 @@ body {
   background: var(--primary);
   color: var(--primary-ink);
 }
+
+/* Make School trigger look like a normal nav-link */
+.nav-trigger {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  display: inline-block;
+  padding: .4rem .6rem;
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: clamp(.85rem, 1.6vw, 1rem);
+}
+.nav-trigger:hover {
+  background: #eef2ff;
+  color: var(--primary);
+}
+.nav-group.open > .nav-trigger {
+  background: var(--primary);
+  color: var(--primary-ink);
+}
+
+/* Dropdown (click-to-open) */
+.nav-group { position: relative; display: inline-block; }
+.nav-group .submenu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 220px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.08);
+  padding: .4rem 0;
+  z-index: 1000;
+}
+.nav-group.open .submenu { display: block; }
+.submenu-link {
+  display: block;
+  padding: .5rem .75rem;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+.submenu-link:hover { background: #f3f4f6; color: var(--primary); }
 
 /* Mobile toggle */
 .nav-toggle {
@@ -132,3 +185,29 @@ main.container { padding: 2rem 1rem; }
   .header-row { gap: .5rem; }
   /* Keep nav in a single row with horizontal scroll on small screens */
 }
+
+
+/* Simple School dropdown */
+.submenu {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.12);
+  padding: .4rem 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  z-index: 1000;
+}
+.submenu-link {
+  display: block;
+  padding: .45rem .75rem;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.submenu-link:hover { background: #f3f4f6; color: var(--primary); }
+
+.site-header { position: sticky; top: 0; z-index: 100; }
+.nav { overflow-y: visible; position: relative; z-index: 1; }

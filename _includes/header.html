@@ -11,14 +11,51 @@
 
     <nav id="nav-menu" class="nav">
     {% assign current = page.url | remove: 'index.html' %}
-    <a class="nav-link {% if current == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
-    <a class="nav-link {% if current contains '/school' %}active{% endif %}" href="{{ '/school/' | relative_url }}">School</a>
+    <!-- <a class="nav-link {% if current == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a> -->
+    <div class="nav-group {% if current contains '/school' %}active{% endif %}">
+      <button class="nav-link nav-trigger" type="button" aria-expanded="false" aria-controls="school-submenu">School</button>
+      <div id="school-submenu" class="submenu" role="menu" aria-label="School submenu">
+        <a class="submenu-link {% if current contains '/school/program' %}active{% endif %}" href="{{ '/school/program/' | relative_url }}">Program</a>
+        <a class="submenu-link {% if current contains '/school/lecturers' %}active{% endif %}" href="{{ '/school/lecturers/' | relative_url }}">Lecturers</a>
+      </div>
+    </div>
     <a class="nav-link {% if current contains '/organisation' %}active{% endif %}" href="{{ '/organisation/' | relative_url }}">Organisation</a>
     <a class="nav-link {% if current contains '/venue' %}active{% endif %}" href="{{ '/venue/' | relative_url }}">Venue</a>
+    <a class="nav-link {% if current contains '/important-dates' %}active{% endif %}" href="{{ '/important-dates/' | relative_url }}">Important dates</a>
     <a class="nav-link {% if current contains '/sponsors' %}active{% endif %}" href="{{ '/sponsors/' | relative_url }}">Sponsors</a>
     <a class="nav-link {% if current contains '/registration' %}active{% endif %}" href="{{ '/registration/' | relative_url }}">Registration</a>
-    <a class="nav-link {% if current contains '/important-dates' %}active{% endif %}" href="{{ '/important-dates/' | relative_url }}">Important dates</a>
     <a class="nav-link {% if current contains '/past-editions' %}active{% endif %}" href="{{ '/past-editions/' | relative_url }}">Past editions</a>
     </nav>
+    <script>
+      (function(){
+        var header = document.querySelector('.site-header');
+        if (!header || header.dataset.navInit === '1') return;
+        header.dataset.navInit = '1';
+        header.addEventListener('click', function(e){
+          var trigger = e.target.closest('.nav-trigger');
+          if (!trigger) return;
+          var group = trigger.closest('.nav-group');
+          var isOpen = group.classList.contains('open');
+          header.querySelectorAll('.nav-group.open').forEach(function(g){
+            if (g !== group) {
+              g.classList.remove('open');
+              var t = g.querySelector('.nav-trigger');
+              if (t) t.setAttribute('aria-expanded','false');
+            }
+          });
+          group.classList.toggle('open', !isOpen);
+          trigger.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+        });
+        document.addEventListener('click', function(e){
+          if (!header.contains(e.target)) {
+            header.querySelectorAll('.nav-group.open').forEach(function(g){
+              g.classList.remove('open');
+              var t = g.querySelector('.nav-trigger');
+              if (t) t.setAttribute('aria-expanded','false');
+            });
+          }
+        });
+      })();
+    </script>
   </div>
 </header>
