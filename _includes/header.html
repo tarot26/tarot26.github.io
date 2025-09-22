@@ -2,12 +2,9 @@
   <div class="container header-row">
     <a class="brand" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="TAROT logo" class="logo"/>
-      <span class="brand-text">{{ site.title }}</span>
     </a>
 
-    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
-      ☰
-    </button>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu" style="position:relative; z-index:2001; pointer-events:auto; cursor:pointer;">☰</button>
 
     <nav id="nav-menu" class="nav">
     {% assign current = page.url | remove: 'index.html' %}
@@ -27,35 +24,73 @@
     <a class="nav-link {% if current contains '/past-editions' %}active{% endif %}" href="{{ '/past-editions/' | relative_url }}">Past editions</a>
     </nav>
     <script>
-      (function(){
-        var header = document.querySelector('.site-header');
-        if (!header || header.dataset.navInit === '1') return;
-        header.dataset.navInit = '1';
-        header.addEventListener('click', function(e){
-          var trigger = e.target.closest('.nav-trigger');
-          if (!trigger) return;
-          var group = trigger.closest('.nav-group');
-          var isOpen = group.classList.contains('open');
-          header.querySelectorAll('.nav-group.open').forEach(function(g){
-            if (g !== group) {
-              g.classList.remove('open');
-              var t = g.querySelector('.nav-trigger');
-              if (t) t.setAttribute('aria-expanded','false');
+      document.addEventListener('DOMContentLoaded', function(){
+        (function(){
+          var header = document.querySelector('.site-header');
+          if (!header || header.dataset.navInit === '1') return;
+          header.dataset.navInit = '1';
+
+          // Mobile hamburger toggle (open/close #nav-menu)
+          var toggleBtn = header.querySelector('#nav-toggle');
+          var nav = header.querySelector('#nav-menu');
+          if (toggleBtn && nav) {
+            function toggleNav(e) {
+              if (e) { e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation && e.stopImmediatePropagation(); }
+              var isOpen = nav.classList.toggle('open');
+              toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            }
+            // Use multiple input events for maximum compatibility
+            ['click','touchstart','pointerdown'].forEach(function(evt){
+              toggleBtn.addEventListener(evt, toggleNav, { passive: false });
+            });
+
+            // Close mobile nav after clicking any link (better UX)
+            nav.addEventListener('click', function (e) {
+              if (e.target.closest('a')) {
+                nav.classList.remove('open');
+                toggleBtn.setAttribute('aria-expanded', 'false');
+              }
+            });
+
+            // Fallback delegation in case a wrapper intercepts the direct listener
+            header.addEventListener('click', function(ev){
+              if (ev.target && ev.target.closest && ev.target.closest('#nav-toggle')) {
+                toggleNav(ev);
+              }
+            }, { passive:false });
+          }
+
+          // Click-to-open submenu for School
+          header.addEventListener('click', function(e){
+            var trigger = e.target.closest('.nav-trigger');
+            if (!trigger) return;
+            var group = trigger.closest('.nav-group');
+            var isOpen = group.classList.contains('open');
+            header.querySelectorAll('.nav-group.open').forEach(function(g){
+              if (g !== group) {
+                g.classList.remove('open');
+                var t = g.querySelector('.nav-trigger');
+                if (t) t.setAttribute('aria-expanded','false');
+              }
+            });
+            group.classList.toggle('open', !isOpen);
+            trigger.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+          });
+
+          // Close dropdowns & mobile nav when clicking outside
+          document.addEventListener('click', function(e){
+            if (!header.contains(e.target)) {
+              header.querySelectorAll('.nav-group.open').forEach(function(g){
+                g.classList.remove('open');
+                var t = g.querySelector('.nav-trigger');
+                if (t) t.setAttribute('aria-expanded','false');
+              });
+              if (nav) nav.classList.remove('open');
+              if (toggleBtn) toggleBtn.setAttribute('aria-expanded','false');
             }
           });
-          group.classList.toggle('open', !isOpen);
-          trigger.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
-        });
-        document.addEventListener('click', function(e){
-          if (!header.contains(e.target)) {
-            header.querySelectorAll('.nav-group.open').forEach(function(g){
-              g.classList.remove('open');
-              var t = g.querySelector('.nav-trigger');
-              if (t) t.setAttribute('aria-expanded','false');
-            });
-          }
-        });
-      })();
+        })();
+      });
     </script>
   </div>
 </header>

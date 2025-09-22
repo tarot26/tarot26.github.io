@@ -3,8 +3,41 @@ title: Organisers
 layout: default
 permalink: /organisation/
 ---
+# Steering committee
 
-# Organisers
+<div class="org-grid">
+  <div class="org-card">
+    <a href="http://www-public.imtbs-tsp.eu/~cavalli/index.html" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/ana-cavalli.gif' | relative_url }}" alt="Dr. Ana Cavalli">
+      <div class="org-body">
+        <h3 class="org-name">Prof. Ana Cavalli</h3>
+        <p class="org-affiliation"> Télécom SudParis, France</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="org-card">
+    <a href="https://robhierons.github.io" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/rob-hierons.jpg' | relative_url }}" alt="Dr. Rob Hierons">
+      <div class="org-body">
+        <h3 class="org-name">Prof. Rob Hierons</h3>
+        <p class="org-affiliation">The University of Sheffield, UK</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="org-card">
+    <a href="https://antares.sip.ucm.es/manolo/" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/manuel-nunez.jpg' | relative_url }}" alt="Manuel Nunez">
+      <div class="org-body">
+        <h3 class="org-name">Prof. Manuel Nunez</h3>
+        <p class="org-affiliation">Universidad Complutense de Madrid, Spain</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+# Organizing committee
 
 <div class="org-grid">
   <!-- Alessio Gambi -->
