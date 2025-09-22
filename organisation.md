@@ -34,7 +34,7 @@ permalink: /organisation/
   <!-- Stefano Carlo Lambertenghi -->
   <div class="org-card">
     <a href="https://www.fortiss.org/ergebnisse/publikationen/autor/stefano-carlo-lambertenghi" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/org/stefano-lambertenghi.jpg' | relative_url }}" alt="Stefano Carlo Lambertenghi">
+      <img class="org-photo" src="{{ '/assets/img/org/stefano-Lambertenghi.jpg' | relative_url }}" alt="Stefano Carlo Lambertenghi">
       <div class="org-body">
         <h3 class="org-name">Stefano Carlo Lambertenghi</h3>
         <p class="org-role">Web Chair</p>
