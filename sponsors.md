@@ -12,8 +12,8 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
 
 ## Sponsorship Levels, Benefits & Prices
 
-<div class="sponsor-levels" style="display:flex; flex-direction:row; justify-content:center; gap:2rem;">
-  <div class="sponsor-card gold" style="width:fit-content; max-width:100%; flex:0 1 auto;">
+<div class="sponsor-levels" style="display:flex; flex-direction:row; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
+  <div class="sponsor-card gold" style="display:inline-block; width:auto; max-width:420px;">
     <div style="display:flex; align-items:center; gap:1rem; height:100%;">
       <img src="{{ '/assets/img/gold.png' | relative_url }}" alt="Gold Medal" class="icon" style="width:clamp(40px, 8vw, 72px); height:auto; object-fit:contain; flex-shrink:0;">
       <div>
@@ -28,7 +28,7 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
       </div>
     </div>
   </div>
-    <div class="sponsor-card silver" style="width:fit-content; max-width:100%; flex:0 1 auto;">
+    <div class="sponsor-card silver" style="display:inline-block; width:auto; max-width:420px;">
     <div style="display:flex; align-items:center; gap:1rem; height:100%;">
       <img src="{{ '/assets/img/silver.png' | relative_url }}" alt="Silver Medal" class="icon" style="width:clamp(40px, 8vw, 72px); height:auto; object-fit:contain; flex-shrink:0;">
       <div>
