@@ -35,33 +35,32 @@
           var nav = header.querySelector('#nav-menu');
           if (toggleBtn && nav) {
             function toggleNav(e) {
-              if (e) { e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation && e.stopImmediatePropagation(); }
+              if (e) { e.preventDefault(); e.stopPropagation(); }
               var isOpen = nav.classList.toggle('open');
               toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
             }
-            // Use multiple input events for maximum compatibility
-            ['click','touchstart','pointerdown'].forEach(function(evt){
-              toggleBtn.addEventListener(evt, toggleNav, { passive: false });
-            });
 
-            // Close mobile nav after clicking any link (better UX)
+            // Detect if the device has a coarse pointer (touchscreen)
+            var isTouch = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+
+            if (isTouch) {
+              toggleBtn.addEventListener('touchend', toggleNav, { passive: false });
+            } else {
+              toggleBtn.addEventListener('click', toggleNav, { passive: false });
+            }
+
+            // Close mobile nav after clicking any link
             nav.addEventListener('click', function (e) {
               if (e.target.closest('a')) {
                 nav.classList.remove('open');
                 toggleBtn.setAttribute('aria-expanded', 'false');
               }
-            });
-
-            // Fallback delegation in case a wrapper intercepts the direct listener
-            header.addEventListener('click', function(ev){
-              if (ev.target && ev.target.closest && ev.target.closest('#nav-toggle')) {
-                toggleNav(ev);
-              }
-            }, { passive:false });
+            }, { passive: true });
           }
 
           // Click-to-open submenu for School
           header.addEventListener('click', function(e){
+            if (e.target.closest && e.target.closest('#nav-toggle')) return; // ignore hamburger
             var trigger = e.target.closest('.nav-trigger');
             if (!trigger) return;
             var group = trigger.closest('.nav-group');

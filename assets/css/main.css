@@ -72,7 +72,7 @@ body { overflow-x: hidden; }
   background: #f9fafb;
   position: sticky;
   top: 0;
-  z-index: 200;
+  z-index: 3000;
   width: 100%;     /* span full window width */
   margin: 0;       /* no negative margins */
   left: 0;
@@ -289,13 +289,20 @@ body { overflow-x: hidden; }
 
 /* Mobile toggle */
 .nav-toggle {
-  display: none; 
+  display: none;
   margin-left: auto;
   font-size: 1.25rem;
   border: 1px solid var(--border);
   background: white;
   padding: 0.35rem 0.6rem;
   border-radius: 8px;
+  position: relative;
+  z-index: 2001;
+  pointer-events: auto;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 /* Main */
@@ -346,11 +353,14 @@ main.container > .hero-small:first-child,
 /* Responsive */
 @media (max-width: 1024px) {
   .header-row { position: relative; z-index: 1100; }
-  .nav-toggle { position: relative; z-index: 1102; cursor: pointer; }
-  .header-row { position: relative; z-index: 1100; }
-  .nav-toggle { position: relative; z-index: 1102; cursor: pointer; }
-  .header-row { position: relative; z-index: 1100; }
-  .nav-toggle { position: relative; z-index: 1102; cursor: pointer; }
+  .nav-toggle {
+    position: relative;
+    z-index: 2001;
+    cursor: pointer;
+    pointer-events: auto;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
   .header-row { gap: .5rem; }
   /* Keep nav in a single row with horizontal scroll on small screens */
 }
@@ -362,11 +372,15 @@ main.container > .hero-small:first-child,
 }
 
 /* --- Force hamburger on small screens --- */
-.site-header .nav-toggle { display: none; }
 @media (max-width: 1024px) {
   .header-row { position: relative; z-index: 1100; }
-  .nav-toggle { position: relative; z-index: 1102; cursor: pointer; }
-  .site-header .nav-toggle { display: inline-block; margin-left: auto; }
+  .nav-toggle {
+    display: inline-block;
+    margin-left: auto;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
   .site-header .nav {
     display: none !important;
     position: absolute;
@@ -384,7 +398,6 @@ main.container > .hero-small:first-child,
     min-width: 220px;
     z-index: 1000;
   }
-  .nav-toggle { position: relative; z-index: 1101; cursor: pointer; }
   
   .site-header .nav.open { display: flex !important; }
   /* Submenu inside popup */
