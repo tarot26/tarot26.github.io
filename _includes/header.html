@@ -34,33 +34,33 @@
           var toggleBtn = header.querySelector('#nav-toggle');
           var nav = header.querySelector('#nav-menu');
           if (toggleBtn && nav) {
+            var lastTouch = 0;
             function toggleNav(e) {
-              if (e) { e.preventDefault(); e.stopPropagation(); }
+              if (e) { e.preventDefault(); e.stopPropagation(); if (e.stopImmediatePropagation) e.stopImmediatePropagation(); }
               var isOpen = nav.classList.toggle('open');
               toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
             }
+            // Prefer touchend on touch devices; click on desktop. Ignore synthetic click after touch.
+            toggleBtn.addEventListener('touchend', function(ev){
+              lastTouch = Date.now();
+              toggleNav(ev);
+            }, { passive: false });
+            toggleBtn.addEventListener('click', function(ev){
+              if (Date.now() - lastTouch < 500) { ev.preventDefault(); ev.stopPropagation(); return; }
+              toggleNav(ev);
+            }, { passive: false });
 
-            // Detect if the device has a coarse pointer (touchscreen)
-            var isTouch = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
-
-            if (isTouch) {
-              toggleBtn.addEventListener('touchend', toggleNav, { passive: false });
-            } else {
-              toggleBtn.addEventListener('click', toggleNav, { passive: false });
-            }
-
-            // Close mobile nav after clicking any link
+            // Close mobile nav after clicking any link (better UX)
             nav.addEventListener('click', function (e) {
               if (e.target.closest('a')) {
                 nav.classList.remove('open');
                 toggleBtn.setAttribute('aria-expanded', 'false');
               }
-            }, { passive: true });
+            });
           }
 
           // Click-to-open submenu for School
           header.addEventListener('click', function(e){
-            if (e.target.closest && e.target.closest('#nav-toggle')) return; // ignore hamburger
             var trigger = e.target.closest('.nav-trigger');
             if (!trigger) return;
             var group = trigger.closest('.nav-group');
@@ -78,6 +78,7 @@
 
           // Close dropdowns & mobile nav when clicking outside
           document.addEventListener('click', function(e){
+            if (e.target.closest && e.target.closest('#nav-toggle')) return;
             if (!header.contains(e.target)) {
               header.querySelectorAll('.nav-group.open').forEach(function(g){
                 g.classList.remove('open');
