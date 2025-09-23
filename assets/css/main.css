@@ -256,8 +256,16 @@ body { overflow-x: hidden; }
   background: #eef2ff;
   color: var(--primary);
 }
-.nav-group.open > .nav-trigger {
-  background: var(--primary);
+
+/* Add dropdown indicator to School trigger */
+.nav-trigger::after {
+  content: " ▼";
+  font-size: 0.75em;
+  margin-left: 0.25rem;
+  color: var(--muted);
+}
+.nav-group.open > .nav-trigger::after {
+  content: " ▲";
   color: var(--primary-ink);
 }
 
@@ -284,8 +292,22 @@ body { overflow-x: hidden; }
   text-decoration: none;
   white-space: nowrap;
   border-radius: 8px;
+  font-size: 0.85rem;   /* smaller font */
+  font-style: italic;   /* italics */
 }
 .submenu-link:hover { background: #f3f4f6; color: var(--primary); }
+
+/* Arrange Program and Lecturers side by side (only when open) */
+.nav-group.open .submenu {
+  display: flex;            /* overrides earlier display:none/block when open */
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.nav-group.open .submenu .submenu-link {
+  flex: 1;
+  text-align: center;
+}
 
 /* Mobile toggle */
 .nav-toggle {
@@ -437,6 +459,11 @@ main.container > .hero-small:first-child,
   }
   .header-row { gap: .5rem; }
   /* Keep nav in a single row with horizontal scroll on small screens */
+  /* Make School group full-width like other items in mobile menu */
+  .site-header .nav { align-items: stretch; }
+  .site-header .nav > * { width: 100%; }
+  .site-header .nav .nav-group { display: block; width: 100%; }
+  .site-header .nav .submenu { width: 100%; }
 }
 
 /* Responsive hero heights */
@@ -481,7 +508,16 @@ main.container > .hero-small:first-child,
   /* Submenu inside popup */
   .site-header .nav .nav-group { position: static; }
   .site-header .nav .submenu { position: static; display: none; border: 0; box-shadow: none; padding: 0; }
-  .site-header .nav .nav-group.open .submenu { display: block; }
+  .site-header .nav .nav-group.open .submenu { display: flex; flex-direction: row; gap: 0.5rem; justify-content: center; }
+  .site-header .nav .nav-group.open .submenu .submenu-link { flex: 1; min-width: 0; text-align: center; }
 
-  .site-header .nav-link, .site-header .nav-trigger, .site-header .submenu-link { width: 100%; text-align: left; }
+  .site-header .nav-link,
+  .site-header .nav-trigger,
+  .site-header .submenu-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center !important;
+  }
 }
