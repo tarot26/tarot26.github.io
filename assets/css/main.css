@@ -93,7 +93,7 @@ body { overflow-x: hidden; }
 .hero {
   position: relative;
   width: 100vw;               /* span full rendered screen width */
-  height: 300px; /* restore big main hero */
+  height: 500px; /* restore big main hero */
   overflow: hidden;
   margin: 0;
   left: 50%;                  
@@ -339,6 +339,72 @@ main.container > .hero-small:first-child,
 
 .travel-info p {
   margin: 0.5rem 0 0;
+}
+
+.sponsor-levels {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.sponsor-card {
+  flex: 1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sponsor-card.gold {
+  border: 7px solid #ddd;
+  border-color: #d4af37; /* gold */
+  
+}
+.sponsor-card.silver {
+  border: 5px solid #ddd;
+  border-color: #c0c0c0; /* silver */
+  
+}
+
+.sponsor-card h3 {
+  margin-top: 0;
+}
+
+.sponsor-card .icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.sponsor-card.gold .icon {
+  color: #d4af37; /* gold medal color */
+}
+.sponsor-card.silver .icon {
+  color: #c0c0c0; /* silver medal color */
+}
+
+/* Style sponsor tables */
+.sponsors table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.sponsors table th,
+.sponsors table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+}
+
+.sponsors table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.sponsors table tr:nth-child(even) {
+  background-color: #fafafa;
 }
 
 /* Footer */

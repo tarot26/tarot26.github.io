@@ -15,6 +15,24 @@ TAROT 2026 will be held in **Munich, Germany**, hosted at the **Technical Univer
 
 The Garching Campus is located about **30 minutes by subway (U-Bahn, line U6)** from the heart of Munich. The city is world‑renowned for its blend of **Bavarian tradition** and **cutting‑edge innovation**, a place where you can enjoy a warm **brezn (pretzel)** and a cold beer in one of the many historic beer gardens, while also being at the doorstep of leading research and technology hubs.  
 
+### Explore the TUM Campus
+Between lectures, participants can explore campus attractions like the iconic Parabola Slide in the Mathematics/Informatics building, visit the historic “Atomic Egg” reactor, or discover the nearby Max Planck Institutes. The campus also offers plenty of ways to relax, from parks and cafès to outdoor sports courts and gyms.
+
+<div class="explore-grid">
+  <a href="https://www.cit.tum.de/en/cit/school/locations/parabola-slide/" class="explore-card">
+    <img src="{{ 'assets/img/attractions/parabola.jpg' | relative_url }}" alt="TUM CIT parabola">
+    <span class="caption">The Parabola slide of the MATH/INF building</span>
+  </a>
+  <a href="https://www.frm2.tum.de/en/frm2/about-us/from-atomic-egg-to-frm-ii/" class="explore-card">
+    <img src="{{ 'assets/img/attractions/atomic-egg.webp' | relative_url }}" alt="Atomic egg">
+    <span class="caption">The research reactor "Atomic Egg"</span>
+  </a>
+  <a href="https://www.tum.de/en/about-tum/locations/garching" class="explore-card">
+    <img src="{{ 'assets/img/attractions/sports.webp' | relative_url }}" alt="Sports and food at TUM">
+    <span class="caption">Facilities on campus</span>
+  </a>
+</div>
+
 ### Explore Munich
 Munich offers a vibrant mix of culture, history, and leisure. Here are a few highlights:
 
