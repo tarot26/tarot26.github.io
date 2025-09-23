@@ -291,10 +291,13 @@ body { overflow-x: hidden; }
 .nav-toggle {
   display: none !important;
   margin-left: auto;
+  margin-right: 0.5rem;
   font-size: 1.25rem;
   border: 1px solid var(--border);
   background: white;
-  padding: 0.35rem 0.6rem;
+  padding: 0.75rem 2rem;
+  min-width: 100px;
+  min-height: 48px;
   border-radius: 8px;
   position: relative;
   z-index: 2001;
@@ -421,6 +424,10 @@ main.container > .hero-small:first-child,
   .header-row { position: relative; z-index: 1100; }
   .nav-toggle {
     position: relative;
+    margin-right: 0.5rem;
+    min-width: 100px;
+    min-height: 48px;
+    padding: 0.75rem 2rem;
     z-index: 2001;
     cursor: pointer;
     pointer-events: auto;
@@ -444,6 +451,10 @@ main.container > .hero-small:first-child,
   .nav-toggle {
     display: inline-block !important;
     margin-left: auto;
+    margin-right: 0.5rem;
+    min-width: 100px;
+    min-height: 48px;
+    padding: 0.75rem 2rem;
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
   }

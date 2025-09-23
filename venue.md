@@ -19,17 +19,17 @@ The Garching Campus is located about **30 minutes by subway (U-Bahn, line U6)** 
 Between lectures, participants can explore campus attractions like the iconic Parabola Slide in the Mathematics/Informatics building, visit the historic “Atomic Egg” reactor, or discover the nearby Max Planck Institutes. The campus also offers plenty of ways to relax, from parks and cafès to outdoor sports courts and gyms.
 
 <div class="explore-grid">
-  <a href="https://www.cit.tum.de/en/cit/school/locations/parabola-slide/" class="explore-card">
+  <a href="https://www.cit.tum.de/en/cit/school/locations/parabola-slide/" target="_blank" rel="noopener" class="explore-card">
     <img src="{{ 'assets/img/attractions/parabola.jpg' | relative_url }}" alt="TUM CIT parabola">
-    <span class="caption">The Parabola slide of the MATH/INF building</span>
+    <span class="caption">Parabola slide</span>
   </a>
-  <a href="https://www.frm2.tum.de/en/frm2/about-us/from-atomic-egg-to-frm-ii/" class="explore-card">
+  <a href="https://www.frm2.tum.de/en/frm2/about-us/from-atomic-egg-to-frm-ii/" target="_blank" rel="noopener" class="explore-card">
     <img src="{{ 'assets/img/attractions/atomic-egg.webp' | relative_url }}" alt="Atomic egg">
-    <span class="caption">The research reactor "Atomic Egg"</span>
+    <span class="caption">Atomic Egg</span>
   </a>
-  <a href="https://www.tum.de/en/about-tum/locations/garching" class="explore-card">
+  <a href="https://www.tum.de/en/about-tum/locations/garching" target="_blank" rel="noopener" class="explore-card">
     <img src="{{ 'assets/img/attractions/sports.webp' | relative_url }}" alt="Sports and food at TUM">
-    <span class="caption">Facilities on campus</span>
+    <span class="caption">Campus facilities</span>
   </a>
 </div>
 

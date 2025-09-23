@@ -13,12 +13,12 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
 ## Sponsorship Levels, Benefits & Prices
 
 <div class="sponsor-levels" style="display:flex; flex-direction:row; justify-content:center; gap:2rem;">
-  <div class="sponsor-card gold">
+  <div class="sponsor-card gold" style="width:fit-content; max-width:100%; flex:0 1 auto;">
     <div style="display:flex; align-items:center; gap:1rem; height:100%;">
-      <img src="{{ '/assets/img/gold.png' | relative_url }}" alt="Gold Medal" class="icon" style="width:120px; height:auto; object-fit:contain;">
+      <img src="{{ '/assets/img/gold.png' | relative_url }}" alt="Gold Medal" class="icon" style="width:clamp(40px, 8vw, 72px); height:auto; object-fit:contain; flex-shrink:0;">
       <div>
         <h3>Gold – €1000</h3>
-        <ul>
+        <ul style="margin:0.25rem 0 0; padding-left:1.1rem;">
           <li>2 complimentary registrations</li>
           <li>Logo with prominent placement</li>
           <li>Promotional material</li>
@@ -28,12 +28,12 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
       </div>
     </div>
   </div>
-    <div class="sponsor-card silver">
+    <div class="sponsor-card silver" style="width:fit-content; max-width:100%; flex:0 1 auto;">
     <div style="display:flex; align-items:center; gap:1rem; height:100%;">
-      <img src="{{ '/assets/img/silver.png' | relative_url }}" alt="Silver Medal" class="icon" style="width:120px; height:auto; object-fit:contain;">
+      <img src="{{ '/assets/img/silver.png' | relative_url }}" alt="Silver Medal" class="icon" style="width:clamp(40px, 8vw, 72px); height:auto; object-fit:contain; flex-shrink:0;">
       <div>
         <h3>Silver – €600</h3>
-        <ul>
+        <ul style="margin:0.25rem 0 0; padding-left:1.1rem;">
           <li>1 complimentary registration</li>
           <li>Logo with standard placement</li>
           <li>Promotional material</li>
