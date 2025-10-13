@@ -12,8 +12,8 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
 
 ## Sponsorship Levels, Benefits & Prices
 
-<div class="sponsor-levels" style="display:flex; flex-direction:row; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
-  <div class="sponsor-card gold" style="display:inline-block; width:auto; max-width:420px;">
+<div class="sponsor-levels" style="display:flex; flex-direction:row; justify-content:center; align-items:stretch; gap:1.5rem; flex-wrap:wrap;">
+  <div class="sponsor-card gold" style="display:flex; flex-direction:column; width:auto; max-width:420px; flex:1 1 360px;">
     <div style="display:flex; align-items:center; gap:1rem; height:100%;">
       <img src="{{ '/assets/img/gold.png' | relative_url }}" alt="Gold Medal" class="icon" style="width:clamp(40px, 8vw, 72px); height:auto; object-fit:contain; flex-shrink:0;">
       <div>
@@ -28,7 +28,7 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
       </div>
     </div>
   </div>
-    <div class="sponsor-card silver" style="display:inline-block; width:auto; max-width:420px;">
+    <div class="sponsor-card silver" style="display:flex; flex-direction:column; width:auto; max-width:420px; flex:1 1 360px;">
     <div style="display:flex; align-items:center; gap:1rem; height:100%;">
       <img src="{{ '/assets/img/silver.png' | relative_url }}" alt="Silver Medal" class="icon" style="width:clamp(40px, 8vw, 72px); height:auto; object-fit:contain; flex-shrink:0;">
       <div>
@@ -60,3 +60,17 @@ This initiative can be chosen as an alternative or complementary way to support 
 Through the Student Fee Waiver Program, companies can enable underprivileged and undergraduate students to attend TAROT26 for free, giving them a unique opportunity to gain first‑hand experience in software engineering research.  
 
 Companies participating in this program will be acknowledged on the TAROT website and by having their name and logo printed on each supported student’s badge.
+
+## Sponsors
+
+<div class="sponsors-logos" style="display:flex; flex-wrap:wrap; gap:1.25rem; align-items:center;">
+  <a href="https://www2.sigsoft.org" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/sigsoft.png' | relative_url }}" alt="Sponsor 1" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+  <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/tum.png' | relative_url }}" alt="Sponsor 2" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+  <a href="https://www.fortiss.org/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/fortiss.png' | relative_url }}" alt="Sponsor 3" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+</div>

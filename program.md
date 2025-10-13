@@ -8,7 +8,6 @@ permalink: /school/program/
 
 ## General Organization
 Lectures will combine theoretical content with practical applications.  
-Speakers will deliver an introductory and possibly an in-depth session on consecutive days.  
 Students will attend lectures and practice with the presented concepts by implementing and showcasing prototypes.  
 Students can also present their work (e.g., as posters or talks).
 
@@ -23,3 +22,4 @@ We will bring together experts on software testing, validation, and verification
 - Runtime Monitoring of Hyper-Properties
 - Explainability and Robustness
 - Application of DNN-enabled systems in specific domains (e.g., Autonomous Vehicles, Drones, Robotics)
+
