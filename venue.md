@@ -10,7 +10,23 @@ permalink: /venue/
     <p>TUM Campus, Munich</p>
   </div>
 </div>
-TAROT 2026 will be held in **Munich, Germany**, hosted at the **Technical University of Munich (TUM) Campus in Garching**.  
+<p>
+  TAROT 2026 will be held in <strong>Munich, Germany</strong>, hosted at the
+  <strong>Technical University of Munich (TUM) Campus in Garching</strong>,
+  in the <strong>TUM‑IAS Building’s Auditorium</strong>.
+</p>  
+
+<div class="explore-grid">
+  <div class="explore-card">
+    <img src="/assets/img/ias/ias2.jpg" alt="TUM-IAS Auditorium interior" />
+    <span class="caption">Auditorium interior</span>
+  </div>
+  <div class="explore-card">
+    <img src="/assets/img/ias/ias1.jpg" alt="TUM-IAS Building exterior" />
+    <span class="caption">TUM‑IAS Building</span>
+  </div>
+</div>
+
 
 
 The Garching Campus is located about **30 minutes by subway (U-Bahn, line U6)** from the heart of Munich. The city is world‑renowned for its blend of **Bavarian tradition** and **cutting‑edge innovation**, a place where you can enjoy a warm **brezn (pretzel)** and a cold beer in one of the many historic beer gardens, while also being at the doorstep of leading research and technology hubs.  

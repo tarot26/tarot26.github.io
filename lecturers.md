@@ -42,4 +42,16 @@ permalink: /school/lecturers/
       </div>
     </a>
   </div>
+
+  <!-- Speaker 4 -->
+  <div class="org-card">
+    <a href="https://www.fabriziopastore.com" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/fabrizio-pastore.png' | relative_url }}" alt="Prof. Fabrizio Pastore">
+      <div class="org-body">
+        <h3 class="org-name">Prof. Fabrizio Pastore</h3>
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">University of Luxembourg, Luxembourg</p>
+      </div>
+    </a>
+  </div>
 </div>

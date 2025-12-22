@@ -37,7 +37,7 @@ permalink: /organisation/
   </div>
 </div>
 
-# Local committee
+# Organizing committee
 
 <div class="org-grid">
   <!-- Alessio Gambi -->
@@ -65,7 +65,7 @@ permalink: /organisation/
   </div>
 </div>
 
-# Support
+# Local commitee
 
 <div class="org-grid">
   <!-- Severin Kacianka -->
