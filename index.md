@@ -9,7 +9,7 @@ permalink: /
   <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="TAROT Summer School banner">
   <div class="hero-overlay">
     <h1>TAROT Summer School 2026</h1>
-    <p>Testing and Validation of DNN-enabled Systems</p>
+    <p>Testing and Validation of AI-enabled Systems</p>
   </div>
 </div>
 
