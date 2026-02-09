@@ -54,10 +54,10 @@ Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and
 
 
 ## Student Fee Waiver Program (New!)
-TAROT26 allows companies to support students by covering their registration fees according to the well‑known **“pay it forward”** model.  
+TAROT allows companies to support students by covering their registration fees according to the well‑known **“pay it forward”** model.  
 This initiative can be chosen as an alternative or complementary way to support the school.  
 
-Through the Student Fee Waiver Program, companies can enable underprivileged and undergraduate students to attend TAROT26 for free, giving them a unique opportunity to gain first‑hand experience in software engineering research.  
+Through the Student Fee Waiver Program, companies can enable underprivileged and undergraduate students to attend TAROT for free, giving them a unique opportunity to gain first‑hand experience in software engineering research.  
 
 Companies participating in this program will be acknowledged on the TAROT website and by having their name and logo printed on each supported student’s badge.
 
