@@ -7,6 +7,14 @@ permalink: /registration/
 # Registration
 
 Registration for TAROT 2026 will open soon.  
+
+The registration fee includes:
+
+* Access to the Summer School
+* Coffee breaks
+* Lunches
+* Social events
+
 Below you can find the planned registration fees.
 
 ## Fees
