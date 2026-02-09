@@ -17,12 +17,12 @@ Below you can find the planned registration fees.
 <h3>Student</h3>
 
 <p class="price">
-<strong>€350</strong> <span class="muted">early</span><br />
+<strong>€450</strong> <span class="muted">early</span><br />
 <span class="note">until 30 May 2026</span>
 </p>
 
 <p class="price muted">
-€400 <span class="note">late registration</span>
+€500 <span class="note">late registration</span>
 </p>
 </div>
 
@@ -35,7 +35,7 @@ Below you can find the planned registration fees.
 </p>
 
 <p class="price muted">
-€600 <span class="note">late registration</span>
+€700 <span class="note">late registration</span>
 </p>
 </div>
 
