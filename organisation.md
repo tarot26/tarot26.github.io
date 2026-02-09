@@ -65,7 +65,7 @@ permalink: /organisation/
   </div>
 </div>
 
-# Local commitee
+# Local committee
 
 <div class="org-grid">
   <!-- Severin Kacianka -->
@@ -114,7 +114,7 @@ permalink: /organisation/
       <div class="org-body" style="display:flex; justify-content:center; align-items:center; height:100%;">
         <div class="org-info" style="display:flex; align-items:center; gap:12px;">
           <img class="org-icon-email" src="{{ '/assets/img/icons/email.webp' | relative_url }}" alt="Email icon" width="32" height="32" style="flex-shrink:0;">
-          <h3 class="org-name">Prof. Andrea Stocco</h3>
+          <h3 class="org-name">Prof. Dr. Andrea Stocco</h3>
         </div>
       </div>
     </a>
