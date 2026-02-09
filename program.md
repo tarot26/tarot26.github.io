@@ -13,7 +13,7 @@ Students can also present their work (e.g., as posters or talks).
 
 ## Topic: Testing and Verification of AI-based Systems
 We will bring together experts on software testing, validation, and verification from the following communities:  
-*Software Engineering, Software Quality and Testing, Falsification and Runtime Verification, Autonomous Systems, and Formal Methods (with focus on Verification of ML/DNN).*
+*Software Engineering, Software Quality and Testing, Falsification and Runtime Verification, Autonomous Systems, and Formal Methods (with focus on Verification of AI systems).*
 
 ### Covered topics include:
 - Foundations of AI Systems (Architectures, training processes, vulnerabilities), including DNNs, VLMs, LLMs
