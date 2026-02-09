@@ -54,4 +54,16 @@ permalink: /school/lecturers/
       </div>
     </a>
   </div>
+
+  <!-- Speaker 5 -->
+  <div class="org-card">
+    <a href="https://www.fabriziopastore.com" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/maura-pintor.png' | relative_url }}" alt="Dr. Maura Pintor">
+      <div class="org-body">
+        <h3 class="org-name">Dr. Maura Pintor</h3>.
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">University of Cagliari, Italy</p>
+      </div>
+    </a>
+  </div>
 </div>
