@@ -9,7 +9,7 @@ permalink: /
   <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="TAROT Summer School banner">
   <div class="hero-overlay">
     <h1>TAROT Summer School 2026</h1>
-    <p>Theme: Testing and Validation of AI-enabled Systems</p>
+    <p>Topic: Testing and Validation of AI-enabled Systems</p>
     <p>21st Edition</p>
   </div>
 </div>
@@ -18,7 +18,7 @@ permalink: /
 <div class="content text-justify">
   <h2>Welcome</h2>
   <p>
-   TAROT (Training And Research On Testing) is a network created to foster the mobility of students, faculty members, and research scientists working in the field of testing of software and communication systems. Now in its 21st edition, this summer school brings together lecturers, researchers, students, and industry practitioners from across Europe for one week of presentations, discussions, and networking.
+   TAROT (Training And Research On Testing) is a network created to foster the mobility of students, faculty members, and research scientists working in the field of testing of software and communication systems. Now in its <b>21st edition</b>, this summer school brings together lecturers, researchers, students, and industry practitioners from across Europe for one week of presentations, discussions, and networking.
   </p>
   <p>
     The TAROT Summer School is open to researchers from any institution in the world, working in the area of testing, both from academia and industry. In particular, this year, the focus of the school will be on <b>Testing, Validation, and Security of AI-enabled Systems</b> (e.g., DNN- VLM- LLM-based).
