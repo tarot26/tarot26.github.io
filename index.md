@@ -9,8 +9,8 @@ permalink: /
   <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="TAROT Summer School banner">
   <div class="hero-overlay">
     <h1>TAROT Summer School 2026</h1>
-    <p>Topic: Testing and Validation of AI-enabled Systems</p>
-    <p>21st Edition</p>
+    <p>Topic: Testing, Validation, and Security of AI-enabled Systems</p>
+    <p>21st Edition, 13-17 July 2026</p>
   </div>
 </div>
 
