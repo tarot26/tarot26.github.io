@@ -64,19 +64,42 @@ Companies participating in this program will be acknowledged on the TAROT websit
 ## Sponsors
 
 <div class="sponsors-logos" style="display:flex; flex-wrap:wrap; gap:1.25rem; align-items:center;">
+  <!-- SIGSOFT -->
   <a href="https://www2.sigsoft.org" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
     <img src="{{ '/assets/img/sponsors/sigsoft.png' | relative_url }}" alt="Sponsor 1" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
+  <!-- TUM -->
   <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
     <img src="{{ '/assets/img/sponsors/tum.png' | relative_url }}" alt="Sponsor 2" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
+  <!-- Fortiss -->
   <a href="https://www.fortiss.org/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
     <img src="{{ '/assets/img/sponsors/fortiss.png' | relative_url }}" alt="Sponsor 3" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
-  <a href="https://www.fortiss.org/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+  <!-- AIT -->
+  <a href="https://www.ait.ac.at/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
     <img src="{{ '/assets/img/sponsors/ait_logo_ohne_claim_c1_rgb.jpg' | relative_url }}" alt="Sponsor 4" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
-  <a href="https://www.fortiss.org/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
-    <img src="{{ '/assets/img/sponsors/logo-robustifAi-color.png' | relative_url }}" alt="Sponsor 5" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  <!-- AI4I -->
+  <a href="https://ai4i.it/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/ai4i.jpg' | relative_url }}" alt="Sponsor 5" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
+  <!-- RobustifAI -->
+  <a href="https://robustifai.eu/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/logo-robustifAi-color.png' | relative_url }}" alt="Sponsor 6" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+  <!-- BeamNG -->
+  <a href="https://www.beamng.com/game/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/beamng.png' | relative_url }}" alt="Sponsor 7" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+  <!-- IAS -->
+  <a href="https://ai4i.it/csp-ias/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/csp.png' | relative_url }}" alt="Sponsor 8" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+    <img src="{{ '/assets/img/sponsors/ias.png' | relative_url }}" alt="Sponsor 8" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+  <!-- Montimage -->
+  <a href="https://www.montimage.com/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
+    <img src="{{ '/assets/img/sponsors/montimage.png' | relative_url }}" alt="Sponsor 9" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  </a>
+
 </div>
