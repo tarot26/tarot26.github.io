@@ -95,6 +95,7 @@ permalink: /organisation/
 
 # Publicity Chair
 
+<div class="org-grid">
   <!-- Ezio Bartocci -->
   <div class="org-card">
     <a href="https://www.linkedin.com/in/ezio-bartocci" target="_blank" rel="noopener noreferrer" class="org-link">
@@ -118,7 +119,7 @@ permalink: /organisation/
       </div>
     </a>
   </div>
-
+</div>
 
 # Contacts
 
