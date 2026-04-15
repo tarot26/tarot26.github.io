@@ -93,6 +93,21 @@ permalink: /organisation/
   </div>
 </div>
 
+# Publicity Chair
+
+  <!-- Ezio Bartocci -->
+  <div class="org-card">
+    <a href="https://www.linkedin.com/in/ezio-bartocci" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/ezio.jpg' | relative_url }}" alt="Prof. Ezio Bartocci">
+      <div class="org-body">
+        <h3 class="org-name">Prof. Ezio Bartocci</h3>
+        <p class="org-role">Organizer</p>
+        <p class="org-affiliation">Technical University of Wien (TUW), Austria</p>
+      </div>
+    </a>
+  </div>
+
+
 # Contacts
 
 <div class="org-grid">
