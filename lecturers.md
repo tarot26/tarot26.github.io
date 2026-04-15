@@ -69,7 +69,7 @@ permalink: /school/lecturers/
   
   <!-- Speaker 6 -->
   <div class="org-card">
-    <a href=" https://ais.rd-labs.ai4i.it/" target="_blank" rel="noopener noreferrer" class="org-link">
+    <a href="https://ais.rd-labs.ai4i.it/" target="_blank" rel="noopener noreferrer" class="org-link">
       <img class="org-photo" src="{{ '/assets/img/speakers/nicola-franco.jpg' | relative_url }}" alt="Dr. Nicola Franco">
       <div class="org-body">
         <h3 class="org-name">Dr. Nicola Franco</h3>
@@ -78,6 +78,19 @@ permalink: /school/lecturers/
       </div>
     </a>
     <!-- Bio: Dr. Nicola Franco directs the AI Security Lab at the Italian Institute of Artificial Intelligence (AI4I). His research focuses on improving the security and reliability of AI agents through adversarial robustness and formal verification. He also investigates how quantum computing can introduce new risks while unlocking potential applications for advanced problem-solving. He is a former research scientist at the Fraunhofer Institute for Cognitive Systems in Munich, where he conducted research on adversarial machine learning in Prof. Jeanette Miriam Lorenz’s group and collaborated extensively with industry partners and public agencies. He holds a Ph.D. in Machine Learning, awarded cum laude, from the Technical University of Munich. His contributions earned him the Best Paper Award in AI Safety at the 2023 IJCAI conference. -->
+  </div>
+
+  <!-- Speaker 7 -->
+  <div class="org-card">
+    <a href="https://www.mallouli.com/" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/wissam-mallouli.jpg' | relative_url }}" alt="Dr. Wissam Mallouli">
+      <div class="org-body">
+        <h3 class="org-name">Dr. Wissam Mallouli</h3>
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">Montimage EURL, France</p>
+      </div>
+    </a>
+    <!-- Bio: Bio: Wissam Mallouli is a cybersecurity expert, researcher, and technology leader currently serving as Chief Technology Officer (CTO) at Montimage, a Paris-based company specializing in network monitoring and security solutions. He holds a Ph.D. in Computer Science (cybersecurity) from Télécom & Management SudParis (France), obtained in 2008, and an engineering degree in telecommunications. Mallouli has extensive experience in network security, software testing, and AI-driven cybersecurity. His work focuses on areas such as intrusion detection, automated security testing, risk management, and resilient systems for 5G, IoT, and cloud environments. He is actively involved in numerous European research and innovation projects, contributing to the design of AI-assisted and trustworthy cybersecurity solutions, particularly for SMEs. In addition to his industrial role, he contributes to academia through publications, teaching, conference organization, and training activities, helping bridge the gap between research and real-world cybersecurity applications. -->
   </div>
 
 </div>
