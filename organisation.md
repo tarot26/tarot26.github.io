@@ -48,6 +48,7 @@ permalink: /organisation/
         <h3 class="org-name">Dr. Alessio Gambi</h3>
         <p class="org-role">Organizer</p>
         <p class="org-affiliation">Austrian Institute of Technology (AIT), Austria</p>
+        <p class="org-affiliation">The Italian Institute of Artificial Intelligence for Industry (AI4I), Italy</p>
       </div>
     </a>
   </div>
@@ -115,7 +116,7 @@ permalink: /organisation/
       <div class="org-body">
         <h3 class="org-name">Valeria Morra</h3>
         <p class="org-role">Publicity Chair</p>
-        <p class="org-affiliation">Institute for Advanced Study (IAS), Italia</p>
+        <p class="org-affiliation">Institute for Advanced Study (IAS), Italy</p>
       </div>
     </a>
   </div>
