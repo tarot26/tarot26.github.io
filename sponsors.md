@@ -82,7 +82,7 @@ Companies participating in this program will be acknowledged on the TAROT websit
   </a>
   <!-- AI4I -->
   <a href="https://ai4i.it/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
-    <img src="{{ '/assets/img/sponsors/ai4i.jpg' | relative_url }}" alt="Sponsor 5" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+    <img src="{{ '/assets/img/sponsors/logoAI4I_2026.png' | relative_url }}" alt="Sponsor 5" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
   <!-- RobustifAI -->
   <a href="https://robustifai.eu/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
@@ -94,12 +94,12 @@ Companies participating in this program will be acknowledged on the TAROT websit
   </a>
   <!-- IAS -->
   <a href="https://ai4i.it/csp-ias/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
-    <img src="{{ '/assets/img/sponsors/ias.png' | relative_url }}" alt="Sponsor 8" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+    <img src="{{ '/assets/img/sponsors/IASlogo.png' | relative_url }}" alt="Sponsor 8" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
   <!-- Fondazione CSP -->
   <a href="https://www.compagniadisanpaolo.it/it/news/ricerca-e-innovazione-nasce-il-compagnia-di-san-paolo-institute-for-advanced-study/" 
  target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
-  <img src="{{ '/assets/img/sponsors/csp.png' | relative_url }}" alt="Sponsor 8" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
+  <img src="{{ '/assets/img/sponsors/logoFCSP.png' | relative_url }}" alt="Sponsor 8" style="max-height:60px; width:auto; object-fit:contain; margin-bottom:8px;">
   </a>
   <!-- Montimage -->
   <a href="https://www.montimage.com/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; border:1px solid var(--border, #eee); border-radius:8px; background:#fff; text-align:center; min-width:120px;">
