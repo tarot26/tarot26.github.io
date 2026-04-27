@@ -51,5 +51,8 @@ Below you can find the planned registration fees.
 
 <p class="registration-note">
 Early registration closes on <strong>30 May 2026</strong>.  
-Further details on registration and payment methods will be announced soon.
+Further details on registration and payment methods will be announced soon. <br />
+Please use the following pre-registration form.
 </p>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmjvVVrbAmy0Wh_ozhDfkXYL2k5-KHO1t-h-cTloPHfTeqLA/viewform?embedded=true" width="640" height="1878" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
