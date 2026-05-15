@@ -58,11 +58,13 @@ permalink: /school/lecturers/
   <!-- Speaker 5 -->
   <div class="org-card">
     <a href="https://maurapintor.github.io/" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/speakers/maura-pintor.png' | relative_url }}" alt="Dr. Maura Pintor">
+      <img class="org-photo" src="{{ '/assets/img/speakers/sigrid-eldth.jpg' | relative_url }}" alt="Adj. Prof. Sigrid Eldh">
       <div class="org-body">
-        <h3 class="org-name">Dr. Maura Pintor</h3>
+        <h3 class="org-name">Adj. Prof. Sigrid Eldh</h3>
         <p class="org-role">Speaker</p>
-        <p class="org-affiliation">University of Cagliari, Italy</p>
+        <p class="org-affiliation">Ericsson AB, Sweden</p>
+        <p class="org-affiliation">Carleton University, Canada</p>
+        <p class="org-affiliation">Mälardalen University, Sweden</p>
       </div>
     </a>
   </div>
