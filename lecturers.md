@@ -95,10 +95,10 @@ permalink: /school/lecturers/
     <!-- Bio: Wissam Mallouli is a cybersecurity expert, researcher, and technology leader currently serving as Chief Technology Officer (CTO) at Montimage, a Paris-based company specializing in network monitoring and security solutions. He holds a Ph.D. in Computer Science (cybersecurity) from Télécom & Management SudParis (France), obtained in 2008, and an engineering degree in telecommunications. Mallouli has extensive experience in network security, software testing, and AI-driven cybersecurity. His work focuses on areas such as intrusion detection, automated security testing, risk management, and resilient systems for 5G, IoT, and cloud environments. He is actively involved in numerous European research and innovation projects, contributing to the design of AI-assisted and trustworthy cybersecurity solutions, particularly for SMEs. In addition to his industrial role, he contributes to academia through publications, teaching, conference organization, and training activities, helping bridge the gap between research and real-world cybersecurity applications. -->
   </div>
 
-    <!-- Speaker 8 -->
+  <!-- Speaker 8 -->
   <div class="org-card">
     <a href="https://gulcalikli.github.io/" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/speakers/gül-çalıklı.png' | relative_url }}" alt="Dr. Gül Çalikli">
+      <img class="org-photo" src="{{ '/assets/img/speakers/gul-calikli.png' | relative_url }}" alt="Dr. Gül Çalikli">
       <div class="org-body">
         <h3 class="org-name">Dr. Gül Çalikli</h3>
         <p class="org-role">Speaker</p>
