@@ -92,7 +92,20 @@ permalink: /school/lecturers/
         <p class="org-affiliation">Montimage EURL, France</p>
       </div>
     </a>
-    <!-- Bio: Bio: Wissam Mallouli is a cybersecurity expert, researcher, and technology leader currently serving as Chief Technology Officer (CTO) at Montimage, a Paris-based company specializing in network monitoring and security solutions. He holds a Ph.D. in Computer Science (cybersecurity) from Télécom & Management SudParis (France), obtained in 2008, and an engineering degree in telecommunications. Mallouli has extensive experience in network security, software testing, and AI-driven cybersecurity. His work focuses on areas such as intrusion detection, automated security testing, risk management, and resilient systems for 5G, IoT, and cloud environments. He is actively involved in numerous European research and innovation projects, contributing to the design of AI-assisted and trustworthy cybersecurity solutions, particularly for SMEs. In addition to his industrial role, he contributes to academia through publications, teaching, conference organization, and training activities, helping bridge the gap between research and real-world cybersecurity applications. -->
+    <!-- Bio: Wissam Mallouli is a cybersecurity expert, researcher, and technology leader currently serving as Chief Technology Officer (CTO) at Montimage, a Paris-based company specializing in network monitoring and security solutions. He holds a Ph.D. in Computer Science (cybersecurity) from Télécom & Management SudParis (France), obtained in 2008, and an engineering degree in telecommunications. Mallouli has extensive experience in network security, software testing, and AI-driven cybersecurity. His work focuses on areas such as intrusion detection, automated security testing, risk management, and resilient systems for 5G, IoT, and cloud environments. He is actively involved in numerous European research and innovation projects, contributing to the design of AI-assisted and trustworthy cybersecurity solutions, particularly for SMEs. In addition to his industrial role, he contributes to academia through publications, teaching, conference organization, and training activities, helping bridge the gap between research and real-world cybersecurity applications. -->
+  </div>
+
+    <!-- Speaker 8 -->
+  <div class="org-card">
+    <a href="https://gulcalikli.github.io/" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/gül-çalıklı.png' | relative_url }}" alt="Dr. Gül Çalikli">
+      <div class="org-body">
+        <h3 class="org-name">Dr. Gül Çalikli</h3>
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">University of Glasgow, Scotland</p>
+      </div>
+    </a>
+    <!-- Bio: Gül Çalikli is a Senior Lecturer (Associate Professor) in Software Engineering at the School of Computing Science, University of Glasgow, UK. I obtained my Ph.D. degree in Computer Engineering from Boğaziçi University, Istanbul. Before joining the University of Glasgow, I was a senior researcher at the Department of Informatics, University of Zurich (UZH), Switzerland. Further details about my professional appointments can be found in my CV. My research field is empirical software engineering with a focus on human aspects (cognitive and social psychology), accompanied by Data Analytics and Machine Learning. My vision is to enhance software practitioners’ decision-making to improve software quality by developing (1) tools and techniques based on cognitive psychology; and (2) ML systems (e.g., LLMs) with humans in the loop that can be regarded as a joint cognitive system. -->
   </div>
 
 </div>
