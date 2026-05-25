@@ -34,7 +34,7 @@ permalink: /
 <div class="content test-justify">
   <h2>Flyer</h2>
   <p>
-    You can download the school's flyer <a href="https://github.com/tarot26/tarot26.github.io/blob/main/assets/img/flyer.pdf" download>HERE</a>.
+    You can download the school's flyer <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" download="flyer.pdf">HERE</a>.
   </p>
 </div>
 
