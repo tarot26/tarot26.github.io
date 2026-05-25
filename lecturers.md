@@ -108,4 +108,43 @@ permalink: /school/lecturers/
     <!-- Bio: Gül Çalikli is a Senior Lecturer (Associate Professor) in Software Engineering at the School of Computing Science, University of Glasgow, UK. I obtained my Ph.D. degree in Computer Engineering from Boğaziçi University, Istanbul. Before joining the University of Glasgow, I was a senior researcher at the Department of Informatics, University of Zurich (UZH), Switzerland. Further details about my professional appointments can be found in my CV. My research field is empirical software engineering with a focus on human aspects (cognitive and social psychology), accompanied by Data Analytics and Machine Learning. My vision is to enhance software practitioners’ decision-making to improve software quality by developing (1) tools and techniques based on cognitive psychology; and (2) ML systems (e.g., LLMs) with humans in the loop that can be regarded as a joint cognitive system. -->
   </div>
 
+  <!-- Speaker 9 -->
+  <div class="org-card">
+    <a href="https://www.linkedin.com/in/ezio-bartocci" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/ezio-bartocci.jpg' | relative_url }}" alt="Prof. Ezio Bartocci">
+      <div class="org-body">
+        <h3 class="org-name">Prof. Ezio Bartocci</h3>
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">Technical University of Wien (TUW), Austria</p>
+      </div>
+    </a>
+    <!-- Bio: Prof. Ezio Bartocci is ... -->
+  </div>
+
+  <!-- Speaker 10 -->
+  <div class="org-card">
+    <a href="https://www.linkedin.com/in/ken-friedl-3102a113b/" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/ken-friedl.jpg | relative_url }}" alt="Ken Friedl">
+      <div class="org-body">
+        <h3 class="org-name">Ken Friedl</h3>
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">BMW Group, Germany</p>
+      </div>
+    </a>
+    <!-- Bio: Ken Friedl is ... -->
+  </div>
+
+  <!-- Speaker 11 -->
+  <div class="org-card">
+    <a href="https://www.linkedin.com/in/lev-sorokin-a90011190/" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/speakers/lev-sorokin.jpeg' | relative_url }}" alt="Lev Sorokin">
+      <div class="org-body">
+        <h3 class="org-name">Lev Sorokin</h3>
+        <p class="org-role">Speaker</p>
+        <p class="org-affiliation">BMW Group, Germany and Fortiss, Germany</p>
+      </div>
+    </a>
+    <!-- Bio: Lev Sorokin is  -->
+  </div>
+
 </div>
