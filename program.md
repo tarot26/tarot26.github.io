@@ -22,38 +22,6 @@ We will bring together experts on software testing, validation, and verification
 - Runtime Monitoring of Hyper-Properties
 - Explainability and Robustness
 - Application of AI-enabled systems in specific domains (e.g., Autonomous Vehicles, Drones, Robotics) -->
-
-  <style>
-    .program table {
-      border-collapse: collapse;
-      width: 100%;
-      max-width: 1200px;
-    }
-
-    .program th,
-    .program td {
-      border: 1px solid #ccc;
-      padding: 0.5rem;
-      text-align: left;
-      vertical-align: top;
-    }
-
-    .program thead th {
-      background: #f0f0f0;
-      font-weight: bold;
-    }
-
-    .program tbody th {
-      background: #fafafa;
-      font-weight: normal;
-      white-space: nowrap;
-    }
-
-    .program-time {
-      white-space: nowrap;
-    }
-  </style>
-
 <div class="program">
   <table>
     <thead>

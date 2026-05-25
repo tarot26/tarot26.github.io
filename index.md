@@ -30,3 +30,11 @@ permalink: /
     The organizers and the local committee are waiting for you in Munich.
   </p>
 </div>
+<!-- Download the flyer -->
+<div class="content test-justify">
+  <h2>Flyer</h2>
+  <p>
+    You can download the school's flyer <a href="https://github.com/tarot26/tarot26.github.io/blob/main/assets/img/flyer.pdf" download>HERE</a>.
+  </p>
+</div>
+
