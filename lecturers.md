@@ -124,7 +124,7 @@ permalink: /school/lecturers/
   <!-- Speaker 10 -->
   <div class="org-card">
     <a href="https://www.linkedin.com/in/ken-friedl-3102a113b/" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/speakers/ken-friedl.jpg | relative_url }}" alt="Ken Friedl">
+      <img class="org-photo" src="{{ '/assets/img/speakers/ken-friedl.jpg' | relative_url }}" alt="Ken Friedl">
       <div class="org-body">
         <h3 class="org-name">Ken Friedl</h3>
         <p class="org-role">Speaker</p>
@@ -137,7 +137,7 @@ permalink: /school/lecturers/
   <!-- Speaker 11 -->
   <div class="org-card">
     <a href="https://www.linkedin.com/in/lev-sorokin-a90011190/" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/speakers/lev-sorokin.jpeg' | relative_url }}" alt="Lev Sorokin">
+      <img class="org-photo" src="{{ '/assets/img/speakers/lev-sorokin.jpg' | relative_url }}" alt="Lev Sorokin">
       <div class="org-body">
         <h3 class="org-name">Lev Sorokin</h3>
         <p class="org-role">Speaker</p>
