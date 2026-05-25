@@ -23,18 +23,159 @@ We will bring together experts on software testing, validation, and verification
 - Explainability and Robustness
 - Application of AI-enabled systems in specific domains (e.g., Autonomous Vehicles, Drones, Robotics) -->
 
+  <style>
+    .program table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1200px;
+    }
 
-| Session       | Time          | Monday 13     | Tuesday 14    | Wednesday 15  | Thursday 16   | Friday 17     |
-|---|---|---|---|---|---|---|
-|               | 08:30 - 09:00 | Registration  | Registration  | Registration  | Registration  | Registration  |
-| Morning 1     | 09:00 - 09:45 | Opening       | Friedl/Sorokin| Franco        | Pastore       | Calikli       |
-| Morning 2     | 09:45 - 10:30 | Mallouli      | Friedl/Sorokin| Franco        | Pastore       | Calikli       |
-| Coffee Break  | 10:30 - 11:00 | -             | -             | -             | -             | -             |
-| Morning 3     | 11:00 - 11:45 | Tong          | Friedl/Sorokin| Franco        | Pastore       | Calikli       |
-| Morning 4     | 11:45 - 12:30 | Ničković      | Bartocci      | Elbaum        | Eldth         | Closing       |
-| Lunch         | 12:30 - 14:00 | Posters       | Posters       | Posters       | Posters       | Posters       |
-| Afternoon 1   | 14:00 - 14:45 | Ničković      | Student Talks | Elbaum        | Eldth         | -             |
-| Afternoon 2   | 14:45 - 15:30 | Ničković      | Student Talks | Elbaum        | Eldth         | -             |
-| Coffee Break  | 15:30 - 16:00 | -             | -             | -             | -             | -             |
-| Afternoon 3   | 16:00 - 18:00 | Student Talks | Visit/Tour    | Visit/Tour    | Student Talks | -             |
-| Evening       | 19:00 - 22:00 | Reception     | Biergarten    | Banquet       | Biergarten    | -             |
+    .program th,
+    .program td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .program thead th {
+      background: #f0f0f0;
+      font-weight: bold;
+    }
+
+    .program tbody th {
+      background: #fafafa;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+
+    .program-time {
+      white-space: nowrap;
+    }
+  </style>
+
+<div class="program">
+  <table>
+    <thead>
+      <tr>
+        <th>Session</th>
+        <th>Time</th>
+        <th>Monday 13</th>
+        <th>Tuesday 14</th>
+        <th>Wednesday 15</th>
+        <th>Thursday 16</th>
+        <th>Friday 17</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th></th>
+        <td class="program-time">08:30 - 09:00</td>
+        <td>Registration</td>
+        <td>Registration</td>
+        <td>Registration</td>
+        <td>Registration</td>
+        <td>Registration</td>
+      </tr>
+      <tr>
+        <th>Morning 1</th>
+        <td class="program-time">09:00 - 09:45</td>
+        <td>Opening</td>
+        <td>Ken Friedl and Lev Sorokin</td>
+        <td>N. Franco</td>
+        <td>F. Pastore</td>
+        <td>G. Calikli</td>
+      </tr>
+      <tr>
+        <th>Morning 2</th>
+        <td class="program-time">09:45 - 10:30</td>
+        <td>W. Mallouli</td>
+        <td>Ken Friedl and Lev Sorokin</td>
+        <td>N. Franco</td>
+        <td>F. Pastore</td>
+        <td>G. Calikli</td>
+      </tr>
+      <tr>
+        <th>Coffee Break</th>
+        <td class="program-time">10:30 - 11:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th>Morning 3</th>
+        <td class="program-time">11:00 - 11:45</td>
+        <td>S. Tong</td>
+        <td>Ken Friedl and Lev Sorokin</td>
+        <td>N. Franco</td>
+        <td>F. Pastore</td>
+        <td>G. Calikli</td>
+      </tr>
+      <tr>
+        <th>Morning 4</th>
+        <td class="program-time">11:45 - 12:30</td>
+        <td>D. Ničković</td>
+        <td>E. Bartocci</td>
+        <td>S. Elbaum</td>
+        <td>S. Eldth</td>
+        <td>Closing</td>
+      </tr>
+      <tr>
+        <th>Lunch</th>
+        <td class="program-time">12:30 - 14:00</td>
+        <td>Student Posters</td>
+        <td>Student Posters</td>
+        <td>Student Posters</td>
+        <td>Student Posters</td>
+        <td>Student Posters</td>
+      </tr>
+      <tr>
+        <th>Afternoon 1</th>
+        <td class="program-time">14:00 - 14:45</td>
+        <td>D. Ničković</td>
+        <td>Student Talks</td>
+        <td>S. Elbaum</td>
+        <td>S. Eldth</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th>Afternoon 2</th>
+        <td class="program-time">14:45 - 15:30</td>
+        <td>D. Ničković</td>
+        <td>Student Talks</td>
+        <td>S. Elbaum</td>
+        <td>S. Eldth</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th>Coffee Break</th>
+        <td class="program-time">15:30 - 16:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th>Afternoon 3</th>
+        <td class="program-time">16:00 - 18:00</td>
+        <td>Students Talks</td>
+        <td>Visit/Tour</td>
+        <td>Visit/Tour</td>
+        <td>Students Talks</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <th>Evening</th>
+        <td class="program-time">19:00 - 22:00</td>
+        <td>Reception</td>
+        <td>Biergarten</td>
+        <td>Social Dinner</td>
+        <td>Biergarten</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

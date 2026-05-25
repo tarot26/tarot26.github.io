@@ -441,6 +441,19 @@ main.container > .hero-small:first-child,
 .footer .container { padding: 1rem; }
 .footer p { color: var(--muted); margin: 0; }
 
+/* Program Page */
+.program table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+.program-time {
+  white-space: nowrap;
+}
+
+
+
 /* Responsive */
 @media (max-width: 1024px) and (pointer: coarse) {
   .header-row { position: relative; z-index: 1100; }
