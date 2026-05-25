@@ -15,6 +15,8 @@ The registration fee includes:
 * Lunches
 * Social events
 
+> Note: The registration does not cover accommodation. Check the accommodation page for possible accommodation options.
+
 Below you can find the planned registration fees.
 
 ## Fees
@@ -25,12 +27,11 @@ Below you can find the planned registration fees.
 <h3>Student</h3>
 
 <p class="price">
-<strong>€450</strong> <span class="muted">early</span><br />
-<span class="note">until 30 May 2026</span>
+<strong>€450</strong> <span class="muted">regular</span><br />
 </p>
 
 <p class="price muted">
-€500 <span class="note">late registration</span>
+€500 <span class="note">on-site registration</span>
 </p>
 </div>
 
@@ -38,19 +39,17 @@ Below you can find the planned registration fees.
 <h3>Professional</h3>
 
 <p class="price">
-<strong>€600</strong> <span class="muted">early</span><br />
-<span class="note">until 30 May 2026</span>
+<strong>€600</strong> <span class="muted">regular</span><br />
 </p>
 
 <p class="price muted">
-€700 <span class="note">late registration</span>
+€700 <span class="note">on-site registration</span>
 </p>
 </div>
 
 </div>
 
 <p class="registration-note">
-Early registration closes on <strong>30 May 2026</strong>.  
 Further details on registration and payment methods will be announced soon. <br />
 Please use the following pre-registration form.
 </p>
