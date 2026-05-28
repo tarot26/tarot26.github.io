@@ -49,19 +49,19 @@ We will bring together experts on software testing, validation, and verification
         <th>Morning 1</th>
         <td class="program-time">09:00 - 09:45</td>
         <td>Opening</td>
-        <td>Ken Friedl and Lev Sorokin</td>
-        <td>N. Franco</td>
-        <td>F. Pastore</td>
-        <td>G. Calikli</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
+        <td><a href="#talk-pastore">F. Pastore</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
       </tr>
       <tr>
         <th>Morning 2</th>
         <td class="program-time">09:45 - 10:30</td>
-        <td>W. Mallouli</td>
-        <td>Ken Friedl and Lev Sorokin</td>
-        <td>N. Franco</td>
-        <td>F. Pastore</td>
-        <td>G. Calikli</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">W. Mallouli</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
+        <td><a href="#talk-pastore">F. Pastore</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
       </tr>
       <tr>
         <th>Coffee Break</th>
@@ -75,19 +75,19 @@ We will bring together experts on software testing, validation, and verification
       <tr>
         <th>Morning 3</th>
         <td class="program-time">11:00 - 11:45</td>
-        <td>S. Tong</td>
-        <td>Ken Friedl and Lev Sorokin</td>
-        <td>N. Franco</td>
-        <td>F. Pastore</td>
-        <td>G. Calikli</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Tong</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
+        <td><a href="#talk-pastore">F. Pastore</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
       </tr>
       <tr>
         <th>Morning 4</th>
         <td class="program-time">11:45 - 12:30</td>
-        <td>D. Ničković</td>
-        <td>E. Bartocci</td>
-        <td>S. Elbaum</td>
-        <td>S. Eldth</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">E. Bartocci</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
         <td>Closing</td>
       </tr>
       <tr>
@@ -102,19 +102,19 @@ We will bring together experts on software testing, validation, and verification
       <tr>
         <th>Afternoon 1</th>
         <td class="program-time">14:00 - 14:45</td>
-        <td>D. Ničković</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
         <td>Student Talks</td>
-        <td>S. Elbaum</td>
-        <td>S. Eldth</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
         <td>-</td>
       </tr>
       <tr>
         <th>Afternoon 2</th>
         <td class="program-time">14:45 - 15:30</td>
-        <td>D. Ničković</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
         <td>Student Talks</td>
-        <td>S. Elbaum</td>
-        <td>S. Eldth</td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
+        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
         <td>-</td>
       </tr>
       <tr>
@@ -147,3 +147,143 @@ We will bring together experts on software testing, validation, and verification
     </tbody>
   </table>
 </div>
+
+<section class="talk-details">
+  <h2>Talk Details</h2>
+
+  <article id="talk-pastore" class="talk-card">
+    <div class="talk-speaker-header">
+      <img
+        class="talk-speaker-photo"
+        src="{{ '/assets/img/speakers/fabrizio-pastore.png' | relative_url }}"
+        alt="Prof. Fabrizio Pastore"
+      >
+      <div>
+        <h3>
+          Prof. Fabrizio Pastore
+          <a class="speaker-website" href="https://www.fabriziopastore.com" target="_blank" rel="noopener noreferrer">Website</a>
+        </h3>
+        <p class="speaker-affiliation">University of Luxembourg, Luxembourg</p>
+      </div>
+    </div>
+
+    <div class="speaker-bio">
+      <h4>Bio</h4>
+      <p>
+        Fabrizio Pastore is an Associate Professor / Chief Scientist II at the SnT Centre for Security, Reliability and Trust of the University of Luxembourg.
+      </p>
+      <p>
+        His research interests concern Software Engineering and, more specifically, Automated Software Quality Assurance. He works with embedded and cyber-physical systems, AI-enabled components, and mobile devices. His research contributions concern DNN testing and explanation, requirements-driven testing, model-based testing, metamorphic testing, security testing, anomaly detection, and fault localization.
+      </p>
+    </div>
+
+    <p class="talk-title">
+      Supporting Automated Testing and Safety Analysis of Deep Neural Networks for Autonomous Systems
+    </p>
+    <p class="talk-abstract">
+      Deep neural networks are a building block of perception layers for safety-critical systems; therefore, engineers need solutions to cost-effectively identify and characterize the portions of the input space where a DNN may underperform to improve systems’ robustness.
+    </p>
+    <p class="talk-abstract">
+      This talk provides an overview of recent research approaches combining simulators, search algorithms, and diffusion models, which can cost-effectively determine worst-case scenarios if driven by appropriate fitness functions. Further, the talk will provide an overview of failure explanation approaches that enable the detection of the situations in which a DNN may fail and, consequently, enable the identification of countermeasures.
+    </p>
+  </article>
+</section>
+
+<style>
+.program a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.program a.talk-link-disabled {
+  cursor: pointer;
+}
+
+.talk-details {
+  margin-top: 4rem;
+}
+
+.talk-details h2 {
+  margin-bottom: 2rem;
+}
+
+.talk-card {
+  scroll-margin-top: 100px;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.talk-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.talk-speaker-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.talk-speaker-photo {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.talk-speaker-header h3 {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+
+.speaker-website {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
+
+.speaker-affiliation {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.speaker-bio {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+.speaker-bio h4 {
+  margin: 0 0 0.5rem;
+}
+
+.speaker-bio p {
+  margin: 0 0 0.75rem;
+}
+
+.speaker-bio p:last-child {
+  margin-bottom: 0;
+}
+
+.talk-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.talk-abstract {
+  margin-bottom: 0;
+}
+</style>
