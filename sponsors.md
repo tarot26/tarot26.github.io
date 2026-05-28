@@ -7,12 +7,12 @@ permalink: /sponsors/
 <section class="sponsors-hero" aria-labelledby="sponsors-title">
   <p class="sponsors-eyebrow">Partner with TAROT 2026</p>
   <h1 id="sponsors-title">Sponsors</h1>
-  <p class="sponsors-lede">Support a high-impact summer school, gain visibility with an international research community, and connect with the next generation of software engineering and AI assurance talent.</p>
+  <p class="sponsors-lede">Support TAROT 2026 and contribute to a summer school focused on testing, verification, and security of AI-enabled systems.</p>
 </section>
 
 <section class="sponsors-section sponsors-intro" aria-labelledby="why-sponsor-title">
   <h2 id="why-sponsor-title">Why sponsor TAROT?</h2>
-  <p>Sponsoring TAROT means supporting cutting-edge research, gaining visibility, and engaging with the next generation of researchers and practitioners.</p>
+  <p>TAROT brings together students, researchers, and practitioners working on software testing, verification, and trustworthy AI systems.</p>
 </section>
 
 <section class="sponsors-section sponsorship-packages" aria-labelledby="levels-title">
@@ -21,7 +21,7 @@ permalink: /sponsors/
       <p class="sponsors-eyebrow">Sponsorship packages</p>
       <h2 id="levels-title">Sponsorship Levels, Benefits &amp; Prices</h2>
     </div>
-    <p class="section-heading-copy">Choose the level of visibility and engagement that best fits your organisation.</p>
+    <p class="section-heading-copy">Support options for organisations and research projects participating in the school.</p>
   </div>
 
   <div class="sponsor-levels">
@@ -66,7 +66,7 @@ permalink: /sponsors/
       </div>
     </article>
   </div>
-  <p class="sponsors-note">All prices are indicative and negotiable.</p>
+  <p class="sponsors-note">The listed amounts are indicative and can be discussed with the organisers.</p>
 </section>
 
 <section class="sponsors-section waiver-panel" aria-labelledby="waiver-title">
@@ -145,11 +145,11 @@ permalink: /sponsors/
   border: 1px solid #e5e7eb;
   border-radius: 28px;
   background:
-    radial-gradient(circle at top left, rgba(245, 158, 11, 0.22), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.18), transparent 32%),
-    linear-gradient(135deg, #111827, #1f2937 55%, #374151);
+    radial-gradient(circle at top left, rgba(245, 158, 11, 0.12), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.1), transparent 32%),
+    linear-gradient(135deg, #1f2937, #374151 58%, #4b5563);
   color: #fff;
-  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.12);
 }
 
 .sponsors-hero::after {
@@ -175,9 +175,9 @@ permalink: /sponsors/
 .sponsors-hero h1 {
   margin: 0;
   color: #fff;
-  font-size: clamp(2.6rem, 8vw, 5.4rem);
-  line-height: 0.95;
-  letter-spacing: -0.07em;
+  font-size: clamp(2.6rem, 8vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
 }
 
 .sponsors-lede {
@@ -303,9 +303,9 @@ permalink: /sponsors/
 }
 
 .sponsor-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   border-color: #cbd5e1;
-  box-shadow: 0 32px 80px rgba(15, 23, 42, 0.16);
+  box-shadow: 0 22px 54px rgba(15, 23, 42, 0.12);
 }
 
 
@@ -485,9 +485,9 @@ permalink: /sponsors/
 }
 
 .sponsor-logo:hover {
-  transform: translateY(-3px);
-  border-color: #cbd5e1;
-  box-shadow: 0 20px 42px rgba(15, 23, 42, 0.11);
+  transform: translateY(-2px);
+  border-color: #d1d5db;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
 }
 
 .sponsor-logo:focus-visible {

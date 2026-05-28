@@ -9,7 +9,7 @@ permalink: /important-dates/
   <h1 id="dates-title">Important Dates</h1>
   <p class="dates-lede">
     Plan your participation for TAROT 2026. The school dates are confirmed, while
-    registration opening, payment details, and final programme milestones will be published here.
+    registration opening, and final programme will be published at a later date.
   </p>
 </section>
 
