@@ -321,16 +321,16 @@ body,
 
 @media (max-width: 700px) {
   .hero-home {
-    min-height: 480px;
+    min-height: 640px;
     border-radius: 18px;
   }
 
   .hero-home img {
-    height: 480px;
+    height: 640px;
   }
 
   .hero-overlay-home {
-    padding: 2rem 1.25rem;
+    padding: 2.5rem 1.25rem;
     align-items: center;
     text-align: center;
   }
