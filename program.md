@@ -324,17 +324,28 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Montimage EURL, France</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
+    <p class="talk-title">Smart Network Fuzzer for Advanced Security Testing</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
-        Dr. Wissam Mallouli is currently the CTO of Montimage, located in Paris, France. He received his Telecommunication Engineer degree from the National Institute of Telecommunication (INT) in 2005 and his Ph.D. in cybersecurity from Telecom and Management SudParis in 2008.
+        Wissam Mallouli is a cybersecurity expert, researcher, and technology leader currently serving as Chief Technology Officer (CTO) at Montimage, a Paris-based company specializing in network monitoring and security solutions.
       </p>
       <p>
-        His expertise covers continuous risk management and cyberdefense of critical systems and networks, including cloud-based systems, IoT, and 4G/5G networks. He is involved in several collaborative European research projects and has more than 50 scientific publications in conferences and journals.
+        He holds a Ph.D. in Computer Science (cybersecurity) from Télécom &amp; Management SudParis, France, obtained in 2008, and an engineering degree in telecommunications. Mallouli has extensive experience in network security, software testing, and AI-driven cybersecurity.
+      </p>
+      <p>
+        His work focuses on areas such as intrusion detection, automated security testing, risk management, and resilient systems for 5G, IoT, and cloud environments. He is actively involved in numerous European research and innovation projects, contributing to the design of AI-assisted and trustworthy cybersecurity solutions, particularly for SMEs.
+      </p>
+      <p>
+        In addition to his industrial role, he contributes to academia through publications, teaching, conference organization, and training activities, helping bridge the gap between research and real-world cybersecurity applications.
       </p>
     </div>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-abstract">
+      This talk introduces a smart network fuzzer designed to enhance security testing of complex and dynamic networked systems. The approach leverages intelligent traffic generation and adaptive fuzzing strategies to uncover vulnerabilities that traditional testing methods may miss.
+    </p>
+    <p class="talk-abstract">
+      By combining protocol awareness, behavioral analysis, and AI-driven techniques, the solution enables efficient exploration of attack surfaces in modern environments such as cloud-native infrastructures and software-defined networks. The presentation will include a demonstration showcasing how the fuzzer can detect anomalies, trigger unexpected behaviors, and support proactive cybersecurity validation.
+    </p>
   </article>
 
   <article id="talk-calikli" class="talk-card">
