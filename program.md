@@ -39,113 +39,121 @@ We will bring together experts on software testing, validation, and verification
       <tr>
         <th></th>
         <td class="program-time">08:30 - 09:00</td>
-        <td>Registration</td>
-        <td>Registration</td>
-        <td>Registration</td>
-        <td>Registration</td>
-        <td>Registration</td>
+        <td class="slot-logistics">Registration</td>
+        <td class="slot-logistics">Registration</td>
+        <td class="slot-logistics">Registration</td>
+        <td class="slot-logistics">Registration</td>
+        <td class="slot-logistics">Registration</td>
       </tr>
       <tr>
         <th>Morning 1</th>
         <td class="program-time">09:00 - 09:45</td>
-        <td>Opening</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
-        <td><a href="#talk-pastore">F. Pastore</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
+        <td class="slot-neutral">Opening</td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
+        <td class="slot-lecture"><a href="#talk-pastore">F. Pastore</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
       </tr>
       <tr>
         <th>Morning 2</th>
         <td class="program-time">09:45 - 10:30</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">W. Mallouli</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
-        <td><a href="#talk-pastore">F. Pastore</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">W. Mallouli</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
+        <td class="slot-lecture"><a href="#talk-pastore">F. Pastore</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
       </tr>
       <tr>
         <th>Coffee Break</th>
         <td class="program-time">10:30 - 11:00</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
       </tr>
       <tr>
         <th>Morning 3</th>
         <td class="program-time">11:00 - 11:45</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Tong</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
-        <td><a href="#talk-pastore">F. Pastore</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Tong</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">Ken Friedl and Lev Sorokin</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">N. Franco</a></td>
+        <td class="slot-lecture"><a href="#talk-pastore">F. Pastore</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">G. Calikli</a></td>
       </tr>
       <tr>
         <th>Morning 4</th>
         <td class="program-time">11:45 - 12:30</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">E. Bartocci</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
-        <td>Closing</td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">E. Bartocci</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
+        <td class="slot-neutral">Closing</td>
       </tr>
       <tr>
         <th>Lunch</th>
         <td class="program-time">12:30 - 14:00</td>
-        <td>Student Posters</td>
-        <td>Student Posters</td>
-        <td>Student Posters</td>
-        <td>Student Posters</td>
-        <td>Student Posters</td>
+        <td class="slot-student">Student Posters</td>
+        <td class="slot-student">Student Posters</td>
+        <td class="slot-student">Student Posters</td>
+        <td class="slot-student">Student Posters</td>
+        <td class="slot-student">Student Posters</td>
       </tr>
       <tr>
         <th>Afternoon 1</th>
         <td class="program-time">14:00 - 14:45</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
-        <td>Student Talks</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
-        <td>-</td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
+        <td class="slot-student">Student Talks</td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
+        <td class="slot-empty">-</td>
       </tr>
       <tr>
         <th>Afternoon 2</th>
         <td class="program-time">14:45 - 15:30</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
-        <td>Student Talks</td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
-        <td><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
-        <td>-</td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">D. Ničković</a></td>
+        <td class="slot-student">Student Talks</td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Elbaum</a></td>
+        <td class="slot-lecture"><a class="talk-link-disabled" href="javascript:void(0)">S. Eldth</a></td>
+        <td class="slot-empty">-</td>
       </tr>
       <tr>
         <th>Coffee Break</th>
         <td class="program-time">15:30 - 16:00</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break">Coffee Break</td>
+        <td class="slot-empty">-</td>
       </tr>
       <tr>
         <th>Afternoon 3</th>
         <td class="program-time">16:00 - 18:00</td>
-        <td>Students Talks</td>
-        <td>Visit/Tour</td>
-        <td>Visit/Tour</td>
-        <td>Students Talks</td>
-        <td>-</td>
+        <td class="slot-student">Student Talks</td>
+        <td class="slot-social">Visit/Tour</td>
+        <td class="slot-social">Visit/Tour</td>
+        <td class="slot-student">Student Talks</td>
+        <td class="slot-empty">-</td>
       </tr>
       <tr>
         <th>Evening</th>
         <td class="program-time">19:00 - 22:00</td>
-        <td>Reception</td>
-        <td>Biergarten</td>
-        <td>Social Dinner</td>
-        <td>Biergarten</td>
-        <td></td>
+        <td class="slot-social">Reception</td>
+        <td class="slot-social">Biergarten</td>
+        <td class="slot-social">Social Dinner</td>
+        <td class="slot-social">Biergarten</td>
+        <td class="slot-empty"></td>
       </tr>
     </tbody>
   </table>
+</div>
+
+<div class="program-legend" aria-label="Program legend">
+  <span class="legend-lecture">Lectures</span>
+  <span class="legend-student">Student contributions</span>
+  <span class="legend-social">Social events / visits</span>
+  <span class="legend-break">Breaks / logistics</span>
+  <span class="legend-neutral">Opening / closing</span>
 </div>
 
 <section class="talk-details">
@@ -190,6 +198,125 @@ We will bring together experts on software testing, validation, and verification
 </section>
 
 <style>
+.program {
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.program table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: separate;
+  border-spacing: 0.22rem;
+}
+
+.program th,
+.program td {
+  padding: 0.6rem 0.65rem;
+  border-radius: 10px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.program thead th {
+  background: #1f2937;
+  color: #fff;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.program tbody th {
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.program-time {
+  background: #f9fafb;
+  color: #4b5563;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.slot-lecture {
+  background: #e0f2fe;
+  color: #075985;
+  font-weight: 600;
+}
+
+.slot-student {
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 600;
+}
+
+.slot-social {
+  background: #fef3c7;
+  color: #92400e;
+  font-weight: 600;
+}
+
+.slot-break,
+.slot-logistics {
+  background: #f5f3ff;
+  color: #5b21b6;
+  font-weight: 600;
+}
+
+.slot-neutral,
+.slot-empty {
+  background: #f3f4f6;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.program-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.program-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.program-legend span::before {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.program-legend .legend-lecture::before {
+  background: #e0f2fe;
+}
+
+.program-legend .legend-student::before {
+  background: #dcfce7;
+}
+
+.program-legend .legend-social::before {
+  background: #fef3c7;
+}
+
+.program-legend .legend-break::before {
+  background: #f5f3ff;
+}
+
+.program-legend .legend-neutral::before {
+  background: #f3f4f6;
+}
+
 .program a {
   color: inherit;
   text-decoration: underline;
