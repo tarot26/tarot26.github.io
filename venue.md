@@ -3,18 +3,24 @@ title: Venue
 layout: default
 permalink: /venue/
 ---
-<div class="hero">
-  <img src="{{ '/assets/img/hero_garching.webp' | relative_url }}" alt="Venue banner">
-  <div class="hero-overlay">
-    <h1>Venue</h1>
-    <p>TUM Campus, Munich</p>
+<section class="venue-hero">
+  <div class="venue-hero-copy">
+    <p class="venue-eyebrow">TAROT 2026 Venue</p>
+    <h1>Technical University of Munich</h1>
+    <p class="venue-hero-text">
+      TAROT 2026 will be held in <strong>Munich, Germany</strong>, at the
+      <strong>TUM Campus in Garching</strong>, inside the
+      <strong>TUM-IAS Building Auditorium</strong>.
+    </p>
+    <div class="venue-hero-actions">
+      <a href="https://www.google.com/maps/search/?api=1&query=Lichtenbergstra%C3%9Fe%202a%2C%2085748%20Garching%2C%20Germany" target="_blank" rel="noopener noreferrer" class="venue-hero-btn venue-hero-btn-primary">Open in Google Maps</a>
+      <a href="https://www.ias.tum.de/ias/contact-directions/" target="_blank" rel="noopener noreferrer" class="venue-hero-btn venue-hero-btn-secondary">IAS Directions</a>
+    </div>
   </div>
-</div>
-<p class="venue-intro">
-  TAROT 2026 will be held in <strong>Munich, Germany</strong>, hosted at the
-  <strong>Technical University of Munich (TUM) Campus in Garching</strong>,
-  in the <strong>TUM‑IAS Building’s Auditorium</strong>.
-</p>  
+  <div class="venue-hero-media">
+    <img src="{{ '/assets/img/hero_garching.webp' | relative_url }}" alt="TUM Campus in Garching">
+  </div>
+</section>
 
 <div class="venue-building-section">
   <div>
@@ -60,7 +66,7 @@ permalink: /venue/
 The Garching Campus is located about **30 minutes by subway (U-Bahn, line U6)** from the heart of Munich. The city is world‑renowned for its blend of **Bavarian tradition** and **cutting‑edge innovation**, a place where you can enjoy a warm **brezn (pretzel)** and a cold beer in one of the many historic beer gardens, while also being at the doorstep of leading research and technology hubs.  
 
 ### Explore the TUM Campus
-Between lectures, participants can explore campus attractions like the iconic Parabola Slide in the Mathematics/Informatics building, visit the historic “Atomic Egg” reactor, or discover the nearby Max Planck Institutes. The campus also offers plenty of ways to relax, from parks and cafès to outdoor sports courts and gyms.
+Between lectures, participants can explore campus attractions like the iconic Parabola Slide in the Mathematics/Informatics building, visit the historic “Atomic Egg” reactor, or discover the nearby Max Planck Institutes. The campus also offers plenty of ways to relax, from parks and cafés to outdoor sports courts and gyms.
 
 <div class="explore-grid">
   <a href="https://www.cit.tum.de/en/cit/school/locations/parabola-slide/" target="_blank" rel="noopener" class="explore-card">
@@ -116,15 +122,92 @@ Beyond Munich, Bavaria is full of picturesque landscapes and cultural treasures:
 
 
 <style>
-.venue-intro {
-  margin: 2rem 0;
-  padding: 1.25rem 1.5rem;
-  border-left: 4px solid #38bdf8;
-  border-radius: 14px;
-  background: #f8fafc;
+.venue-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 1.5rem 0 3rem;
+  padding: 2rem;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 52%, #ecfeff 100%);
+  box-shadow: 0 18px 46px rgba(15, 23, 42, 0.1);
+  overflow: hidden;
+}
+
+.venue-eyebrow {
+  margin: 0 0 0.75rem;
+  color: #0369a1;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.venue-hero h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: clamp(2.1rem, 5vw, 4rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.venue-hero-text {
+  margin: 1.25rem 0 0;
   color: #374151;
-  font-size: 1.05rem;
-  line-height: 1.65;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.venue-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.venue-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.venue-hero-btn:hover {
+  transform: translateY(-2px);
+}
+
+.venue-hero-btn-primary {
+  background: #0f74bd;
+  color: #fff;
+  box-shadow: 0 12px 26px rgba(15, 116, 189, 0.28);
+}
+
+.venue-hero-btn-secondary {
+  background: #fff;
+  color: #075985;
+  border: 1px solid #dbeafe;
+}
+
+.venue-hero-media {
+  position: relative;
+  min-height: 360px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.16);
+}
+
+.venue-hero-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  object-fit: cover;
+  display: block;
 }
 
 .explore-grid {
@@ -271,12 +354,29 @@ Beyond Munich, Bavaria is full of picturesque landscapes and cultural treasures:
 }
 
 @media (max-width: 640px) {
-  .venue-building-section {
+  .venue-hero {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 22px;
+    margin-top: 1rem;
   }
 
-  .venue-intro {
-    padding: 1rem;
+  .venue-hero h1 {
+    font-size: clamp(2rem, 12vw, 3rem);
+  }
+
+  .venue-hero-actions {
+    flex-direction: column;
+  }
+
+  .venue-hero-btn {
+    width: 100%;
+  }
+
+  .venue-hero-media,
+  .venue-hero-media img {
+    min-height: 220px;
   }
 
   .explore-card,
