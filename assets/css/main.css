@@ -357,6 +357,19 @@ main.container > .hero-small:first-child,
   cursor: pointer;
 }
 
+.site-header {
+  isolation: isolate;
+}
+
+.header-row {
+  z-index: 2;
+}
+
+.nav-toggle {
+  position: relative;
+  z-index: 9999;
+}
+
 .travel-info summary {
   font-weight: 600;
   cursor: pointer;
