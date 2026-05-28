@@ -57,7 +57,7 @@ permalink: /school/lecturers/
 
   <!-- Speaker 5 -->
   <div class="org-card">
-    <a href="https://maurapintor.github.io/" target="_blank" rel="noopener noreferrer" class="org-link">
+    <a href="https://www.es.mdu.se/staff/67-Sigrid_Eldh" target="_blank" rel="noopener noreferrer" class="org-link">
       <img class="org-photo" src="{{ '/assets/img/speakers/sigrid-eldth.jpg' | relative_url }}" alt="Adj. Prof. Sigrid Eldh">
       <div class="org-body">
         <h3 class="org-name">Adj. Prof. Sigrid Eldh</h3>
