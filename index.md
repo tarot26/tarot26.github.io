@@ -5,11 +5,13 @@ permalink: /
 ---
 
 <!-- Hero Section -->
-<section class="hero hero-home">
-  <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="TAROT Summer School banner">
+<section class="home-hero-wrap">
+  <div class="content">
+    <div class="hero hero-home">
+      <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="TAROT Summer School banner">
 
-  <div class="hero-overlay-home">
-    <div class="hero-content-home">
+      <div class="hero-overlay-home">
+        <div class="hero-content-home">
       <p class="hero-kicker">
         21st Edition · Munich · 13–17 July 2026
       </p>
@@ -40,13 +42,15 @@ permalink: /
           Meet the Speakers
         </a>
       </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Welcome -->
 <section class="home-section">
-  <div class="content content-narrow text-justify">
+  <div class="content welcome-card text-justify">
     <h2>Welcome</h2>
 
     <p>
@@ -78,7 +82,6 @@ permalink: /
 
     <div class="highlights-grid">
       <article class="highlight-card">
-        <div class="highlight-icon">🎓</div>
         <h3>Learn from experts</h3>
         <p>
           Attend lectures and tutorials by leading researchers and practitioners in software testing, AI safety, and verification.
@@ -86,7 +89,6 @@ permalink: /
       </article>
 
       <article class="highlight-card">
-        <div class="highlight-icon">🤝</div>
         <h3>Meet the community</h3>
         <p>
           Connect with PhD students, researchers, and industry experts from across Europe and beyond.
@@ -94,7 +96,6 @@ permalink: /
       </article>
 
       <article class="highlight-card">
-        <div class="highlight-icon">🧠</div>
         <h3>Focus on trustworthy AI</h3>
         <p>
           Explore current research challenges in testing, robustness, validation, and security of AI-enabled systems.
@@ -102,7 +103,6 @@ permalink: /
       </article>
 
       <article class="highlight-card">
-        <div class="highlight-icon">📍</div>
         <h3>Experience Munich &amp; TUM</h3>
         <p>
           Join the summer school at the Technical University of Munich in the TUM-IAS Building at Garching campus.
@@ -114,21 +114,31 @@ permalink: /
 
 <!-- Flyer -->
 <section class="home-section">
-  <div class="content content-narrow text-center">
-    <h2>Flyer</h2>
+  <div class="content flyer-section">
+    <div class="flyer-copy">
+      <p class="section-eyebrow">Official flyer</p>
+      <h2>Share TAROT 2026</h2>
+      <p>
+        Preview the official flyer and download a copy to share with students, colleagues, and research groups.
+      </p>
+      <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" download="flyer.pdf" class="hero-btn hero-btn-primary">
+        Download Flyer
+      </a>
+    </div>
 
-    <p>
-      Download the official TAROT 2026 flyer.
-    </p>
-
-    <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" download="flyer.pdf" class="hero-btn hero-btn-primary">
-      Download Flyer
+    <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="flyer-preview" aria-label="Open TAROT 2026 flyer PDF">
+      <iframe src="{{ '/assets/img/flyer.pdf' | relative_url }}#page=1&view=FitH&toolbar=0&navpanes=0" title="TAROT 2026 flyer preview"></iframe>
     </a>
   </div>
 </section>
 
-.  
+.
 <style>
+ .home-hero-wrap .content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 body,
 .site-header {
   background: #f8fafc;
@@ -142,9 +152,19 @@ body,
   position: relative;
   overflow: hidden;
   border-radius: 24px;
-  margin-bottom: 2.5rem;
+  width: calc(100% - 2rem);
+  max-width: 1100px;
+  margin: 0 auto 2.5rem !important;
   min-height: 520px;
-  display: block;
+  display: block !important;
+  float: none !important;
+  box-sizing: border-box;
+}
+
+.hero.hero-home {
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
 }
 
 .hero-home img {
@@ -210,19 +230,26 @@ body,
 .hero-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
+  gap: 0.55rem 1rem;
   margin-top: 1.5rem;
   justify-content: center;
+  color: rgba(255,255,255,0.78);
+  font-size: 0.9rem;
+  font-weight: 650;
 }
 
 .hero-tags span {
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.14);
-  border: 1px solid rgba(255,255,255,0.18);
-  backdrop-filter: blur(8px);
-  font-size: 0.88rem;
-  font-weight: 700;
+  position: relative;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+}
+
+.hero-tags span:not(:last-child)::after {
+  content: "·";
+  margin-left: 1rem;
+  color: rgba(255,255,255,0.45);
 }
 
 .hero-actions {
@@ -273,8 +300,34 @@ body,
   padding: 3rem 0;
 }
 
+.home-section > .content,
+.home-section-alt > .content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome-card {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+  box-sizing: border-box;
+}
+
+.welcome-card h2 {
+  margin-top: 0;
+}
+
+.welcome-card p:last-child {
+  margin-bottom: 0;
+}
+
 .content-narrow {
   max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title-center {
@@ -282,19 +335,86 @@ body,
   margin-bottom: 2rem;
 }
 
+.section-eyebrow {
+  margin: 0 0 0.55rem;
+  color: #0369a1;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.flyer-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(280px, 1.15fr);
+  gap: 2rem;
+  align-items: stretch;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flyer-copy {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.flyer-copy h2 {
+  margin: 0 0 0.85rem;
+}
+
+.flyer-copy p:not(.section-eyebrow) {
+  margin: 0 0 1.35rem;
+  color: #4b5563;
+  line-height: 1.65;
+}
+
+.flyer-preview {
+  display: block;
+  height: 520px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.12);
+  position: relative;
+}
+
+.flyer-preview iframe {
+  display: block;
+  width: 112%;
+  height: 112%;
+  border: 0;
+  pointer-events: none;
+  transform: translate(-6%, -6%);
+  transform-origin: center;
+}
+
 .highlights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
+  align-items: stretch;
 }
 
 .highlight-card {
-  padding: 1.4rem;
+  padding: 1.5rem;
   border: 1px solid #e5e7eb;
   border-radius: 18px;
   background: #fff;
+  border-top: 4px solid #38bdf8;
   box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .highlight-card:hover {
@@ -302,10 +422,6 @@ body,
   box-shadow: 0 18px 36px rgba(15, 23, 42, 0.1);
 }
 
-.highlight-icon {
-  font-size: 1.8rem;
-  margin-bottom: 0.75rem;
-}
 
 .highlight-card h3 {
   margin-top: 0;
@@ -353,6 +469,37 @@ body,
 
   .hero-btn {
     width: 100%;
+  }
+
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .welcome-card {
+    padding: 1.35rem;
+    border-radius: 18px;
+  }
+
+  .flyer-section {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .flyer-copy {
+    padding: 1.35rem;
+    border-radius: 18px;
+    min-height: auto;
+  }
+
+  .flyer-preview {
+    height: 420px;
+    border-radius: 18px;
+  }
+
+  .flyer-preview iframe {
+    width: 116%;
+    height: 116%;
+    transform: translate(-8%, -8%);
   }
 }
 </style>

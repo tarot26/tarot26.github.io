@@ -4,7 +4,16 @@ layout: default
 permalink: /school/program/
 ---
 
-# Tentative Program
+
+<section class="program-hero" aria-labelledby="program-title">
+  <p class="program-eyebrow">TAROT 2026 schedule</p>
+  <h1 id="program-title">Program</h1>
+  <p class="program-lede">A five-day summer school combining lectures, student contributions, networking activities, and social events.</p>
+  <div class="program-month" aria-label="Program month">
+    <span class="program-month-label">Tentative program dates</span>
+    <span class="program-month-main">July 2026</span>
+  </div>
+</section>
 
 <!-- ## General Organization
 Lectures will combine theoretical content with practical applications.  
@@ -22,6 +31,14 @@ We will bring together experts on software testing, validation, and verification
 - Runtime Monitoring of Hyper-Properties
 - Explainability and Robustness
 - Application of AI-enabled systems in specific domains (e.g., Autonomous Vehicles, Drones, Robotics) -->
+<section class="program-section" aria-labelledby="schedule-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="program-eyebrow">Week overview</p>
+      <h2 id="schedule-title">Tentative schedule</h2>
+    </div>
+    <p class="section-heading-copy">Use the horizontal scroll on smaller screens to explore the full weekly calendar.</p>
+  </div>
 <div class="program">
   <table>
     <thead>
@@ -178,11 +195,17 @@ We will bring together experts on software testing, validation, and verification
   <span class="legend-break">Breaks / logistics</span>
   <span class="legend-neutral">Opening / closing</span>
 </div>
+</section>
 
-<section class="talk-details">
-  <h2>Talk Details</h2>
-
-  <article id="talk-nickovic" class="talk-card">
+<section class="talk-details" aria-labelledby="talk-details-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="program-eyebrow">Speaker sessions</p>
+      <h2 id="talk-details-title">Talk Details</h2>
+    </div>
+    <p class="section-heading-copy">Cards expand on hover or keyboard focus. Click or press Enter/Space on a card to keep it open.</p>
+  </div>
+  <article id="talk-nickovic" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/dejan-nickovic.jpg' | relative_url }}" alt="Dr. Dejan Ničković">
       <div>
@@ -193,7 +216,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">AIT Austrian Institute of Technology, Austria</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -203,10 +225,10 @@ We will bring together experts on software testing, validation, and verification
         His research interests include cyber-physical systems, runtime verification, testing, contract-based design, and real-time systems.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-elbaum" class="talk-card">
+  <article id="talk-elbaum" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/sebastian-elbaum.jpg' | relative_url }}" alt="Prof. Sebastian Elbaum">
       <div>
@@ -217,7 +239,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">University of Virginia, USA</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -227,10 +248,10 @@ We will bring together experts on software testing, validation, and verification
         His teaching centers on instilling cost-effective software development principles. He is a founding member of LESS, the Lab for Engineering Safe Software at the University of Virginia.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-tong" class="talk-card">
+  <article id="talk-tong" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/son-tong.jpg' | relative_url }}" alt="Dr. Son Tong">
       <div>
@@ -241,7 +262,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Siemens, Belgium</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -251,10 +271,10 @@ We will bring together experts on software testing, validation, and verification
         He currently leads an R&amp;D team of research engineers and industrial Ph.D. students working on control, AI, generative AI, simulation, and autonomous driving.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-pastore" class="talk-card">
+  <article id="talk-pastore" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/fabrizio-pastore.png' | relative_url }}" alt="Prof. Fabrizio Pastore">
       <div>
@@ -284,8 +304,7 @@ We will bring together experts on software testing, validation, and verification
       This talk provides an overview of recent research approaches combining simulators, search algorithms, and diffusion models, which can cost-effectively determine worst-case scenarios if driven by appropriate fitness functions. Further, the talk will provide an overview of failure explanation approaches that enable the detection of the situations in which a DNN may fail and, consequently, enable the identification of countermeasures.
     </p>
   </article>
-
-  <article id="talk-eldth" class="talk-card">
+  <article id="talk-eldth" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/sigrid-eldth.jpg' | relative_url }}" alt="Adj. Prof. Sigrid Eldh">
       <div>
@@ -296,7 +315,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Ericsson AB, Sweden; Carleton University, Canada; Mälardalen University, Sweden</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -306,10 +324,10 @@ We will bring together experts on software testing, validation, and verification
         She is also a Senior Lecturer at Mälardalen University and an Adjunct Professor at Carleton University in Ottawa, Canada.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-franco" class="talk-card">
+  <article id="talk-franco" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/nicola-franco.jpg' | relative_url }}" alt="Dr. Nicola Franco">
       <div>
@@ -320,7 +338,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">The Italian Institute of Artificial Intelligence for Industry, Italy</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -333,10 +350,10 @@ We will bring together experts on software testing, validation, and verification
         He holds a Ph.D. in Machine Learning, awarded cum laude, from the Technical University of Munich, and received the Best Paper Award in AI Safety at IJCAI 2023.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-mallouli" class="talk-card">
+  <article id="talk-mallouli" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/wissam-mallouli.jpg' | relative_url }}" alt="Dr. Wissam Mallouli">
       <div>
@@ -347,7 +364,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Montimage EURL, France</p>
       </div>
     </div>
-    <p class="talk-title">Smart Network Fuzzer for Advanced Security Testing</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -363,6 +379,7 @@ We will bring together experts on software testing, validation, and verification
         In addition to his industrial role, he contributes to academia through publications, teaching, conference organization, and training activities, helping bridge the gap between research and real-world cybersecurity applications.
       </p>
     </div>
+    <p class="talk-title">Smart Network Fuzzer for Advanced Security Testing</p>
     <p class="talk-abstract">
       This talk introduces a smart network fuzzer designed to enhance security testing of complex and dynamic networked systems. The approach leverages intelligent traffic generation and adaptive fuzzing strategies to uncover vulnerabilities that traditional testing methods may miss.
     </p>
@@ -370,8 +387,7 @@ We will bring together experts on software testing, validation, and verification
       By combining protocol awareness, behavioral analysis, and AI-driven techniques, the solution enables efficient exploration of attack surfaces in modern environments such as cloud-native infrastructures and software-defined networks. The presentation will include a demonstration showcasing how the fuzzer can detect anomalies, trigger unexpected behaviors, and support proactive cybersecurity validation.
     </p>
   </article>
-
-  <article id="talk-calikli" class="talk-card">
+  <article id="talk-calikli" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/gul-calikli.png' | relative_url }}" alt="Dr. Gül Çalikli">
       <div>
@@ -382,7 +398,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">University of Glasgow, Scotland</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -392,10 +407,10 @@ We will bring together experts on software testing, validation, and verification
         Her research field is empirical software engineering, with a focus on human aspects, data analytics, and machine learning. Her vision is to enhance software practitioners’ decision-making and improve software quality through techniques based on cognitive psychology and human-in-the-loop ML systems.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-bartocci" class="talk-card">
+  <article id="talk-bartocci" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/ezio-bartocci.jpg' | relative_url }}" alt="Prof. Ezio Bartocci">
       <div>
@@ -406,7 +421,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Technical University of Wien (TUW), Austria</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -416,10 +430,10 @@ We will bring together experts on software testing, validation, and verification
         His research focuses on formal methods and computational tools for ensuring the safety, security, energy efficiency, and correctness of AI-based cyber-physical systems, with a strong emphasis on sustainability.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-friedl" class="talk-card">
+  <article id="talk-friedl" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/ken-friedl.jpg' | relative_url }}" alt="Ken Friedl">
       <div>
@@ -430,7 +444,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">BMW Group, Germany</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -440,10 +453,10 @@ We will bring together experts on software testing, validation, and verification
         His work focuses on Data Science, Conversational AI, and Robotic System Integration, with applications in intelligent and autonomous automotive systems.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
-
-  <article id="talk-sorokin" class="talk-card">
+  <article id="talk-sorokin" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
       <img class="talk-speaker-photo" src="{{ '/assets/img/speakers/lev-sorokin.jpg' | relative_url }}" alt="Lev Sorokin">
       <div>
@@ -454,7 +467,6 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">BMW Group, Germany and Fortiss, Germany</p>
       </div>
     </div>
-    <p class="talk-title">Talk title TBA</p>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -464,45 +476,174 @@ We will bring together experts on software testing, validation, and verification
         He has a background in formal methods and software engineering, with research interests in the validation of dependable systems. His previous work at fortiss included simulation-based testing, runtime monitoring, and assurance cases for safe autonomous systems.
       </p>
     </div>
+    <p class="talk-title">Talk title TBA</p>
     <p class="talk-abstract">Abstract TBA.</p>
   </article>
 </section>
 
 <style>
+.program-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 2rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 1px solid #e5e7eb;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 12% 6%, rgba(245, 158, 11, 0.22), transparent 30%),
+    radial-gradient(circle at 88% 12%, rgba(14, 165, 233, 0.14), transparent 28%),
+    linear-gradient(135deg, #111827, #1f2937 58%, #374151);
+  color: #fff;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+}
+
+.program-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -7rem -8rem auto;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}
+
+.program-eyebrow {
+  margin: 0 0 0.7rem;
+  color: #fbbf24;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.program-hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2.6rem, 8vw, 5.2rem);
+  line-height: 0.95;
+  letter-spacing: -0.07em;
+}
+
+.program-lede {
+  max-width: 820px;
+  margin: 1.1rem 0 0;
+  color: #e5e7eb;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.65;
+}
+
+.program-month {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 1.7rem 0 0;
+  padding: 1rem 1.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.16);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.program-month-label {
+  color: #d1d5db;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.program-month-main {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.program-section,
+.talk-details {
+  margin: 2.5rem 0;
+}
+
+.section-heading-row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.section-heading-row .program-eyebrow {
+  color: #92400e;
+}
+
+.section-heading-row h2 {
+  margin: 0;
+  color: #111827;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.section-heading-copy {
+  max-width: 430px;
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.55;
+}
+
 .program {
   overflow-x: auto;
-  margin-top: 2rem;
+  margin-top: 0;
+  padding: 0.8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 30%),
+    linear-gradient(180deg, #ffffff, #f8fafc);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+  -webkit-overflow-scrolling: touch;
+}
+
+.program:focus-within {
+  outline: 3px solid #f59e0b;
+  outline-offset: 4px;
 }
 
 .program table {
   width: 100%;
-  min-width: 820px;
+  min-width: 900px;
   border-collapse: separate;
-  border-spacing: 0.22rem;
+  border-spacing: 0.26rem;
 }
 
 .program th,
 .program td {
-  padding: 0.6rem 0.65rem;
-  border-radius: 10px;
+  padding: 0.68rem 0.7rem;
+  border-radius: 14px;
   vertical-align: middle;
   text-align: center;
   line-height: 1.25;
 }
 
 .program thead th {
-  background: #1f2937;
+  background: #111827;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   position: sticky;
   top: 0;
   z-index: 3;
 }
 
 .program tbody th {
-  background: #f3f4f6;
+  background: #f8fafc;
   color: #374151;
-  font-weight: 700;
+  font-weight: 800;
   text-align: left;
   white-space: nowrap;
 }
@@ -511,15 +652,15 @@ We will bring together experts on software testing, validation, and verification
   position: sticky;
   left: 0;
   z-index: 2;
-  min-width: 145px;
-  max-width: 145px;
-  background: #f8fafc;
-  box-shadow: 8px 0 16px rgba(15, 23, 42, 0.06);
+  min-width: 150px;
+  max-width: 150px;
+  background: #fff;
+  box-shadow: 8px 0 18px rgba(15, 23, 42, 0.08);
 }
 
 .program thead .program-when {
   z-index: 4;
-  background: #111827;
+  background: #020617;
   color: #fff;
   text-align: left;
 }
@@ -532,47 +673,47 @@ We will bring together experts on software testing, validation, and verification
 .program-session {
   color: #111827;
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .program-time {
   margin-top: 0.2rem;
   color: #64748b;
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 800;
   white-space: nowrap;
 }
 
 .slot-lecture {
   background: #e0f2fe;
   color: #075985;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .slot-student {
   background: #dcfce7;
   color: #166534;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .slot-social {
   background: #fef3c7;
   color: #92400e;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .slot-break,
 .slot-logistics {
   background: #f5f3ff;
   color: #5b21b6;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .slot-neutral,
 .slot-empty {
   background: #f3f4f6;
   color: #6b7280;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .program-legend {
@@ -580,6 +721,7 @@ We will bring together experts on software testing, validation, and verification
   flex-wrap: wrap;
   gap: 0.6rem;
   margin: 1rem 0 0;
+  color: #4b5563;
   font-size: 0.9rem;
 }
 
@@ -597,25 +739,11 @@ We will bring together experts on software testing, validation, and verification
   display: inline-block;
 }
 
-.program-legend .legend-lecture::before {
-  background: #e0f2fe;
-}
-
-.program-legend .legend-student::before {
-  background: #dcfce7;
-}
-
-.program-legend .legend-social::before {
-  background: #fef3c7;
-}
-
-.program-legend .legend-break::before {
-  background: #f5f3ff;
-}
-
-.program-legend .legend-neutral::before {
-  background: #f3f4f6;
-}
+.program-legend .legend-lecture::before { background: #e0f2fe; }
+.program-legend .legend-student::before { background: #dcfce7; }
+.program-legend .legend-social::before { background: #fef3c7; }
+.program-legend .legend-break::before { background: #f5f3ff; }
+.program-legend .legend-neutral::before { background: #f3f4f6; }
 
 .program a {
   display: inline-block;
@@ -623,19 +751,17 @@ We will bring together experts on software testing, validation, and verification
   text-decoration: none;
   padding: 0.18rem 0.45rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.5);
   transition: transform 0.16s ease, background 0.16s ease, box-shadow 0.16s ease;
 }
 
 .program a:hover,
 .program a:focus-visible {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
   transform: translateY(-1px);
   box-shadow: 0 6px 12px rgba(15, 23, 42, 0.08);
-}
-
-.program a.talk-link-disabled {
-  cursor: pointer;
+  outline: 3px solid #f59e0b;
+  outline-offset: 2px;
 }
 
 .program tbody tr:hover td,
@@ -644,40 +770,90 @@ We will bring together experts on software testing, validation, and verification
 }
 
 .talk-details {
-  margin-top: 4rem;
-}
-
-.talk-details h2 {
-  margin-bottom: 2rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .talk-card {
+  position: relative;
   scroll-margin-top: 100px;
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 14px;
-  background: #fff;
+  overflow: hidden;
+  padding: 1.2rem;
+  border: 1px solid rgba(229, 231, 235, 0.92);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 30%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.96));
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.talk-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  background: linear-gradient(90deg, #f59e0b, #38bdf8, #111827);
+  opacity: 0.75;
+}
+
+.talk-card::after {
+  content: "Expand details";
+  position: absolute;
+  right: 1.15rem;
+  top: 1.1rem;
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #6b7280;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.talk-card:hover,
+.talk-card:focus-visible,
+.talk-card:focus-within,
+.talk-card.is-expanded {
+  transform: translateY(-4px);
+  border-color: #cbd5e1;
+  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.13);
+}
+
+.talk-card:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 4px;
+}
+
+.talk-card.is-expanded::after {
+  content: "Pinned open";
+  background: #111827;
+  color: #fff;
 }
 
 .talk-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  padding-right: 7.5rem;
 }
 
 .talk-speaker-header {
   display: flex;
   gap: 1rem;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .talk-speaker-photo {
-  width: 64px;
-  height: 64px;
+  width: 68px;
+  height: 68px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 22px;
   flex: 0 0 auto;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.14);
 }
 
 .talk-speaker-header h3 {
@@ -686,35 +862,92 @@ We will bring together experts on software testing, validation, and verification
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 0.25rem;
+  color: #111827;
+  letter-spacing: -0.03em;
 }
 
 .speaker-website {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.78rem;
+  font-weight: 900;
   text-decoration: none;
-  padding: 0.2rem 0.55rem;
+  padding: 0.22rem 0.58rem;
   border: 1px solid currentColor;
   border-radius: 999px;
 }
 
+.speaker-website:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
 .speaker-affiliation {
   margin: 0;
+  color: #4b5563;
   font-size: 0.95rem;
 }
 
-.speaker-bio {
+.speaker-bio,
+.talk-title,
+.talk-abstract {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: translateY(-4px);
+  transition: max-height 0.24s ease 0.28s, opacity 0.18s ease 0.28s, transform 0.18s ease 0.28s, margin 0.18s ease 0.28s, padding 0.18s ease 0.28s;
+}
+
+.talk-card:not(:hover):not(:focus-visible):not(:focus-within):not(.is-expanded) .speaker-bio,
+.talk-card:not(:hover):not(:focus-visible):not(:focus-within):not(.is-expanded) .talk-title,
+.talk-card:not(:hover):not(:focus-visible):not(:focus-within):not(.is-expanded) .talk-abstract {
+  transition-delay: 0s;
+}
+
+.talk-card:hover .speaker-bio,
+.talk-card:hover .talk-title,
+.talk-card:hover .talk-abstract,
+.talk-card:focus-visible .speaker-bio,
+.talk-card:focus-visible .talk-title,
+.talk-card:focus-visible .talk-abstract,
+.talk-card:focus-within .speaker-bio,
+.talk-card:focus-within .talk-title,
+.talk-card:focus-within .talk-abstract,
+.talk-card.is-expanded .speaker-bio,
+.talk-card.is-expanded .talk-title,
+.talk-card.is-expanded .talk-abstract {
+  max-height: 900px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.talk-card:hover .speaker-bio,
+.talk-card:focus-visible .speaker-bio,
+.talk-card:focus-within .speaker-bio,
+.talk-card.is-expanded .speaker-bio {
   margin: 1rem 0 1.25rem;
   padding: 1rem;
-  border-radius: 12px;
-  background: #f7f7f7;
+}
+
+.speaker-bio {
+  border-radius: 16px;
+  background: rgba(248, 250, 252, 0.94);
+  border: 1px solid #e5e7eb;
 }
 
 .speaker-bio h4 {
   margin: 0 0 0.5rem;
+  color: #111827;
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .speaker-bio p {
   margin: 0 0 0.75rem;
+  color: #374151;
+  line-height: 1.65;
 }
 
 .speaker-bio p:last-child {
@@ -722,11 +955,129 @@ We will bring together experts on software testing, validation, and verification
 }
 
 .talk-title {
-  font-weight: 600;
-  margin-bottom: 0.75rem;
+  padding-top: 0;
+  border-top: 1px solid transparent;
+  color: #111827;
+  font-size: 1.12rem;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.talk-card:hover .talk-title,
+.talk-card:focus-visible .talk-title,
+.talk-card:focus-within .talk-title,
+.talk-card.is-expanded .talk-title {
+  margin: 1.25rem 0 0.75rem;
+  padding-top: 1.25rem;
+  border-top-color: #e5e7eb;
+}
+
+.talk-title::before {
+  content: "Talk";
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #6b7280;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .talk-abstract {
+  color: #374151;
+  line-height: 1.65;
+}
+
+.talk-card:hover .talk-abstract,
+.talk-card:focus-visible .talk-abstract,
+.talk-card:focus-within .talk-abstract,
+.talk-card.is-expanded .talk-abstract {
+  margin-bottom: 0.75rem;
+}
+
+.talk-card:hover .talk-abstract:last-child,
+.talk-card:focus-visible .talk-abstract:last-child,
+.talk-card:focus-within .talk-abstract:last-child,
+.talk-card.is-expanded .talk-abstract:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 760px) {
+  .section-heading-row {
+    display: block;
+  }
+
+  .section-heading-copy {
+    margin-top: 0.75rem;
+  }
+
+  .program {
+    border-radius: 22px;
+  }
+
+  .talk-card::after {
+    position: static;
+    display: inline-flex;
+    margin-top: 1rem;
+  }
+
+  .talk-card h3 {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .program-hero,
+  .talk-card {
+    border-radius: 22px;
+  }
+
+  .talk-speaker-header {
+    align-items: flex-start;
+  }
+
+  .talk-speaker-photo {
+    width: 62px;
+    height: 62px;
+    border-radius: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .program a,
+  .talk-card,
+  .speaker-bio,
+  .talk-title,
+  .talk-abstract {
+    transition: none;
+  }
+
+  .program a:hover,
+  .talk-card:hover,
+  .talk-card:focus-visible,
+  .talk-card:focus-within,
+  .talk-card.is-expanded {
+    transform: none;
+  }
+}
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var cards = document.querySelectorAll('.talk-card');
+  cards.forEach(function (card) {
+    card.addEventListener('click', function (event) {
+      if (event.target.closest('a')) return;
+      var isExpanded = card.classList.toggle('is-expanded');
+      card.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    });
+
+    card.addEventListener('keydown', function (event) {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      if (event.target.closest('a')) return;
+      event.preventDefault();
+      var isExpanded = card.classList.toggle('is-expanded');
+      card.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    });
+  });
+});
+</script>
