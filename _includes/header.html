@@ -1,10 +1,10 @@
-<header class="site-header">
+<header class="site-header" style="position: sticky; top: 0; z-index: 3000; pointer-events: auto; -webkit-transform: translateZ(0); transform: translateZ(0);">
   <div class="container header-row">
     <a class="brand" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="TAROT logo" class="logo"/>
     </a>
 
-    <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu" style="position:relative; z-index:2001; pointer-events:auto; cursor:pointer;">☰</button>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu" style="position:relative; z-index:3001; pointer-events:auto; cursor:pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent;">☰</button>
 
     <nav id="nav-menu" class="nav">
     {% assign current = page.url | remove: 'index.html' %}
@@ -43,9 +43,10 @@
               nav.style.top = top + 'px';
               nav.style.left = '0';
               nav.style.right = '0';
-              nav.style.zIndex = '2000';
+              nav.style.zIndex = '3000';
               nav.style.maxHeight = 'calc(100vh - ' + top + 'px)';
               nav.style.overflowY = 'auto';
+              nav.style.webkitOverflowScrolling = 'touch';
             }
 
             function resetMobileNavPosition() {
@@ -56,6 +57,7 @@
               nav.style.zIndex = '';
               nav.style.maxHeight = '';
               nav.style.overflowY = '';
+              nav.style.webkitOverflowScrolling = '';
             }
 
             function closeNav() {
@@ -74,13 +76,20 @@
                 resetMobileNavPosition();
               }
             }
-            // Prefer touchend on touch devices; click on desktop. Ignore synthetic click after touch.
-            toggleBtn.addEventListener('touchend', function(ev){
+            // Use pointerdown first: it is more reliable than click/touchend on iOS after scrolling.
+            toggleBtn.addEventListener('pointerdown', function(ev){
               lastTouch = Date.now();
               toggleNav(ev);
             }, { passive: false });
-            toggleBtn.addEventListener('click', function(ev){
+
+            toggleBtn.addEventListener('touchend', function(ev){
               if (Date.now() - lastTouch < 500) { ev.preventDefault(); ev.stopPropagation(); return; }
+              lastTouch = Date.now();
+              toggleNav(ev);
+            }, { passive: false });
+
+            toggleBtn.addEventListener('click', function(ev){
+              if (Date.now() - lastTouch < 700) { ev.preventDefault(); ev.stopPropagation(); return; }
               toggleNav(ev);
             }, { passive: false });
 
