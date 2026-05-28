@@ -30,10 +30,49 @@
           var nav = header.querySelector('#nav-menu');
           if (toggleBtn && nav) {
             var lastTouch = 0;
+
+            function isMobileNav() {
+              return window.matchMedia('(max-width: 900px)').matches;
+            }
+
+            function positionMobileNav() {
+              if (!isMobileNav() || !nav.classList.contains('open')) return;
+              var headerRect = header.getBoundingClientRect();
+              var top = Math.max(0, headerRect.bottom);
+              nav.style.position = 'fixed';
+              nav.style.top = top + 'px';
+              nav.style.left = '0';
+              nav.style.right = '0';
+              nav.style.zIndex = '2000';
+              nav.style.maxHeight = 'calc(100vh - ' + top + 'px)';
+              nav.style.overflowY = 'auto';
+            }
+
+            function resetMobileNavPosition() {
+              nav.style.position = '';
+              nav.style.top = '';
+              nav.style.left = '';
+              nav.style.right = '';
+              nav.style.zIndex = '';
+              nav.style.maxHeight = '';
+              nav.style.overflowY = '';
+            }
+
+            function closeNav() {
+              nav.classList.remove('open');
+              toggleBtn.setAttribute('aria-expanded', 'false');
+              resetMobileNavPosition();
+            }
+
             function toggleNav(e) {
               if (e) { e.preventDefault(); e.stopPropagation(); if (e.stopImmediatePropagation) e.stopImmediatePropagation(); }
               var isOpen = nav.classList.toggle('open');
               toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+              if (isOpen) {
+                positionMobileNav();
+              } else {
+                resetMobileNavPosition();
+              }
             }
             // Prefer touchend on touch devices; click on desktop. Ignore synthetic click after touch.
             toggleBtn.addEventListener('touchend', function(ev){
@@ -48,8 +87,7 @@
             // Close mobile nav after clicking any link (better UX)
             nav.addEventListener('click', function (e) {
               if (e.target.closest('a')) {
-                nav.classList.remove('open');
-                toggleBtn.setAttribute('aria-expanded', 'false');
+                closeNav();
               }
             });
           }
@@ -80,10 +118,22 @@
                 var t = g.querySelector('.nav-trigger');
                 if (t) t.setAttribute('aria-expanded','false');
               });
-              if (nav) nav.classList.remove('open');
-              if (toggleBtn) toggleBtn.setAttribute('aria-expanded','false');
+              if (nav && toggleBtn) closeNav();
             }
           });
+
+          window.addEventListener('resize', function(){
+            if (!nav.classList.contains('open')) return;
+            if (isMobileNav()) {
+              positionMobileNav();
+            } else {
+              resetMobileNavPosition();
+            }
+          });
+
+          window.addEventListener('scroll', function(){
+            if (nav.classList.contains('open')) positionMobileNav();
+          }, { passive: true });
         })();
       });
     </script>
