@@ -26,8 +26,7 @@ We will bring together experts on software testing, validation, and verification
   <table>
     <thead>
       <tr>
-        <th>Session</th>
-        <th>Time</th>
+        <th class="program-when">When</th>
         <th>Monday 13</th>
         <th>Tuesday 14</th>
         <th>Wednesday 15</th>
@@ -37,8 +36,10 @@ We will bring together experts on software testing, validation, and verification
     </thead>
     <tbody>
       <tr>
-        <th></th>
-        <td class="program-time">08:30 - 09:00</td>
+        <th class="program-when">
+          <span class="program-session">Arrival</span>
+          <span class="program-time">08:30 - 09:00</span>
+        </th>
         <td class="slot-logistics">Registration</td>
         <td class="slot-logistics">Registration</td>
         <td class="slot-logistics">Registration</td>
@@ -46,8 +47,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-logistics">Registration</td>
       </tr>
       <tr>
-        <th>Morning 1</th>
-        <td class="program-time">09:00 - 09:45</td>
+        <th class="program-when">
+          <span class="program-session">Morning 1</span>
+          <span class="program-time">09:00 - 09:45</span>
+        </th>
         <td class="slot-neutral">Opening</td>
         <td class="slot-lecture"><a href="#talk-friedl">K. Friedl</a> and <a href="#talk-sorokin">L. Sorokin</a></td>
         <td class="slot-lecture"><a href="#talk-franco">N. Franco</a></td>
@@ -55,8 +58,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-calikli">G. Calikli</a></td>
       </tr>
       <tr>
-        <th>Morning 2</th>
-        <td class="program-time">09:45 - 10:30</td>
+        <th class="program-when">
+          <span class="program-session">Morning 2</span>
+          <span class="program-time">09:45 - 10:30</span>
+        </th>
         <td class="slot-lecture"><a href="#talk-mallouli">W. Mallouli</a></td>
         <td class="slot-lecture"><a href="#talk-friedl">K. Friedl</a> and <a href="#talk-sorokin">L. Sorokin</a></td>
         <td class="slot-lecture"><a href="#talk-franco">N. Franco</a></td>
@@ -64,8 +69,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-calikli">G. Calikli</a></td>
       </tr>
       <tr>
-        <th>Coffee Break</th>
-        <td class="program-time">10:30 - 11:00</td>
+        <th class="program-when">
+          <span class="program-session">Coffee Break</span>
+          <span class="program-time">10:30 - 11:00</span>
+        </th>
         <td class="slot-break">Coffee Break</td>
         <td class="slot-break">Coffee Break</td>
         <td class="slot-break">Coffee Break</td>
@@ -73,8 +80,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-break">Coffee Break</td>
       </tr>
       <tr>
-        <th>Morning 3</th>
-        <td class="program-time">11:00 - 11:45</td>
+        <th class="program-when">
+          <span class="program-session">Morning 3</span>
+          <span class="program-time">11:00 - 11:45</span>
+        </th>
         <td class="slot-lecture"><a href="#talk-tong">S. Tong</a></td>
         <td class="slot-lecture"><a href="#talk-friedl">K. Friedl</a> and <a href="#talk-sorokin">L. Sorokin</a></td>
         <td class="slot-lecture"><a href="#talk-franco">N. Franco</a></td>
@@ -82,8 +91,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-calikli">G. Calikli</a></td>
       </tr>
       <tr>
-        <th>Morning 4</th>
-        <td class="program-time">11:45 - 12:30</td>
+        <th class="program-when">
+          <span class="program-session">Morning 4</span>
+          <span class="program-time">11:45 - 12:30</span>
+        </th>
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
         <td class="slot-lecture"><a href="#talk-bartocci">E. Bartocci</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
@@ -91,8 +102,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-neutral">Closing</td>
       </tr>
       <tr>
-        <th>Lunch</th>
-        <td class="program-time">12:30 - 14:00</td>
+        <th class="program-when">
+          <span class="program-session">Lunch</span>
+          <span class="program-time">12:30 - 14:00</span>
+        </th>
         <td class="slot-student">Student Posters</td>
         <td class="slot-student">Student Posters</td>
         <td class="slot-student">Student Posters</td>
@@ -100,8 +113,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-student">Student Posters</td>
       </tr>
       <tr>
-        <th>Afternoon 1</th>
-        <td class="program-time">14:00 - 14:45</td>
+        <th class="program-when">
+          <span class="program-session">Afternoon 1</span>
+          <span class="program-time">14:00 - 14:45</span>
+        </th>
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
         <td class="slot-student">Student Talks</td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
@@ -109,8 +124,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-empty">-</td>
       </tr>
       <tr>
-        <th>Afternoon 2</th>
-        <td class="program-time">14:45 - 15:30</td>
+        <th class="program-when">
+          <span class="program-session">Afternoon 2</span>
+          <span class="program-time">14:45 - 15:30</span>
+        </th>
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
         <td class="slot-student">Student Talks</td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
@@ -118,8 +135,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-empty">-</td>
       </tr>
       <tr>
-        <th>Coffee Break</th>
-        <td class="program-time">15:30 - 16:00</td>
+        <th class="program-when">
+          <span class="program-session">Coffee Break</span>
+          <span class="program-time">15:30 - 16:00</span>
+        </th>
         <td class="slot-break">Coffee Break</td>
         <td class="slot-break">Coffee Break</td>
         <td class="slot-break">Coffee Break</td>
@@ -127,8 +146,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-empty">-</td>
       </tr>
       <tr>
-        <th>Afternoon 3</th>
-        <td class="program-time">16:00 - 18:00</td>
+        <th class="program-when">
+          <span class="program-session">Afternoon 3</span>
+          <span class="program-time">16:00 - 18:00</span>
+        </th>
         <td class="slot-student">Student Talks</td>
         <td class="slot-social">Visit/Tour</td>
         <td class="slot-social">Visit/Tour</td>
@@ -136,8 +157,10 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-empty">-</td>
       </tr>
       <tr>
-        <th>Evening</th>
-        <td class="program-time">19:00 - 22:00</td>
+        <th class="program-when">
+          <span class="program-session">Evening</span>
+          <span class="program-time">19:00 - 22:00</span>
+        </th>
         <td class="slot-social">Reception</td>
         <td class="slot-social">Biergarten</td>
         <td class="slot-social">Social Dinner</td>
@@ -453,7 +476,7 @@ We will bring together experts on software testing, validation, and verification
 
 .program table {
   width: 100%;
-  min-width: 860px;
+  min-width: 820px;
   border-collapse: separate;
   border-spacing: 0.22rem;
 }
@@ -473,7 +496,7 @@ We will bring together experts on software testing, validation, and verification
   font-weight: 700;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .program tbody th {
@@ -484,10 +507,39 @@ We will bring together experts on software testing, validation, and verification
   white-space: nowrap;
 }
 
+.program .program-when {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 145px;
+  max-width: 145px;
+  background: #f8fafc;
+  box-shadow: 8px 0 16px rgba(15, 23, 42, 0.06);
+}
+
+.program thead .program-when {
+  z-index: 4;
+  background: #111827;
+  color: #fff;
+  text-align: left;
+}
+
+.program-session,
 .program-time {
-  background: #f9fafb;
-  color: #4b5563;
-  font-weight: 600;
+  display: block;
+}
+
+.program-session {
+  color: #111827;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.program-time {
+  margin-top: 0.2rem;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 700;
   white-space: nowrap;
 }
 
@@ -566,13 +618,29 @@ We will bring together experts on software testing, validation, and verification
 }
 
 .program a {
+  display: inline-block;
   color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.45);
+  transition: transform 0.16s ease, background 0.16s ease, box-shadow 0.16s ease;
+}
+
+.program a:hover,
+.program a:focus-visible {
+  background: rgba(255, 255, 255, 0.85);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(15, 23, 42, 0.08);
 }
 
 .program a.talk-link-disabled {
   cursor: pointer;
+}
+
+.program tbody tr:hover td,
+.program tbody tr:hover .program-when {
+  filter: brightness(0.985);
 }
 
 .talk-details {
