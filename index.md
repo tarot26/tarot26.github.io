@@ -29,7 +29,10 @@ permalink: /
       </div>
 
       <div class="hero-actions">
-        <a href="{{ '/school/program/' | relative_url }}" class="hero-btn hero-btn-primary">
+        <a href="{{ '/registration/' | relative_url }}" class="hero-btn hero-btn-primary">
+          Register
+        </a>
+        <a href="{{ '/school/program/' | relative_url }}" class="hero-btn hero-btn-secondary">
           View Program
         </a>
 

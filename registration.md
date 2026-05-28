@@ -54,4 +54,6 @@ Further details on registration and payment methods will be announced soon. <br 
 Please use the following pre-registration form.
 </p>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmjvVVrbAmy0Wh_ozhDfkXYL2k5-KHO1t-h-cTloPHfTeqLA/viewform?embedded=true" width="640" height="1878" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="registration-form-embed">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmjvVVrbAmy0Wh_ozhDfkXYL2k5-KHO1t-h-cTloPHfTeqLA/viewform?embedded=true" title="TAROT 2026 registration form" loading="lazy" width="100%" height="1878" frameborder="0" marginheight="0" marginwidth="0" style="display: block; width: 100%; max-width: 100%; height: 1878px; border: 0;">Loading…</iframe>
+</div>
