@@ -57,11 +57,6 @@ permalink: /important-dates/
       <p>Pre-registration is available now; full registration and payment details will be announced soon.</p>
     </article>
 
-    <article class="update-card">
-      <p class="update-kicker">Fees</p>
-      <h3>Planned registration fees</h3>
-      <p>Planned fees are €450 for students and €600 for professionals, with higher on-site registration fees.</p>
-    </article>
 
     <article class="update-card">
       <p class="update-kicker">Travel</p>

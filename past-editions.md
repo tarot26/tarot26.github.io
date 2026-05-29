@@ -17,7 +17,7 @@ permalink: /past-editions/
       <h2>European roadmap</h2>
     </div>
     <p class="past-editions-intro">
-      TAROT summer school has been held all over Europe in the last 20 years. 
+      TAROT summer school has been held all over Europe in the last 20 years.
     </p>
   </div>
 
@@ -128,90 +128,57 @@ permalink: /past-editions/
 
 .editions-roadmap {
   position: relative;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin: 0 calc(50% - 50vw);
-  padding: 2.25rem max(1rem, calc((100vw - 1100px) / 2)) 2.75rem;
-  scroll-snap-type: x proximity;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-color: #cbd5e1 transparent;
-}
-
-.editions-roadmap:focus-visible {
-  outline: 3px solid #f59e0b;
-  outline-offset: -3px;
-}
-
-.editions-roadmap::before,
-.editions-roadmap::after {
-  content: "";
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  z-index: 3;
-  width: 2rem;
-  pointer-events: none;
-}
-
-.editions-roadmap::before {
-  left: 0;
-  float: left;
-  background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0));
-}
-
-.editions-roadmap::after {
-  right: 0;
-  float: right;
-  background: linear-gradient(270deg, #fff, rgba(255, 255, 255, 0));
+  overflow: visible;
+  margin: 0;
+  padding: 0;
 }
 
 .editions-track {
   position: relative;
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(210px, 245px);
-  gap: 1rem;
-  align-items: stretch;
-  min-width: max-content;
-  padding: 2.25rem 0 0.75rem;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  min-width: 0;
+  padding: 0 0 0 1.7rem;
 }
 
 .editions-track::before {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 1.05rem;
-  height: 4px;
+  left: 0.5rem;
+  top: 0.6rem;
+  bottom: 0.6rem;
+  width: 4px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #111827, #38bdf8, #f59e0b);
+  background: linear-gradient(180deg, #111827, #38bdf8, #f59e0b);
   box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
 }
 
 .editions-track a {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  min-height: 145px;
-  padding: 1.25rem;
+  gap: 1rem;
+  align-items: center;
+  min-height: 0;
+  padding: 1rem 1.15rem;
   border: 1px solid rgba(229, 231, 235, 0.92);
-  border-radius: 24px;
+  border-radius: 22px;
   background:
     radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 32%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.96));
   color: inherit;
   text-decoration: none;
-  scroll-snap-align: start;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.075);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .editions-track a::before {
   content: "";
   position: absolute;
-  left: 1.25rem;
-  top: -1.55rem;
+  left: -1.45rem;
+  top: 1.2rem;
   width: 0.95rem;
   height: 0.95rem;
   border-radius: 999px;
@@ -231,9 +198,9 @@ permalink: /past-editions/
 
 .editions-track a:hover,
 .editions-track a:focus-visible {
-  transform: translateY(-6px);
+  transform: translateX(4px);
   border-color: #cbd5e1;
-  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.14);
+  box-shadow: 0 22px 54px rgba(15, 23, 42, 0.12);
 }
 
 .editions-track a:focus-visible {
@@ -265,53 +232,16 @@ permalink: /past-editions/
   .past-editions-intro {
     margin-top: 0.75rem;
   }
+}
 
-  .editions-roadmap {
-    overflow: visible;
-    margin: 0;
-    padding: 0;
-    scroll-snap-type: none;
-  }
-
-  .editions-roadmap::before,
-  .editions-roadmap::after {
-    display: none;
-  }
-
-  .editions-track {
-    display: grid;
-    grid-auto-flow: row;
-    grid-auto-columns: auto;
-    grid-template-columns: 1fr;
-    gap: 0.75rem;
-    min-width: 0;
-    padding: 0 0 0 1.55rem;
-  }
-
-  .editions-track::before {
-    left: 0.45rem;
-    right: auto;
-    top: 0.6rem;
-    bottom: 0.6rem;
-    width: 4px;
-    height: auto;
-    background: linear-gradient(180deg, #111827, #38bdf8, #f59e0b);
-  }
-
+@media (max-width: 620px) {
   .editions-track a {
-    min-height: 0;
-    padding: 1rem;
-    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .editions-track a::before {
-    left: -1.45rem;
-    top: 1.2rem;
-  }
-
-  .editions-track a:hover,
-  .editions-track a:focus-visible {
-    transform: translateX(3px);
+  .editions-track a::after {
+    margin-top: 0.5rem;
   }
 }
 

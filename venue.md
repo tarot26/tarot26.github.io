@@ -23,10 +23,13 @@ permalink: /venue/
 
 <div class="venue-building-section">
   <div>
-    <a href="https://www.google.com/maps/search/?api=1&query=TUM-IAS%20Building%2C%20Lichtenbergstra%C3%9Fe%202a%2C%2085748%20Garching%2C%20Germany" target="_blank" rel="noopener noreferrer" class="explore-card venue-building-card explore-card-map" aria-label="Open TUM-IAS Building in Google Maps">
-      <img src="/assets/img/ias/ias1.jpg" alt="TUM-IAS Building exterior" />
-      <span>TUM-IAS Building</span>
-    </a>
+    <div class="explore-card-shell venue-building-card-shell">
+      <a href="https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/" target="_blank" rel="noopener noreferrer" class="explore-card venue-building-card" aria-label="Open TUM-IAS Building website">
+        <img src="/assets/img/ias/ias1.jpg" alt="TUM-IAS Building exterior" />
+        <span>TUM-IAS Building</span>
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=TUM-IAS%20Building%2C%20Lichtenbergstra%C3%9Fe%202a%2C%2085748%20Garching%2C%20Germany" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open TUM-IAS Building in Google Maps">Maps</a>
+    </div>
   </div>
 
   <aside class="venue-directions-card">
@@ -88,18 +91,27 @@ permalink: /venue/
 Between lectures, participants can explore campus attractions like the iconic Parabola Slide in the Mathematics/Informatics building, visit the historic “Atomic Egg” reactor, or discover the nearby Max Planck Institutes. The campus also offers plenty of ways to relax, from parks and cafés to outdoor sports courts and gyms.
 
 <div class="explore-grid">
-  <a href="https://www.google.com/maps/search/?api=1&query=Parabola%20Slide%20TUM%20Garching" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Parabola slide in Google Maps">
-    <img src="{{ 'assets/img/attractions/parabola.jpg' | relative_url }}" alt="TUM CIT parabola">
-    <span class="caption">Parabola slide</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=Atomic%20Egg%20Garching%20TUM" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Atomic Egg in Google Maps">
-    <img src="{{ 'assets/img/attractions/atomic-egg.webp' | relative_url }}" alt="Atomic egg">
-    <span class="caption">Atomic Egg</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=TUM%20Campus%20Garching%20facilities" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open TUM Campus Garching facilities in Google Maps">
-    <img src="{{ 'assets/img/attractions/sports.webp' | relative_url }}" alt="Sports and food at TUM">
-    <span class="caption">Campus facilities</span>
-  </a>
+  <div class="explore-card-shell">
+    <a href="https://www.cit.tum.de/en/cit/school/locations/parabola-slide/" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Parabola slide website">
+      <img src="{{ 'assets/img/attractions/parabola.jpg' | relative_url }}" alt="TUM CIT parabola">
+      <span class="caption">Parabola slide</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Parabola%20Slide%20TUM%20Garching" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Parabola slide in Google Maps">Maps</a>
+  </div>
+  <div class="explore-card-shell">
+    <a href="https://www.frm2.tum.de/en/frm2/about-us/from-atomic-egg-to-frm-ii/" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Atomic Egg website">
+      <img src="{{ 'assets/img/attractions/atomic-egg.webp' | relative_url }}" alt="Atomic egg">
+      <span class="caption">Atomic Egg</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Atomic%20Egg%20Garching%20TUM" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Atomic Egg in Google Maps">Maps</a>
+  </div>
+  <div class="explore-card-shell">
+    <a href="https://www.tum.de/en/about-tum/locations/garching" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open TUM Campus Garching website">
+      <img src="{{ 'assets/img/attractions/sports.webp' | relative_url }}" alt="Sports and food at TUM">
+      <span class="caption">Campus facilities</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=TUM%20Campus%20Garching%20facilities" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open TUM Campus Garching facilities in Google Maps">Maps</a>
+  </div>
   </div>
 </section>
 
@@ -113,18 +125,27 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   </div>
 
 <div class="explore-grid">
-  <a href="https://www.google.com/maps/search/?api=1&query=Marienplatz%20Munich" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Marienplatz in Google Maps">
-    <img src="{{ 'assets/img/attractions/MARIENPLATZ OBEN 43.jpg.webp' | relative_url }}" alt="Marienplatz, Munich">
-    <span>Marienplatz &amp; Old Town</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=English%20Garden%20Munich" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open English Garden in Google Maps">
-    <img src="{{ 'assets/img/attractions/lhm-e-garten-panorama.jpg.webp' | relative_url }}" alt="English Garden">
-    <span>English Garden</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=Deutsches%20Museum%20Munich" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Deutsches Museum in Google Maps">
-    <img src="{{ 'assets/img/attractions/Deutsches_Museum_Portrait_4.jpg' | relative_url }}" alt="Deutsches Museum">
-    <span>Deutsches Museum</span>
-  </a>
+  <div class="explore-card-shell">
+    <a href="https://www.muenchen.de/en/sights/attractions/new-town-hall" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Marienplatz and Old Town website">
+      <img src="{{ 'assets/img/attractions/MARIENPLATZ OBEN 43.jpg.webp' | relative_url }}" alt="Marienplatz, Munich">
+      <span>Marienplatz &amp; Old Town</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Marienplatz%20Munich" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Marienplatz in Google Maps">Maps</a>
+  </div>
+  <div class="explore-card-shell">
+    <a href="https://www.muenchen.de/en/sights/attractions/english-garden" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open English Garden website">
+      <img src="{{ 'assets/img/attractions/lhm-e-garten-panorama.jpg.webp' | relative_url }}" alt="English Garden">
+      <span>English Garden</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=English%20Garden%20Munich" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open English Garden in Google Maps">Maps</a>
+  </div>
+  <div class="explore-card-shell">
+    <a href="https://www.deutsches-museum.de/en" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Deutsches Museum website">
+      <img src="{{ 'assets/img/attractions/Deutsches_Museum_Portrait_4.jpg' | relative_url }}" alt="Deutsches Museum">
+      <span>Deutsches Museum</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Deutsches%20Museum%20Munich" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Deutsches Museum in Google Maps">Maps</a>
+  </div>
   </div>
 </section>
 
@@ -138,18 +159,27 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   </div>
 
 <div class="explore-grid">
-  <a href="https://www.google.com/maps/search/?api=1&query=Neuschwanstein%20Castle" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Neuschwanstein Castle in Google Maps">
-    <img src="{{ 'assets/img/attractions/schloss-neuschwanstein575.jpg' | relative_url }}" alt="Neuschwanstein Castle">
-    <span>Neuschwanstein Castle</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=Lake%20Starnberg" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Lake Starnberg in Google Maps">
-    <img src="{{ 'assets/img/attractions/02starnbergersee.jpg.webp' | relative_url }}" alt="Lake Starnberg">
-    <span>Lake Starnberg</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=Bavarian%20Alps%20Karwendel" target="_blank" rel="noopener noreferrer" class="explore-card explore-card-map" aria-label="Open Bavarian Alps / Karwendel in Google Maps">
-    <img src="{{ 'assets/img/attractions/turquoise-blue-isar-with-karwendel-summer-at-the-reservoir-near-kruen.jpg' | relative_url }}" alt="Bavarian Alps">
-    <span>Bavarian Alps</span>
-  </a>
+  <div class="explore-card-shell">
+    <a href="https://www.neuschwanstein.de/englisch/tourist/index.htm" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Neuschwanstein Castle website">
+      <img src="{{ 'assets/img/attractions/schloss-neuschwanstein575.jpg' | relative_url }}" alt="Neuschwanstein Castle">
+      <span>Neuschwanstein Castle</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Neuschwanstein%20Castle" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Neuschwanstein Castle in Google Maps">Maps</a>
+  </div>
+  <div class="explore-card-shell">
+    <a href="https://www.muenchen.de/en/culture-leisure/lakes/lake-starnberg" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Lake Starnberg website">
+      <img src="{{ 'assets/img/attractions/02starnbergersee.jpg.webp' | relative_url }}" alt="Lake Starnberg">
+      <span>Lake Starnberg</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Lake%20Starnberg" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Lake Starnberg in Google Maps">Maps</a>
+  </div>
+  <div class="explore-card-shell">
+    <a href="https://www.alpenwelt-karwendel.de/en" target="_blank" rel="noopener noreferrer" class="explore-card" aria-label="Open Bavarian Alps / Karwendel website">
+      <img src="{{ 'assets/img/attractions/turquoise-blue-isar-with-karwendel-summer-at-the-reservoir-near-kruen.jpg' | relative_url }}" alt="Bavarian Alps">
+      <span>Bavarian Alps</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Bavarian%20Alps%20Karwendel" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Bavarian Alps / Karwendel in Google Maps">Maps</a>
+  </div>
   </div>
 </section>
 
@@ -298,10 +328,26 @@ Between lectures, participants can explore campus attractions like the iconic Pa
 
 .venue-building-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   align-items: stretch;
   margin: 1.5rem 0 2.5rem;
+}
+
+.venue-building-section > div,
+.venue-building-section > aside {
+  min-width: 0;
+  width: 100%;
+  justify-self: stretch;
+}
+
+.venue-building-section .explore-card-shell,
+.venue-building-section .explore-card,
+.venue-building-section .venue-building-card,
+.venue-building-section .venue-directions-card {
+  width: 100%;
+  max-width: none;
+  justify-self: stretch;
 }
 
 .venue-building-card {
@@ -473,6 +519,7 @@ Between lectures, participants can explore campus attractions like the iconic Pa
 .explore-card {
   position: relative;
   display: block;
+  width: 100%;
   min-height: 230px;
   border: 1px solid rgba(229, 231, 235, 0.55);
   border-radius: 24px;
@@ -481,12 +528,43 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   color: #fff;
   text-decoration: none;
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.1);
+  box-sizing: border-box;
   transition: transform 0.18s ease 0.28s, box-shadow 0.18s ease 0.28s, border-color 0.18s ease 0.28s;
 }
 
 .explore-card:not(:hover):not(:focus-visible) {
   transition-delay: 0s;
 }
+
+.explore-card::before {
+  content: "Website";
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0.42rem 0.78rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #111827;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.18);
+  opacity: 1;
+  transform: none;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+  pointer-events: none;
+}
+
 
 .explore-card:hover,
 .explore-card:focus-visible {
@@ -518,6 +596,7 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 1;
   background: linear-gradient(180deg, transparent 35%, rgba(15, 23, 42, 0.82));
   pointer-events: none;
 }
@@ -528,7 +607,7 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   left: 1rem;
   right: 1rem;
   bottom: 1rem;
-  z-index: 1;
+  z-index: 2;
   margin: 0;
   font-weight: 900;
   line-height: 1.2;
@@ -536,42 +615,92 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
-.explore-card-map::before {
-  content: "Open in Maps";
+.explore-card-shell {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  min-height: 230px;
+  box-sizing: border-box;
+}
+
+.venue-building-card-shell {
+  height: 100%;
+  min-height: 360px;
+}
+
+.explore-map-link {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  z-index: 2;
-  padding: 0.32rem 0.68rem;
+  top: 0.85rem;
+  right: 0.85rem;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.32rem;
+  min-height: 38px;
+  padding: 0.42rem 0.78rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 999px;
-  background: rgba(17, 24, 39, 0.78);
-  color: #fff;
-  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: #111827;
+  font-size: 0.72rem;
   font-weight: 900;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-decoration: none;
   text-transform: uppercase;
-  opacity: 0;
-  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.18);
+  opacity: 1;
+  transform: none;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  transition: opacity 0.18s ease 0.28s, transform 0.18s ease 0.28s;
-  pointer-events: none;
+  transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
 }
 
-.explore-card-map:hover::before,
-.explore-card-map:focus-visible::before {
-  opacity: 1;
-  transform: translateY(0);
+.explore-map-link::before {
+  content: "↗";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 999px;
+  background: #111827;
+  color: #fff;
+  font-size: 0.68rem;
+  line-height: 1;
 }
 
-.explore-card-map:not(:hover):not(:focus-visible)::before {
-  transition-delay: 0s;
+
+.explore-map-link:hover,
+.explore-map-link:focus-visible {
+  background: #111827;
+  color: #fff;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.24);
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+.explore-map-link:hover::before,
+.explore-map-link:focus-visible::before {
+  background: #fff;
+  color: #111827;
 }
 
 @media (max-width: 820px) {
   .venue-hero,
   .venue-building-section {
     grid-template-columns: 1fr;
+  }
+
+  .venue-building-section > div,
+  .venue-building-section > aside,
+  .venue-building-card-shell,
+  .venue-building-card,
+  .venue-directions-card {
+    width: 100%;
+    max-width: none;
+    justify-self: stretch;
   }
 
   .section-heading-row {
@@ -608,9 +737,11 @@ Between lectures, participants can explore campus attractions like the iconic Pa
     min-height: 220px;
   }
 
+  .venue-building-card-shell,
   .venue-building-card,
   .venue-building-card img,
   .venue-directions-card {
+    width: 100%;
     min-height: 240px;
   }
 
@@ -618,17 +749,37 @@ Between lectures, participants can explore campus attractions like the iconic Pa
     min-height: 200px;
   }
 
+  .explore-card-shell,
   .explore-card,
   .explore-card img {
     min-height: 190px;
+  }
+
+  .explore-card::before,
+  .explore-map-link {
+    opacity: 1;
+    transform: none;
+    top: 0.75rem;
+    min-height: 36px;
+    padding: 0.38rem 0.68rem;
+    font-size: 0.68rem;
+  }
+
+  .explore-card::before {
+    left: 0.75rem;
+  }
+
+  .explore-map-link {
+    right: 0.75rem;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .venue-hero-btn,
   .explore-card,
+  .explore-card::before,
   .explore-card img,
-  .explore-card-map::before {
+  .explore-map-link {
     transition: none;
   }
 

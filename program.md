@@ -203,7 +203,7 @@ We will bring together experts on software testing, validation, and verification
       <p class="program-eyebrow">Speaker sessions</p>
       <h2 id="talk-details-title">Talk Details</h2>
     </div>
-    <p class="section-heading-copy">Cards expand on hover or keyboard focus. Click or press Enter/Space on a card to keep it open.</p>
+    <p class="section-heading-copy"></p>
   </div>
   <article id="talk-nickovic" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
@@ -216,6 +216,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">AIT Austrian Institute of Technology, Austria</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -239,6 +240,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">University of Virginia, USA</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -262,6 +264,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Siemens, Belgium</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -285,6 +288,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">University of Luxembourg, Luxembourg</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -315,6 +319,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Ericsson AB, Sweden; Carleton University, Canada; Mälardalen University, Sweden</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -338,6 +343,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">The Italian Institute of Artificial Intelligence for Industry, Italy</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -364,6 +370,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Montimage EURL, France</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -398,6 +405,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">University of Glasgow, Scotland</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -421,6 +429,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">Technical University of Wien (TUW), Austria</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -444,6 +453,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">BMW Group, Germany</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -467,6 +477,7 @@ We will bring together experts on software testing, validation, and verification
         <p class="speaker-affiliation">BMW Group, Germany and Fortiss, Germany</p>
       </div>
     </div>
+    <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
@@ -798,21 +809,6 @@ We will bring together experts on software testing, validation, and verification
   opacity: 0.75;
 }
 
-.talk-card::after {
-  content: "Expand details";
-  position: absolute;
-  right: 1.15rem;
-  top: 1.1rem;
-  padding: 0.28rem 0.62rem;
-  border-radius: 999px;
-  background: #f3f4f6;
-  color: #6b7280;
-  font-size: 0.72rem;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  pointer-events: none;
-}
 
 .talk-card:hover,
 .talk-card:focus-visible,
@@ -828,16 +824,10 @@ We will bring together experts on software testing, validation, and verification
   outline-offset: 4px;
 }
 
-.talk-card.is-expanded::after {
-  content: "Pinned open";
-  background: #111827;
-  color: #fff;
-}
 
 .talk-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  padding-right: 7.5rem;
 }
 
 .talk-speaker-header {
@@ -886,45 +876,58 @@ We will bring together experts on software testing, validation, and verification
   font-size: 0.95rem;
 }
 
-.speaker-bio,
-.talk-title,
-.talk-abstract {
+.bio-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  min-height: 38px;
+  padding: 0.46rem 0.78rem;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+  color: #111827;
+  font-size: 0.82rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
+}
+
+.bio-toggle:hover {
+  background: #f8fafc;
+  border-color: #9ca3af;
+  transform: translateY(-1px);
+}
+
+.bio-toggle:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+.bio-toggle[aria-expanded="true"] {
+  background: #111827;
+  border-color: #111827;
+  color: #fff;
+}
+
+.speaker-bio {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   transform: translateY(-4px);
-  transition: max-height 0.24s ease 0.28s, opacity 0.18s ease 0.28s, transform 0.18s ease 0.28s, margin 0.18s ease 0.28s, padding 0.18s ease 0.28s;
+  transition: max-height 0.24s ease, opacity 0.18s ease, transform 0.18s ease, margin 0.18s ease, padding 0.18s ease;
 }
 
-.talk-card:not(:hover):not(:focus-visible):not(:focus-within):not(.is-expanded) .speaker-bio,
-.talk-card:not(:hover):not(:focus-visible):not(:focus-within):not(.is-expanded) .talk-title,
-.talk-card:not(:hover):not(:focus-visible):not(:focus-within):not(.is-expanded) .talk-abstract {
-  transition-delay: 0s;
-}
 
-.talk-card:hover .speaker-bio,
-.talk-card:hover .talk-title,
-.talk-card:hover .talk-abstract,
-.talk-card:focus-visible .speaker-bio,
-.talk-card:focus-visible .talk-title,
-.talk-card:focus-visible .talk-abstract,
-.talk-card:focus-within .speaker-bio,
-.talk-card:focus-within .talk-title,
-.talk-card:focus-within .talk-abstract,
-.talk-card.is-expanded .speaker-bio,
-.talk-card.is-expanded .talk-title,
-.talk-card.is-expanded .talk-abstract {
+
+.talk-card.bio-open .speaker-bio {
   max-height: 900px;
   opacity: 1;
   transform: translateY(0);
-}
-
-.talk-card:hover .speaker-bio,
-.talk-card:focus-visible .speaker-bio,
-.talk-card:focus-within .speaker-bio,
-.talk-card.is-expanded .speaker-bio {
   margin: 1rem 0 1.25rem;
   padding: 1rem;
 }
@@ -955,22 +958,15 @@ We will bring together experts on software testing, validation, and verification
 }
 
 .talk-title {
-  padding-top: 0;
-  border-top: 1px solid transparent;
+  margin: 1.25rem 0 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e5e7eb;
   color: #111827;
   font-size: 1.12rem;
   font-weight: 900;
   line-height: 1.35;
 }
 
-.talk-card:hover .talk-title,
-.talk-card:focus-visible .talk-title,
-.talk-card:focus-within .talk-title,
-.talk-card.is-expanded .talk-title {
-  margin: 1.25rem 0 0.75rem;
-  padding-top: 1.25rem;
-  border-top-color: #e5e7eb;
-}
 
 .talk-title::before {
   content: "Talk";
@@ -984,21 +980,12 @@ We will bring together experts on software testing, validation, and verification
 }
 
 .talk-abstract {
+  margin-bottom: 0.75rem;
   color: #374151;
   line-height: 1.65;
 }
 
-.talk-card:hover .talk-abstract,
-.talk-card:focus-visible .talk-abstract,
-.talk-card:focus-within .talk-abstract,
-.talk-card.is-expanded .talk-abstract {
-  margin-bottom: 0.75rem;
-}
-
-.talk-card:hover .talk-abstract:last-child,
-.talk-card:focus-visible .talk-abstract:last-child,
-.talk-card:focus-within .talk-abstract:last-child,
-.talk-card.is-expanded .talk-abstract:last-child {
+.talk-abstract:last-child {
   margin-bottom: 0;
 }
 
@@ -1013,16 +1000,6 @@ We will bring together experts on software testing, validation, and verification
 
   .program {
     border-radius: 22px;
-  }
-
-  .talk-card::after {
-    position: static;
-    display: inline-flex;
-    margin-top: 1rem;
-  }
-
-  .talk-card h3 {
-    padding-right: 0;
   }
 }
 
@@ -1065,18 +1042,13 @@ We will bring together experts on software testing, validation, and verification
 document.addEventListener('DOMContentLoaded', function () {
   var cards = document.querySelectorAll('.talk-card');
   cards.forEach(function (card) {
-    card.addEventListener('click', function (event) {
-      if (event.target.closest('a')) return;
-      var isExpanded = card.classList.toggle('is-expanded');
-      card.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-    });
+    var button = card.querySelector('.bio-toggle');
+    if (!button) return;
 
-    card.addEventListener('keydown', function (event) {
-      if (event.key !== 'Enter' && event.key !== ' ') return;
-      if (event.target.closest('a')) return;
-      event.preventDefault();
-      var isExpanded = card.classList.toggle('is-expanded');
-      card.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+    button.addEventListener('click', function () {
+      var isOpen = card.classList.toggle('bio-open');
+      button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      button.textContent = isOpen ? 'Hide bio' : 'Show bio';
     });
   });
 });

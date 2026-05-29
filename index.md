@@ -168,15 +168,17 @@ permalink: /
         <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" download="flyer.pdf" class="hero-btn hero-btn-primary">
           Download flyer
         </a>
-        <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-secondary flyer-open-btn">
-          Open PDF
-        </a>
       </div>
     </div>
 
-    <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="flyer-preview" aria-label="Open TAROT 2026 flyer PDF">
-      <iframe src="{{ '/assets/img/flyer.pdf' | relative_url }}#page=1&view=FitH&toolbar=0&navpanes=0" title="TAROT 2026 flyer preview"></iframe>
-    </a>
+    <div class="flyer-preview-wrap">
+      <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-secondary flyer-open-btn">
+        Open PDF
+      </a>
+      <a href="{{ '/assets/img/flyer.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="flyer-preview" aria-label="Open TAROT 2026 flyer PDF">
+        <iframe src="{{ '/assets/img/flyer.pdf' | relative_url }}#page=1&view=FitH&toolbar=0&navpanes=0" title="TAROT 2026 flyer preview"></iframe>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -321,22 +323,33 @@ body,
 .hero-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-top: 1.6rem;
+  gap: 0.45rem 0.9rem;
+  margin-top: 1.35rem;
   justify-content: center;
+  color: rgba(255,255,255,0.76);
+  font-size: 0.88rem;
+  font-weight: 750;
 }
 
 .hero-tags span {
   display: inline-flex;
-  padding: 0.45rem 0.72rem;
-  border: 1px solid rgba(255,255,255,0.18);
-  border-radius: 999px;
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  color: rgba(255,255,255,0.88);
-  font-size: 0.86rem;
-  font-weight: 800;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.hero-tags span:not(:last-child)::after {
+  content: "·";
+  margin-left: 0.9rem;
+  color: rgba(255,255,255,0.38);
+  font-weight: 900;
 }
 
 .hero-actions {
@@ -595,7 +608,7 @@ body,
 
 .flyer-copy {
   padding: clamp(1.45rem, 4vw, 2rem);
-  min-height: 520px;
+  min-height: 420px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -622,21 +635,34 @@ body,
 }
 
 .flyer-open-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
   color: #111827;
   border-color: #e5e7eb;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.flyer-preview-wrap {
+  position: relative;
+  min-height: 420px;
 }
 
 .flyer-preview {
   display: block;
-  height: 520px;
+  height: 420px;
   overflow: hidden;
   border: 1px solid #e5e7eb;
   border-radius: 28px;
   background: #fff;
   box-shadow: 0 22px 54px rgba(15, 23, 42, 0.16);
   position: relative;
-  transition: transform 0.18s ease 0.18s, box-shadow 0.18s ease 0.18s;
+  opacity: 0.78;
+  transition: transform 0.18s ease 0.18s, box-shadow 0.18s ease 0.18s, opacity 0.18s ease 0.18s;
 }
 
 .flyer-preview:not(:hover) {
@@ -646,6 +672,7 @@ body,
 .flyer-preview:hover {
   transform: translateY(-4px);
   box-shadow: 0 30px 80px rgba(15, 23, 42, 0.2);
+  opacity: 0.9;
 }
 
 .flyer-preview iframe {
@@ -748,12 +775,17 @@ body,
 
   .hero-tags {
     margin-top: 1rem;
-    gap: 0.4rem;
+    gap: 0.35rem 0.7rem;
+    font-size: 0.78rem;
   }
 
   .hero-tags span {
-    padding: 0.36rem 0.58rem;
-    font-size: 0.78rem;
+    padding: 0;
+    font-size: inherit;
+  }
+
+  .hero-tags span:not(:last-child)::after {
+    margin-left: 0.7rem;
   }
 
   .hero-actions {
@@ -790,9 +822,19 @@ body,
     min-height: auto;
   }
 
+  .flyer-preview-wrap {
+    min-height: 360px;
+  }
+
   .flyer-preview {
-    height: 420px;
+    height: 360px;
     border-radius: 22px;
+  }
+
+  .flyer-open-btn {
+    top: 0.75rem;
+    right: 0.75rem;
+    width: auto;
   }
 
   .flyer-preview iframe {
