@@ -61,7 +61,7 @@ permalink: /important-dates/
     <article class="update-card">
       <p class="update-kicker">Travel</p>
       <h3>Venue &amp; logistics</h3>
-      <p>Accommodation is not included in the registration fee; accommodation options and travel guidance will be shared separately.</p>
+      <p>We have added our accommodation picks close to the venue. Hotel options closer to Munich city centre will be updated soon.</p>
     </article>
   </div>
 </section>
