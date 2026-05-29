@@ -96,29 +96,29 @@ permalink: /accommodation/
         <text x="0" y="8">U6</text>
       </g>
 
-      <g class="map-stop map-stop-venue" transform="translate(430 78)">
+      <g class="map-stop map-stop-venue is-map-selected" data-area="venue" transform="translate(430 78)">
         <circle class="map-stop-halo" r="30"/>
         <circle r="14"/>
         <path class="map-star" d="M0 -7 L2.2 -2.2 L7 -2.2 L3.2 .9 L4.5 6.2 L0 3.2 L-4.5 6.2 L-3.2 .9 L-7 -2.2 L-2.2 -2.2 Z"/>
         <text class="map-mobile-label" x="-12" y="7">TUM Campus</text>
       </g>
-      <g class="map-stop map-stop-garching" transform="translate(360 142)">
+      <g class="map-stop map-stop-garching" data-area="garching" transform="translate(360 142)">
         <circle r="10"/>
         <text class="map-mobile-label" x="-12" y="7">Garching</text>
       </g>
-      <g class="map-stop" transform="translate(306 342)">
+      <g class="map-stop" data-area="nordfriedhof" transform="translate(306 342)">
         <circle r="11"/>
         <text class="map-mobile-label" x="-12" y="7">Nordfriedhof</text>
       </g>
-      <g class="map-stop" transform="translate(300 402)">
+      <g class="map-stop" data-area="freiheit" transform="translate(300 402)">
         <circle r="11"/>
         <text class="map-mobile-label" x="-12" y="7">Münchner Freiheit</text>
       </g>
-      <g class="map-stop" transform="translate(289 493)">
+      <g class="map-stop" data-area="marienplatz" transform="translate(289 493)">
         <circle r="11"/>
         <text class="map-mobile-label" x="-7" y="7">Marienplatz</text>
       </g>
-      <g class="map-stop map-stop-warning" transform="translate(275 535)">
+      <g class="map-stop map-stop-warning" data-area="sendlinger" transform="translate(275 535)">
         <circle class="map-stop-halo map-stop-halo-warning" r="32"/>
         <circle r="16"/>
         <text class="map-warning-mark" x="0" y="6">!</text>
@@ -626,9 +626,13 @@ permalink: /accommodation/
 .map-stop-warning .map-mobile-label {
   transform: translateX(-16px);
 }
-.map-stop-venue circle {
+.map-stop.is-map-selected circle:not(.map-stop-halo) {
   fill: #fbbf24;
   stroke: rgba(255,255,255,.9);
+}
+
+.map-stop.is-map-selected .map-mobile-label {
+  fill: #fbbf24;
 }
 
 .map-area-bubble {
@@ -1256,12 +1260,12 @@ document.addEventListener('DOMContentLoaded', function () {
       facts: [['Best for', 'Shortest commute'], ['Hotel focus', 'Courtyard + Stellaris']]
     },
     garching: {
-    title: 'Garching',
-    text: 'A convenient town option close to the research campus, with quick U6 access to the venue and a quieter local setting than central Munich.',
-    photo: 'stay-map-panel-photo-garching',
-    link: '#garching-area',
-    facts: [['Best for', 'Close to campus']]
-},
+      title: 'Garching',
+      text: 'A convenient town option close to the research campus, with quick U6 access to the venue and a quieter local setting than central Munich.',
+      photo: 'stay-map-panel-photo-garching',
+      link: '#garching-area',
+      facts: [['Best for', 'Close to campus']]
+    },
     nordfriedhof: {
       title: 'Nordfriedhof',
       text: 'A practical northern Munich area on the U6 corridor, close to several technology offices and business districts, including Microsoft, Amazon, and IBM locations.',
@@ -1292,6 +1296,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  // 8. Add stops NodeList after buttons
+  var stops = document.querySelectorAll('.map-stop[data-area]');
+
   function render(areaKey) {
     var area = areas[areaKey];
     if (!area) return;
@@ -1311,9 +1318,14 @@ document.addEventListener('DOMContentLoaded', function () {
         other.classList.remove('is-active');
         other.setAttribute('aria-pressed', 'false');
       });
+      // 9. Replace block with new logic for stops and area selection
+      var selectedArea = button.getAttribute('data-area');
       button.classList.add('is-active');
       button.setAttribute('aria-pressed', 'true');
-      render(button.getAttribute('data-area'));
+      stops.forEach(function (stop) {
+        stop.classList.toggle('is-map-selected', stop.getAttribute('data-area') === selectedArea);
+      });
+      render(selectedArea);
     });
   });
 });
