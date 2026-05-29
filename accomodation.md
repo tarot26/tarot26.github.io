@@ -73,9 +73,9 @@ permalink: /accommodation/
       
 
       
-      <text class="map-bg-label map-bg-label-city" x="420" y="540">MUNICH</text>
-      <text class="map-bg-label map-bg-label-city" x="420" y="560">CITY</text>
-      <text class="map-bg-label map-bg-label-city" x="420" y="580">CENTER</text>
+
+      <text class="map-bg-label map-bg-label-city" x="313" y="540">CITY</text>
+      <text class="map-bg-label map-bg-label-city" x="313" y="560">CENTER</text>
 
       <g class="map-english-garden" transform="translate(0 -45)" aria-hidden="true">
         <path d="M396 210 C428 222 454 264 458 318 C462 378 442 440 414 462 C386 484 362 454 350 404 C338 344 350 232 396 210Z"/>
