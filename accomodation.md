@@ -20,11 +20,14 @@ permalink: /accommodation/
       <h2 id="accommodation-map-title">Where to stay</h2>
     </div>
     <p class="section-heading-copy">
-      Garching is closest to the venue. Munich city options are further away but can still be convenient when located on the U6 line.
+      A visual guide to the best accommodation zones along the U6 corridor, from the campus itself to selected city-centre areas.
     </p>
   </div>
 
   <div class="stay-map-real" aria-label="Interactive accommodation map showing Munich, the U6 line, Garching, the Courtyard hotel, and the TUM-IAS venue">
+    <div class="map-compass" aria-hidden="true">
+      <span>N</span>
+    </div>
     <svg class="stay-map-svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
       <defs>
         <filter id="routeGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -34,69 +37,125 @@ permalink: /accommodation/
             <feMergeNode in="SourceGraphic"/>
           </feMerge>
         </filter>
+        <filter id="pinShadow" x="-80%" y="-80%" width="260%" height="260%">
+          <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="rgba(2,6,23,.45)"/>
+        </filter>
+        <linearGradient id="u6Gradient" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#38bdf8"/>
+          <stop offset="45%" stop-color="#0065bd"/>
+          <stop offset="100%" stop-color="#7dd3fc"/>
+        </linearGradient>
+        <radialGradient id="mapGoldGlow" cx="38%" cy="13%" r="44%">
+          <stop offset="0%" stop-color="rgba(251,191,36,.22)"/>
+          <stop offset="58%" stop-color="rgba(251,191,36,.06)"/>
+          <stop offset="100%" stop-color="rgba(251,191,36,0)"/>
+        </radialGradient>
+        <radialGradient id="mapCityGlow" cx="26%" cy="82%" r="48%">
+          <stop offset="0%" stop-color="rgba(56,189,248,.18)"/>
+          <stop offset="62%" stop-color="rgba(56,189,248,.06)"/>
+          <stop offset="100%" stop-color="rgba(56,189,248,0)"/>
+        </radialGradient>
+        <linearGradient id="mapPanelGradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#020617"/>
+          <stop offset="48%" stop-color="#0f172a"/>
+          <stop offset="100%" stop-color="#111827"/>
+        </linearGradient>
+        <pattern id="mapFineGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+          <path d="M44 0H0V44" fill="none" stroke="rgba(255,255,255,.045)" stroke-width="1"/>
+        </pattern>
       </defs>
 
-      <rect width="1200" height="600" rx="34" fill="#020617"/>
+      <rect width="1200" height="600" rx="34" fill="#0f172a"/>
+      <path class="map-bg-arc map-bg-arc-one" d="M85 515 C235 460 390 462 540 520 C730 594 920 562 1095 465"/>
+      <path class="map-bg-arc map-bg-arc-two" d="M92 115 C245 170 390 150 540 92 C715 24 910 52 1080 138"/>
+
+      
+      
+
+      
+      <text class="map-bg-label map-bg-label-city" x="420" y="540">MUNICH</text>
+      <text class="map-bg-label map-bg-label-city" x="420" y="560">CITY</text>
+      <text class="map-bg-label map-bg-label-city" x="420" y="580">CENTER</text>
+
+      <g class="map-english-garden" transform="translate(0 -45)" aria-hidden="true">
+        <path d="M396 210 C428 222 454 264 458 318 C462 378 442 440 414 462 C386 484 362 454 350 404 C338 344 350 232 396 210Z"/>
+      </g>
+      <text class="map-bg-label map-bg-label-garden" x="360" y="285">ENGLISH</text>
+      <text class="map-bg-label map-bg-label-garden" x="360" y="305">GARDEN</text>
 
 
       <g class="map-contours map-contours-marienplatz" aria-hidden="true">
-        <path d="M179 430 C223 383 308 373 374 409 C436 443 468 514 438 570 C410 623 334 644 263 622 C193 600 145 546 148 487 C150 461 160 443 179 430Z"/>
         <path d="M209 447 C244 415 308 409 355 434 C400 458 423 511 402 553 C381 593 323 609 270 591 C218 574 183 534 185 491 C186 471 195 457 209 447Z"/>
-        <path d="M238 466 C262 447 306 445 339 462 C370 479 386 516 371 544 C356 573 316 584 278 571 C242 559 217 530 219 500 C220 485 227 474 238 466Z"/>
       </g>
 
       <path class="map-u6-line map-u6-line-soft" d="M430 78 C390 92 368 112 360 142 C330 152 318 220 306 342 C300 402 292 496 275 535"/>
       <path class="map-u6-line" d="M430 78 C390 92 368 112 360 142 C330 152 318 220 306 342 C300 402 292 496 275 535"/>
-      <g class="map-u6-logo" transform="translate(335 275)">
+      <path class="map-u6-highlight" d="M430 78 C390 92 368 112 360 142 C330 152 318 220 306 342 C300 402 292 496 275 535"/>
+      <g class="map-u6-logo" transform="translate(310 275)">
         <rect x="-28" y="-20" width="56" height="40" rx="10"/>
         <text x="0" y="8">U6</text>
       </g>
 
       <g class="map-stop map-stop-venue" transform="translate(430 78)">
-        <circle r="18"/>
-        <text class="map-mobile-label" x="-36" y="7">TUM Campus</text>
+        <circle class="map-stop-halo" r="30"/>
+        <circle r="14"/>
+        <path class="map-star" d="M0 -7 L2.2 -2.2 L7 -2.2 L3.2 .9 L4.5 6.2 L0 3.2 L-4.5 6.2 L-3.2 .9 L-7 -2.2 L-2.2 -2.2 Z"/>
+        <text class="map-mobile-label" x="-12" y="7">TUM Campus</text>
+      </g>
+      <g class="map-stop map-stop-garching" transform="translate(360 142)">
+        <circle r="10"/>
+        <text class="map-mobile-label" x="-12" y="7">Garching</text>
       </g>
       <g class="map-stop" transform="translate(306 342)">
         <circle r="11"/>
-        <text class="map-mobile-label" x="-36" y="7">Nordfriedhof</text>
+        <text class="map-mobile-label" x="-12" y="7">Nordfriedhof</text>
       </g>
       <g class="map-stop" transform="translate(300 402)">
         <circle r="11"/>
-        <text class="map-mobile-label" x="-36" y="7">Münchner Freiheit</text>
+        <text class="map-mobile-label" x="-12" y="7">Münchner Freiheit</text>
       </g>
-      <g class="map-stop" transform="translate(292 496)">
+      <g class="map-stop" transform="translate(289 493)">
         <circle r="11"/>
-        <text class="map-mobile-label" x="-36" y="7">Marienplatz</text>
+        <text class="map-mobile-label" x="-7" y="7">Marienplatz</text>
       </g>
       <g class="map-stop map-stop-warning" transform="translate(275 535)">
+        <circle class="map-stop-halo map-stop-halo-warning" r="32"/>
         <circle r="16"/>
-        <text class="map-mobile-label" x="-36" y="7">Sendlinger Tor</text>
+        <text class="map-warning-mark" x="0" y="6">!</text>
+        <text class="map-mobile-label" x="-12" y="7">Sendlinger Tor</text>
       </g>
     </svg>
-    <button class="map-area-bubble map-area-bubble-venue is-active" type="button" data-area="venue" aria-controls="stay-map-panel" aria-pressed="true">
-      <span>★</span>
-      TUM Campus
-    </button>
-    <button class="map-area-bubble map-area-bubble-nordfriedhof" type="button" data-area="nordfriedhof" aria-controls="stay-map-panel" aria-pressed="false">
-      Nordfriedhof
-    </button>
-    <button class="map-area-bubble map-area-bubble-freiheit" type="button" data-area="freiheit" aria-controls="stay-map-panel" aria-pressed="false">
-      Münchner Freiheit
-    </button>
-    <button class="map-area-bubble map-area-bubble-marienplatz" type="button" data-area="marienplatz" aria-controls="stay-map-panel" aria-pressed="false">
-      Marienplatz
-    </button>
-    <button class="map-area-bubble map-area-bubble-sendlinger" type="button" data-area="sendlinger" aria-controls="stay-map-panel" aria-pressed="false">
-      <span class="map-works-icon" aria-hidden="true">⚠</span>
-      Sendlinger Tor
-    </button>
+    <div class="map-area-buttons" aria-label="Accommodation areas">
+      <button class="map-area-bubble map-area-bubble-venue is-active" type="button" data-area="venue" aria-controls="stay-map-panel" aria-pressed="true">
+        <span>★</span>
+        TUM Campus
+      </button>
+      <button class="map-area-bubble map-area-bubble-garching" type="button" data-area="garching" aria-controls="stay-map-panel" aria-pressed="false">
+
+      Garching
+
+      </button>
+      <button class="map-area-bubble map-area-bubble-nordfriedhof" type="button" data-area="nordfriedhof" aria-controls="stay-map-panel" aria-pressed="false">
+        Nordfriedhof
+      </button>
+      <button class="map-area-bubble map-area-bubble-freiheit" type="button" data-area="freiheit" aria-controls="stay-map-panel" aria-pressed="false">
+        Münchner Freiheit
+      </button>
+      <button class="map-area-bubble map-area-bubble-marienplatz" type="button" data-area="marienplatz" aria-controls="stay-map-panel" aria-pressed="false">
+        Marienplatz
+      </button>
+      <button class="map-area-bubble map-area-bubble-sendlinger" type="button" data-area="sendlinger" aria-controls="stay-map-panel" aria-pressed="false">
+        <span class="map-works-icon" aria-hidden="true">⚠</span>
+        Sendlinger Tor
+      </button>
+    </div>
 
     <aside id="stay-map-panel" class="stay-map-panel" aria-live="polite">
       <div class="stay-map-panel-photo stay-map-panel-photo-venue" role="img" aria-label="TUM campus and Garching research campus visual"></div>
       <div class="stay-map-panel-content">
         <p class="stay-map-panel-kicker">Selected area</p>
         <h3>TUM Campus Garching</h3>
-        <p>The summer school venue and Courtyard by Marriott Munich Garching are located on the campus. This is the most convenient choice for participants who want the shortest commute.</p>
+        <p>The summer school venue and the closest hotels are located directly on the research campus. Choose this area for the most effortless stay.</p>
         <dl>
           <div><dt>Best for</dt><dd>Shortest commute</dd></div>
           <div><dt>Hotel focus</dt><dd>Courtyard + Stellaris</dd></div>
@@ -154,7 +213,25 @@ permalink: /accommodation/
     </article>
   </div>
 </section>
+<section id="garching-area" class="accommodation-section area-detail-section">
+  <div class="section-heading-row">
+    <div>
+      <p class="accommodation-eyebrow">Closest town</p>
+      <h2>Garching</h2>
+    </div>
+    <p class="section-heading-copy">
+      A convenient option just south of the research campus, with direct U6 access to both TUM Campus Garching and Munich city centre.
+    </p>
+  </div>
 
+  <div class="area-grid">
+    <article class="area-card">
+      <span class="area-time">~5 min from venue</span>
+      <h3>Garching town</h3>
+      <p>Garching is a practical base for participants who want to stay close to campus while still having access to local restaurants, shops, and the U6 connection.</p>
+    </article>
+  </div>
+</section>
 
 <section id="inner-munich-areas" class="accommodation-section area-detail-section">
   <div class="section-heading-row">
@@ -197,12 +274,38 @@ permalink: /accommodation/
 
 <style>
 .accommodation-hero {
+  position: relative;
+  overflow: hidden;
   margin: 0 0 2rem;
-  padding: clamp(2rem,5vw,4rem);
-  border-radius: 30px;
-  background: linear-gradient(135deg,#111827,#1f2937 60%,#374151);
+  padding: clamp(2.2rem,5vw,4.4rem);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 82% 20%, rgba(251,191,36,.32), transparent 26%),
+    radial-gradient(circle at 14% 85%, rgba(56,189,248,.24), transparent 34%),
+    linear-gradient(135deg,#020617,#111827 58%,#334155);
   color: white;
-  box-shadow: 0 24px 60px rgba(15,23,42,.18);
+  box-shadow: 0 30px 80px rgba(15,23,42,.24);
+}
+
+.accommodation-hero::before {
+  content: "";
+  position: absolute;
+  inset: 1rem;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 26px;
+  pointer-events: none;
+}
+
+.accommodation-hero::after {
+  content: "";
+  position: absolute;
+  right: -8rem;
+  bottom: -10rem;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.07);
+  filter: blur(2px);
 }
 
 .accommodation-eyebrow {
@@ -231,28 +334,170 @@ permalink: /accommodation/
 
 .stay-map-real {
   position: relative;
-  min-height: 560px;
+  min-height: 0;
   overflow: hidden;
-  border: 1px solid rgba(226,232,240,.9);
-  border-radius: 32px;
-  background: linear-gradient(135deg,#020617,#0f172a 54%,#1f2937);
-  box-shadow: 0 28px 70px rgba(15,23,42,.22);
+  border: 1px solid rgba(226,232,240,.85);
+  border-radius: 36px;
+  background: #0f172a;
+  box-shadow: 0 36px 90px rgba(15,23,42,.3);
+  isolation: isolate;
+}
+
+.map-area-buttons {
+  position: relative;
+  z-index: 9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .65rem;
+  max-width: calc(63% - 2rem);
+  padding: 0 1.25rem 1.25rem;
 }
 
 .stay-map-real::before {
   content: "";
   position: absolute;
   inset: 1rem;
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 28px;
   pointer-events: none;
-  z-index: 1;
+  z-index: 2;
+}
+
+.stay-map-real::after {
+  content: none;
+}
+
+
+.map-compass {
+  position: absolute;
+  left: 1.55rem;
+  top: 1.55rem;
+  z-index: 6;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 999px;
+  background: rgba(2,6,23,.48);
+  color: rgba(255,255,255,.88);
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .12em;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), 0 14px 36px rgba(2,6,23,.26);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.map-compass span {
+  transform: translateY(8px);
+}
+
+.map-compass::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 11px solid #fbbf24;
+}
+
+.map-route-caption {
+  position: absolute;
+  left: 1.55rem;
+  bottom: 1.55rem;
+  z-index: 6;
+  display: grid;
+  gap: .18rem;
+  padding: .75rem .9rem;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 18px;
+  background: rgba(2,6,23,.58);
+  color: #fff;
+  box-shadow: 0 16px 42px rgba(2,6,23,.26);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.map-route-caption span {
+  color: #93c5fd;
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.map-route-caption strong {
+  font-size: .9rem;
 }
 
 .stay-map-svg {
+  position: relative;
+  z-index: 3;
   display: block;
   width: 100%;
-  height: 560px;
+  height: 600px;
+}
+
+.map-bg-arc {
+  fill: none;
+  stroke: rgba(255,255,255,.09);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 10 16;
+}
+
+.map-bg-arc-two {
+  opacity: .7;
+}
+
+.map-bg-label {
+  fill: rgba(255,255,255,.15);
+  font-size: 18px;
+  font-weight: 950;
+  letter-spacing: .2em;
+}
+
+.map-bg-label-campus {
+  fill: rgba(251,191,36,.22);
+}
+
+.map-bg-label-campus-small {
+  fill: rgba(251,191,36,.18);
+  font-size: 13px;
+  letter-spacing: .24em;
+}
+
+
+.map-bg-label-city {
+  fill: rgba(56,189,248,.2);
+}
+
+
+
+.map-bg-label-garden {
+  fill: rgba(134,239,172,.22);
+  letter-spacing: .12em;
+}
+
+
+
+
+
+.map-english-garden path:first-child {
+  fill: rgba(34,197,94,.12);
+  stroke: rgba(134,239,172,.18);
+  stroke-width: 2;
+}
+
+.map-english-garden path:last-child {
+  fill: rgba(34,197,94,.08);
+  stroke: rgba(134,239,172,.16);
+  stroke-width: 2;
 }
 
 .map-contours {
@@ -277,32 +522,37 @@ permalink: /accommodation/
 }
 
 
-.map-u6-line {
+.map-u6-line,
+.map-u6-line-soft,
+.map-u6-highlight {
   fill: none;
   stroke-linecap: round;
 }
 
 .map-u6-line {
-  fill: none;
-  stroke: #0065bd;
-  stroke-width: 13;
-  stroke-linecap: round;
+  stroke: url(#u6Gradient);
+  stroke-width: 14;
   filter: url(#routeGlow);
 }
 
-.map-u6-line-soft {
-  fill: none;
-  stroke: rgba(0,101,189,.28);
-  stroke-width: 36;
+.map-u6-highlight {
+  stroke: rgba(255,255,255,.36);
+  stroke-width: 3;
+  stroke-dasharray: 1 28;
   stroke-linecap: round;
+}
+
+.map-u6-line-soft {
+  stroke: rgba(56,189,248,.22);
+  stroke-width: 44;
   filter: none;
 }
 
 .map-u6-logo rect {
   fill: #0065bd;
-  stroke: rgba(255,255,255,.72);
+  stroke: rgba(255,255,255,.78);
   stroke-width: 2;
-  filter: url(#routeGlow);
+  filter: url(#pinShadow);
 }
 
 
@@ -314,14 +564,40 @@ permalink: /accommodation/
 }
 
 
-.map-stop circle {
+.map-stop circle:not(.map-stop-halo) {
   fill: #fff;
   stroke: #38bdf8;
   stroke-width: 6;
+  filter: url(#pinShadow);
 }
 
-.map-stop-warning circle {
+.map-stop-warning circle:not(.map-stop-halo) {
   stroke: #f59e0b;
+}
+
+.map-stop-halo {
+  fill: rgba(251,191,36,.15);
+  stroke: rgba(251,191,36,.22);
+  stroke-width: 1;
+  filter: none;
+}
+
+.map-stop-halo-warning {
+  fill: rgba(245,158,11,.12);
+  stroke: rgba(245,158,11,.2);
+}
+
+.map-star {
+  fill: #111827;
+  pointer-events: none;
+}
+
+.map-warning-mark {
+  fill: #111827;
+  font-size: 18px;
+  font-weight: 950;
+  text-anchor: middle;
+  pointer-events: none;
 }
 
 .map-stop text {
@@ -335,7 +611,20 @@ permalink: /accommodation/
 }
 
 .map-mobile-label {
-  display: none;
+  display: block;
+  fill: rgba(255,255,255,.78);
+  font-size: 15px;
+  font-weight: 900;
+  text-anchor: end;
+  transform: translateX(-12px);
+}
+
+.map-stop-venue .map-mobile-label {
+  transform: translateX(-26px);
+}
+
+.map-stop-warning .map-mobile-label {
+  transform: translateX(-16px);
 }
 .map-stop-venue circle {
   fill: #fbbf24;
@@ -343,30 +632,29 @@ permalink: /accommodation/
 }
 
 .map-area-bubble {
-  position: absolute;
-  z-index: 4;
+  position: relative;
+  z-index: 7;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: .35rem;
-  min-height: 34px;
-  padding: .34rem .62rem;
-  border: 1px solid rgba(255,255,255,.22);
+  min-height: 42px;
+  width: auto;
+  min-width: 175px;
+  padding: .58rem .9rem;
+  border: 1px solid rgba(255,255,255,.2);
   border-radius: 999px;
-  background: rgba(15,23,42,.76);
+  background: rgba(15,23,42,.72);
   color: #fff;
-  font-size: .76rem;
-  font-weight: 900;
+  font-size: .78rem;
+  font-weight: 950;
   letter-spacing: .02em;
-  white-space: nowrap;
-  min-width: 178px;
-  transform: translate(-100%, -50%);
+  white-space: normal;
   cursor: pointer;
-  box-shadow: 0 14px 34px rgba(2,6,23,.28);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 16px 38px rgba(2,6,23,.3);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   transition: transform .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease;
-  justify-content: flex-end;
-  margin-left: -18px;
 }
 
 .map-area-bubble span {
@@ -388,10 +676,10 @@ permalink: /accommodation/
 .map-area-bubble:hover,
 .map-area-bubble:focus-visible,
 .map-area-bubble.is-active {
-  transform: translate(-100%, calc(-50% - 2px));
-  border-color: rgba(251,191,36,.86);
-  background: rgba(2,6,23,.94);
-  box-shadow: 0 20px 48px rgba(2,6,23,.38);
+  transform: translateY(-2px);
+  border-color: rgba(251,191,36,.9);
+  background: rgba(2,6,23,.96);
+  box-shadow: 0 22px 54px rgba(2,6,23,.42), inset 0 0 0 1px rgba(255,255,255,.08);
 }
 
 .map-area-bubble:focus-visible {
@@ -399,54 +687,37 @@ permalink: /accommodation/
   outline-offset: 3px;
 }
 
-.map-area-bubble.is-active::after {
-  content: "";
-  position: absolute;
-  right: -.38rem;
-  top: 50%;
-  width: .75rem;
-  height: .75rem;
-  background: #fbbf24;
-  border-radius: 999px;
-  transform: translateY(-50%);
-  box-shadow: 0 0 0 6px rgba(251,191,36,.16);
-}
 
-.map-area-bubble-venue { left: 35.833%; top: 13%; }
-.map-area-bubble-nordfriedhof { left: 25.5%; top: 57%; }
-.map-area-bubble-freiheit { left: 25%; top: 67%; }
-.map-area-bubble-marienplatz { left: 24.333%; top: 82.667%; }
-.map-area-bubble-sendlinger { left: 22.917%; top: 89.167%; }
 
 .stay-map-panel {
   position: absolute;
   top: 1.25rem;
   right: 1.25rem;
   bottom: 1.25rem;
-  z-index: 5;
-  width: min(360px, 36%);
+  z-index: 8;
+  width: min(390px, 37%);
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,.18);
-  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 28px;
   background: rgba(255,255,255,.95);
   color: #111827;
-  box-shadow: 0 28px 70px rgba(2,6,23,.32);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 34px 84px rgba(2,6,23,.36);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
 }
 
 .stay-map-panel-photo {
-  min-height: 110px;
+  min-height: 150px;
   background-image:
-    linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.64)),
+    linear-gradient(180deg, rgba(15,23,42,.04), rgba(15,23,42,.68)),
     url("https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80");
   background-size: cover;
   background-position: center;
-  border-radius: 24px 24px 0 0;
+  border-radius: 28px 28px 0 0;
 }
 
 .stay-map-panel-content {
-  padding: .85rem;
+  padding: 1rem;
 }
 
 .stay-map-panel-link {
@@ -489,16 +760,16 @@ permalink: /accommodation/
 }
 
 .stay-map-panel h3 {
-  margin: 0 0 .5rem;
-  font-size: 1.08rem;
-  letter-spacing: -.03em;
+  margin: 0 0 .55rem;
+  font-size: 1.22rem;
+  letter-spacing: -.04em;
 }
 
 .stay-map-panel p {
   margin: 0;
   color: #374151;
-  font-size: .88rem;
-  line-height: 1.45;
+  font-size: .92rem;
+  line-height: 1.52;
 }
 
 .stay-map-panel dl {
@@ -510,10 +781,11 @@ permalink: /accommodation/
 .stay-map-panel dl div {
   display: grid;
   gap: .1rem;
-  padding: .5rem .6rem;
-  border-radius: 14px;
-  background: #f8fafc;
+  padding: .58rem .65rem;
+  border-radius: 16px;
+  background: linear-gradient(180deg,#f8fafc,#fff);
   border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 22px rgba(15,23,42,.05);
 }
 
 .stay-map-panel dt {
@@ -638,10 +910,10 @@ permalink: /accommodation/
 .hotel-card {
   position: relative;
   overflow: hidden;
-  border-radius: 24px;
+  border-radius: 26px;
   border: 1px solid #e5e7eb;
   background: linear-gradient(180deg,#fff,#f8fafc);
-  box-shadow: 0 14px 34px rgba(15,23,42,.07);
+  box-shadow: 0 18px 42px rgba(15,23,42,.08);
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
 
@@ -815,6 +1087,7 @@ permalink: /accommodation/
     min-height: 0;
     padding: .85rem;
     overflow: hidden;
+    border-radius: 28px;
   }
 
   .stay-map-real::before {
@@ -827,17 +1100,37 @@ permalink: /accommodation/
     display: block;
     width: 100%;
     max-width: none;
-    height: 440px;
-    border-radius: 20px;
-    background: #020617;
+    height: 460px;
+    border-radius: 22px;
+    background: transparent;
+  }
+
+  .map-compass {
+    left: 1.25rem;
+    top: 1.25rem;
+    width: 42px;
+    height: 42px;
+  }
+
+  .map-route-caption {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    margin-top: .85rem;
   }
 
   .map-mobile-label {
-    display: block;
     fill: rgba(255,255,255,.9);
-    font-size: 28px;
-    font-weight: 900;
-    text-anchor: end;
+    font-size: 24px;
+    transform: translateX(-18px);
+  }
+
+  .map-stop-venue .map-mobile-label {
+    transform: translateX(-34px);
+  }
+
+  .map-stop-warning .map-mobile-label {
+    transform: translateX(-24px);
   }
 
   .map-contours {
@@ -852,44 +1145,22 @@ permalink: /accommodation/
     stroke-width: 42;
   }
 
-  .map-area-bubble {
-    position: relative;
-    left: auto;
-    top: auto;
-    z-index: 6;
-    width: auto;
-    min-width: 0;
-    max-width: none;
-    min-height: 42px;
-    margin: .85rem .35rem 0 0;
-    padding: .58rem .75rem;
-    white-space: normal;
+  .map-area-buttons {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    transform: none;
+    gap: .55rem;
+    max-width: none;
+    padding: 0 .35rem 0;
+  }
+
+  .map-area-bubble {
+    flex: 0 1 calc(50% - .3rem);
+    min-width: 0;
+    min-height: 42px;
+    margin: .45rem 0 0;
+    justify-content: flex-start;
     font-size: .78rem;
-  }
-
-  .map-area-bubble:hover,
-  .map-area-bubble:focus-visible,
-  .map-area-bubble.is-active {
-    transform: translateY(-1px);
-  }
-
-  .map-area-bubble.is-active::after {
-    display: none;
-  }
-
-  .map-area-bubble.is-active {
-    box-shadow: inset 0 0 0 2px rgba(251,191,36,.72), 0 14px 34px rgba(2,6,23,.28);
-  }
-
-  .map-area-bubble-venue,
-  .map-area-bubble-nordfriedhof,
-  .map-area-bubble-freiheit,
-  .map-area-bubble-marienplatz,
-  .map-area-bubble-sendlinger {
-    left: auto;
-    top: auto;
   }
 
   .stay-map-panel {
@@ -899,13 +1170,44 @@ permalink: /accommodation/
     bottom: auto;
     width: 100%;
     min-width: 0;
-    margin: 1rem 0 0;
+    margin: 1.25rem 0 0;
     max-height: none;
     overflow: hidden;
   }
 
   .stay-map-panel-photo {
     min-height: 150px;
+  }
+
+  .map-bg-label {
+    font-size: 15px;
+  }
+
+  .map-bg-label-garden,
+  .map-bg-label-city,
+ 
+
+  .map-bg-label-garden {
+    transform: none;
+  }
+
+  .map-bg-label-city {
+    transform: translateY(-54px);
+  }
+
+  .map-bg-arc {
+    stroke-width: 2.6;
+  }
+}
+
+@media (min-width:761px) and (max-width:1080px) {
+  .map-area-buttons {
+    max-width: calc(58% - 2rem);
+  }
+
+  .map-area-bubble {
+    min-width: 155px;
+    font-size: .74rem;
   }
 }
 
@@ -923,8 +1225,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateMapViewBox() {
     if (!mapSvg) return;
     if (mobileQuery.matches) {
-      mapSvg.setAttribute('viewBox', '85 35 530 535');
-      mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+      mapSvg.setAttribute('viewBox', '20 20 650 560');
+      mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
     } else {
       mapSvg.setAttribute('viewBox', '0 0 1200 600');
       mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
@@ -948,11 +1250,18 @@ document.addEventListener('DOMContentLoaded', function () {
   var areas = {
     venue: {
       title: 'TUM Campus Garching',
-      text: 'The summer school venue and Courtyard by Marriott Munich Garching are located on the campus. This is the most convenient choice for participants who want the shortest commute.',
+      text: 'The summer school venue and the closest hotels are located directly on the research campus. Choose this area for the most effortless stay.',
       photo: 'stay-map-panel-photo-venue',
       link: '#tum-campus-hotels',
       facts: [['Best for', 'Shortest commute'], ['Hotel focus', 'Courtyard + Stellaris']]
     },
+    garching: {
+    title: 'Garching',
+    text: 'A convenient town option close to the research campus, with quick U6 access to the venue and a quieter local setting than central Munich.',
+    photo: 'stay-map-panel-photo-garching',
+    link: '#garching-area',
+    facts: [['Best for', 'Close to campus']]
+},
     nordfriedhof: {
       title: 'Nordfriedhof',
       text: 'A practical northern Munich area on the U6 corridor, close to several technology offices and business districts, including Microsoft, Amazon, and IBM locations.',
