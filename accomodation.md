@@ -227,11 +227,53 @@ permalink: /accommodation/
     </p>
   </div>
 
-  <div class="area-grid">
-    <article class="area-card">
-      <span class="area-time">~5 min from venue</span>
-      <h3>Garching town</h3>
-      <p>Garching is a practical base for participants who want to stay close to campus while still having access to local restaurants, shops, and the U6 connection.</p>
+  <div class="hotel-grid">
+    <article class="hotel-card">
+      <div class="hotel-photo hotel-photo-ibis-garching" role="img" aria-label="ibis München Garching hotel image">
+        <span>Budget</span>
+      </div>
+      <div class="hotel-card-body">
+        <div class="hotel-badge">Approx. 2 U6 stops · ~15 min to campus</div>
+        <h3>ibis München Garching</h3>
+        <p class="hotel-type">Budget-friendly · Practical stay</p>
+        <p>One of the budget options in Garching: simple, practical, and well suited for participants who want to keep accommodation costs lower while staying on the U6 corridor.</p>
+        <div class="hotel-actions">
+          <a href="https://all.accor.com/hotel/3679/index.en.shtml" target="_blank" rel="noopener noreferrer">Website</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=ibis%20M%C3%BCnchen%20Garching" target="_blank" rel="noopener noreferrer">Maps</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="hotel-card">
+      <div class="hotel-photo hotel-photo-motel-one-garching" role="img" aria-label="Motel One München-Garching hotel image">
+        <span>Design hotel</span>
+      </div>
+      <div class="hotel-card-body">
+        <div class="hotel-badge">Approx. 2 U6 stops · ~15 min to campus</div>
+        <h3>Motel One München-Garching</h3>
+        <p class="hotel-type">Design hotel · Good value</p>
+        <p>A more polished design-hotel option near the U6: still practical for the campus, but with a stronger style and comfort focus than the budget hotels.</p>
+        <div class="hotel-actions">
+          <a href="https://www.motel-one.com/de/hotels/muenchen/hotel-muenchen-garching/" target="_blank" rel="noopener noreferrer">Website</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Motel%20One%20M%C3%BCnchen-Garching" target="_blank" rel="noopener noreferrer">Maps</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="hotel-card">
+      <div class="hotel-photo hotel-photo-bb-garching" role="img" aria-label="B&B HOTEL Munich-Garching hotel image">
+        <span>Simple stay</span>
+      </div>
+      <div class="hotel-card-body">
+        <div class="hotel-badge">Approx. 2 U6 stops · ~15 min to campus</div>
+        <h3>B&amp;B HOTEL Munich-Garching</h3>
+        <p class="hotel-type">Affordable · Modern rooms</p>
+        <p>Another clear budget choice in Garching, offering straightforward modern rooms for participants who mainly need an affordable, reliable base near the U6.</p>
+        <div class="hotel-actions">
+          <a href="https://www.hotel-bb.com/en/hotel/muenchen-garching" target="_blank" rel="noopener noreferrer">Website</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=B%26B%20HOTEL%20Munich-Garching" target="_blank" rel="noopener noreferrer">Maps</a>
+        </div>
+      </div>
     </article>
   </div>
 </section>
@@ -974,10 +1016,40 @@ permalink: /accommodation/
   background-position: center;
 }
 
+.hotel-photo-ibis-garching {
+  background-image:
+    linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.72)),
+    url("{{ '/assets/img/attractions/3679_ho_01_p_1024x768.jpg' | relative_url }}");
+  background-size: cover;
+  background-position: center;
+}
+
+.hotel-photo-motel-one-garching {
+  background-image:
+    linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.72)),
+    url("{{ '/assets/img/attractions/MO-Hotel-Muenchen-Garching-Outdoor-3.jpg' | relative_url }}");
+  background-size: cover;
+  background-position: center;
+}
+
+.hotel-photo-bb-garching {
+
+  background-image:
+
+    linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.72)),
+
+    url("{{ '/assets/img/attractions/0498f661-e1cc-45e7-9aca-0cc9701eafb4.jpeg' | relative_url }}");
+
+  background-size: cover;
+
+  background-position: center;
+
+}
+
 .hotel-photo-budget {
   background-image:
     linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.72)),
-    url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplathe sh.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80");
   background-size: cover;
   background-position: center;
 }
@@ -1267,7 +1339,7 @@ document.addEventListener('DOMContentLoaded', function () {
       text: 'A convenient town option close to the research campus, with quick U6 access to the venue and a quieter local setting than central Munich.',
       photo: 'stay-map-panel-photo-garching',
       link: '#garching-area',
-      facts: [['Best for', 'Close to campus']]
+      facts: [['Best for', 'Close to campus'], ['Hotel focus', 'ibis + Motel One + B&B']]
     },
     nordfriedhof: {
       title: 'Nordfriedhof',
