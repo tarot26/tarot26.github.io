@@ -1225,7 +1225,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateMapViewBox() {
     if (!mapSvg) return;
     if (mobileQuery.matches) {
-      mapSvg.setAttribute('viewBox', '20 20 650 560');
+      mapSvg.setAttribute('viewBox', '-45 20 650 560');
       mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
     } else {
       mapSvg.setAttribute('viewBox', '0 0 1200 600');
