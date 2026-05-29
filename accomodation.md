@@ -66,8 +66,11 @@ permalink: /accommodation/
       </defs>
 
       <rect width="1200" height="600" rx="34" fill="#0f172a"/>
-      <path class="map-bg-arc map-bg-arc-one" d="M85 515 C235 460 390 462 540 520 C730 594 920 562 1095 465"/>
-      <path class="map-bg-arc map-bg-arc-two" d="M92 115 C245 170 390 150 540 92 C715 24 910 52 1080 138"/>
+      <path class="map-bg-arc map-bg-arc-one" d="M-80 520 C120 438 310 450 510 520 C735 600 945 575 1280 438"/>
+      <path class="map-bg-arc map-bg-arc-two" d="M-90 112 C120 190 330 170 540 88 C760 4 980 42 1290 154"/>
+      <path class="map-bg-arc map-bg-arc-three" d="M-70 318 C135 245 340 265 552 330 C785 402 1000 384 1270 286"/>
+      <path class="map-bg-arc map-bg-arc-four" d="M-80 44 C165 92 340 48 545 18 C770 -16 980 8 1280 76"/>
+      <path class="map-bg-arc map-bg-arc-five" d="M-90 586 C155 548 355 570 565 622 C785 676 1010 640 1290 540"/>
 
       
       
@@ -1229,8 +1232,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateMapViewBox() {
     if (!mapSvg) return;
     if (mobileQuery.matches) {
-      mapSvg.setAttribute('viewBox', '-45 20 650 560');
-      mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
+      mapSvg.setAttribute('viewBox', '-45 0 650 600');
+      mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
     } else {
       mapSvg.setAttribute('viewBox', '0 0 1200 600');
       mapSvg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
