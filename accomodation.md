@@ -220,11 +220,6 @@ permalink: /accommodation/
   </div>
 
   <div class="area-grid">
-    <article id="ismaning-area" class="area-card">
-      <span class="area-time">Between Munich and Garching</span>
-      <h3>Ismaning</h3>
-      <p>A quieter suburban base for participants who want to stay outside the city centre while remaining within reach of both Munich and the Garching campus.</p>
-    </article>
 
     <article id="nordfriedhof-area" class="area-card">
       <span class="area-time">~20 min from venue</span>
