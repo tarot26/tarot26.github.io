@@ -595,7 +595,11 @@ permalink: /accommodation/
     linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.64)),
     url("https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80");
 }
-
+.stay-map-panel-photo-ismaning {
+  background-image:
+    linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.64)),
+    url("{{ '/assets/img/attractions/DSC0031.jpg' | relative_url }}");
+}
 .stay-map-panel-photo-nordfriedhof {
   background-image:
     linear-gradient(180deg, rgba(15,23,42,.08), rgba(15,23,42,.64)),
@@ -1034,7 +1038,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ismaning: {
       title: 'Ismaning',
       text: 'A quieter suburban option between Munich and Garching. Convenient for participants looking for a calmer base while remaining within reach of the venue.',
-      photo: 'stay-map-panel-photo-garching',
+      photo: 'stay-map-panel-photo-ismaning',
       link: '#ismaning-area',
       facts: [['Best for', 'Quiet suburban stay'], ['Transit', 'Connections toward Munich and Garching']]
     },
