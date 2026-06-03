@@ -244,14 +244,11 @@ We will bring together experts on software testing, validation, and verification
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
-        Sebastian Elbaum's research aims to build dependable systems through domain-specific and mostly automated analysis techniques, with a current focus on autonomous systems.
-      </p>
-      <p>
-        His teaching centers on instilling cost-effective software development principles. He is a founding member of LESS, the Lab for Engineering Safe Software at the University of Virginia.
+        Sebastian Elbaum is the Lowell Professor in the Department of Computer Science at the University of Virginia where he co-leads the Lab for Engineering Safe Software (LESS Lab). He aims to build dependable autonomous systems. He is the recipient of a National Science Foundation Career Award, an IBM Innovation Award, a Google Faculty Research Award, an Amazon Scholar recognition, an FSE Test of Time Award, multiple ACM SigSoft Distinguished and best paper awards. He regularly serves in program committees at the top software engineering and robotic conferences, and has served as Program Co-Chair for ISSTA, ESEM, and ICSE, and as Steering Committee Chair for ICSE. He is an Adjunct Senior Fellow for Emerging Computing Technologies at the Council on Foreign Relations connecting autonomous systems and AI with policy in national security. He is a council member for the CRA Computer Community Consortium. He is an ACM Fellow and an IEEE Fellow.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Sensors, Rules, Models: Rethinking V&V for Autonomous Vehicles</p>
+    <p class="talk-abstract">The promise of autonomous vehicles (AVs) hinges on a single, uncompromising prerequisite: rigorous driving assurances. Yet, specifying, testing, and verifying these safety architectures remains an incredible challenge. This difficulty is driven by a trio of distinct hurdles: first, the vast, unpredictable environment that must be mapped against intricate driving rules; second, the acute semantic gap dividing high-dimensional raw sensor data from high-level symbolic safety concepts; and third, the relentless pace of model evolution, where spiraling complexity causes late-stage development costs to escalate prohibitively. Reflecting on our work within this high-stakes landscape, I will walk you through a family of end-to-end analyses that overcome these hurdles by breaking the boundaries of traditional validation and verification. I will show you the core insights behind these techniques, lay out the empirical evidence of their efficacy and their impact in practice, and put hard questions and real-world problems to the room, challenging us to collectively map out the remaining frontiers in autonomous systems safety.</p>
   </article>
   <article id="talk-tong" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
@@ -356,8 +353,8 @@ We will bring together experts on software testing, validation, and verification
         He holds a Ph.D. in Machine Learning, awarded cum laude, from the Technical University of Munich, and received the Best Paper Award in AI Safety at IJCAI 2023.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+        <p class="talk-title">Hands-on AI Red Teaming: Attacking and Defending LLM Agents with HackAgent</p>
+    <p class="talk-abstract">AI agents are changing the way applications interact with users, data, and external tools. At the same time, they introduce new attack surfaces that cannot be fully addressed with traditional software security techniques. Prompt injection, malicious instructions, unsafe tool use, and multimodal manipulation can all influence how these systems behave. In this seminar,  participants will learn the fundamentals of adversarial attacks against LLMs and multimodal LLMs, with a strong focus on practical experimentation. After a brief overview of the main concepts and threat models, participants will engage in a hands-on session using HackAgent to explore realistic attack scenarios in a controlled environment.</p>
   </article>
   <article id="talk-mallouli" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
