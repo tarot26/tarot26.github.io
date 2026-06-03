@@ -110,29 +110,17 @@ permalink: /sponsors/
 
 <div class="sponsors-logos" aria-label="Supporters">
   <!-- Fortiss -->
-  <a href="https://www.fortiss.org/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit fortiss website">
     <img src="{{ '/assets/img/sponsors/fortiss.png' | relative_url }}" alt="fortiss logo">
-  </a>
   <!-- AIT -->
-  <a href="https://www.ait.ac.at/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit AIT Austrian Institute of Technology website">
     <img src="{{ '/assets/img/sponsors/ait_logo_ohne_claim_c1_rgb.jpg' | relative_url }}" alt="AIT Austrian Institute of Technology logo">
-  </a>
   <!-- AI4I -->
-  <a href="https://ai4i.it/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit AI4I website">
     <img src="{{ '/assets/img/sponsors/logoAI4I_2026.png' | relative_url }}" alt="AI4I logo">
-  </a>
   <!-- RobustifAI -->
-  <a href="https://robustifai.eu/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit RobustifAI website">
     <img src="{{ '/assets/img/sponsors/logo-robustifAi-color.png' | relative_url }}" alt="RobustifAI logo">
-  </a>
   <!-- IAS -->
-  <a href="https://ai4i.it/csp-ias/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit Institute for Advanced Study website">
     <img src="{{ '/assets/img/sponsors/IASlogo.png' | relative_url }}" alt="Institute for Advanced Study logo">
-  </a>
   <!-- Fondazione CSP -->
-  <a href="https://www.compagniadisanpaolo.it/it/news/ricerca-e-innovazione-nasce-il-compagnia-di-san-paolo-institute-for-advanced-study/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit Fondazione Compagnia di San Paolo website">
     <img src="{{ '/assets/img/sponsors/logoFCSP.png' | relative_url }}" alt="Fondazione Compagnia di San Paolo logo">
-  </a>
 </div>
 </section>
 
