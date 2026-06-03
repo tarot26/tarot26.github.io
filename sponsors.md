@@ -109,18 +109,31 @@ permalink: /sponsors/
 <h2 id="supporters-title">Supporters</h2>
 
 <div class="sponsors-logos" aria-label="Supporters">
-  <!-- Fortiss -->
+
+  <div class="sponsor-logo">
     <img src="{{ '/assets/img/sponsors/fortiss.png' | relative_url }}" alt="fortiss logo">
-  <!-- AIT -->
+  </div>
+
+  <div class="sponsor-logo">
     <img src="{{ '/assets/img/sponsors/ait_logo_ohne_claim_c1_rgb.jpg' | relative_url }}" alt="AIT Austrian Institute of Technology logo">
-  <!-- AI4I -->
+  </div>
+
+  <div class="sponsor-logo">
     <img src="{{ '/assets/img/sponsors/logoAI4I_2026.png' | relative_url }}" alt="AI4I logo">
-  <!-- RobustifAI -->
+  </div>
+
+  <div class="sponsor-logo">
     <img src="{{ '/assets/img/sponsors/logo-robustifAi-color.png' | relative_url }}" alt="RobustifAI logo">
-  <!-- IAS -->
+  </div>
+
+  <div class="sponsor-logo">
     <img src="{{ '/assets/img/sponsors/IASlogo.png' | relative_url }}" alt="Institute for Advanced Study logo">
-  <!-- Fondazione CSP -->
+  </div>
+
+  <div class="sponsor-logo">
     <img src="{{ '/assets/img/sponsors/logoFCSP.png' | relative_url }}" alt="Fondazione Compagnia di San Paolo logo">
+  </div>
+
 </div>
 </section>
 
