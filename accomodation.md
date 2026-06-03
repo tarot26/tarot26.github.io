@@ -143,7 +143,7 @@ permalink: /accommodation/
         <span>Budget</span>
       </div>
       <div class="hotel-card-body">
-        <div class="hotel-badge">Approx. 2 U6 stops · ~15 min to campus</div>
+        <div class="hotel-badge">Approx. 2 U6 stops · ~15  min to campus</div>
         <h3>ibis München Garching</h3>
         <p class="hotel-type">Budget-friendly · Practical stay</p>
         <p>One of the budget options in Garching: simple, practical, and well suited for participants who want to keep accommodation costs lower while staying on the U6 corridor.</p>
