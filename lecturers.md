@@ -55,8 +55,7 @@ permalink: /school/lecturers/
     <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
-      <p>Sebastian Elbaum's research aims to build dependable systems through domain-specific and mostly automated analysis techniques, with a current focus on autonomous systems.</p>
-      <p>His teaching centers on instilling cost-effective software development principles. He is a founding member of LESS, the Lab for Engineering Safe Software at the University of Virginia.</p>
+      <p>Sebastian Elbaum is the Lowell Professor in the Department of Computer Science at the University of Virginia where he co-leads the Lab for Engineering Safe Software (LESS Lab). He aims to build dependable autonomous systems. He is the recipient of a National Science Foundation Career Award, an IBM Innovation Award, a Google Faculty Research Award, an Amazon Scholar recognition, an FSE Test of Time Award, multiple ACM SigSoft Distinguished and best paper awards. He regularly serves in program committees at the top software engineering and robotic conferences, and has served as Program Co-Chair for ISSTA, ESEM, and ICSE, and as Steering Committee Chair for ICSE. He is an Adjunct Senior Fellow for Emerging Computing Technologies at the Council on Foreign Relations connecting autonomous systems and AI with policy in national security. He is a council member for the CRA Computer Community Consortium. He is an ACM Fellow and an IEEE Fellow.</p>
     </div>
   </div>
 
