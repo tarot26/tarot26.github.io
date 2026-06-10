@@ -189,7 +189,7 @@ permalink: /
     <h2 id="final-cta-title">Join TAROT 2026 at TUM</h2>
     <p>Pre-register, explore the program, and meet the invited speakers.</p>
     <div class="hero-actions">
-      <a href="{{ '/registration/' | relative_url }}" class="hero-btn hero-btn-primary">Register interest</a>
+      <a href="{{ '/registration/' | relative_url }}" class="hero-btn hero-btn-primary">Register here!</a>
       <a href="{{ '/venue/' | relative_url }}" class="hero-btn hero-btn-secondary">Explore venue</a>
     </div>
   </div>
