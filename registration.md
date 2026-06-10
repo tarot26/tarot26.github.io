@@ -9,7 +9,7 @@ permalink: /registration/
   <p class="registration-eyebrow">Join TAROT 2026</p>
   <h1 id="registration-title">Registration</h1>
   <p class="registration-lede">
-    Registration for TAROT 2026 will open soon. Pre-register to express your interest and receive future updates about participation, fees, and payment details.
+    Registration for TAROT 2026 is available at: <a href="https://www.events.tum.de/frontend/index.php?sub=277">https://www.events.tum.de/frontend/index.php?sub=277</a>
   </p>
 </section>
 
@@ -67,7 +67,7 @@ permalink: /registration/
       <h2 id="form-title">Pre-registration form</h2>
     </div>
     <p class="section-heading-copy">
-      Further details on registration and payment methods will be announced soon. Please use the form below to pre-register.
+      Please use the form below to let us know if you wish to present your work and bring a poster!
     </p>
   </div>
 
