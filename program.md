@@ -460,8 +460,10 @@ We will bring together experts on software testing, validation, and verification
         His work focuses on Data Science, Conversational AI, and Robotic System Integration, with applications in intelligent and autonomous automotive systems.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Benchmarking Generative AI for the In-Car Domain: Methods, Tools, and Hands-On Evaluation</p>
+    <p class="talk-abstract">Generative AI in the in-car domain, particularly in conversational speech-based assistants, is redefining in-vehicle interactions through natural dialogue, contextual awareness, and proactive assistance within driving contexts.
+
+This talk centers on AI-specific testing and benchmarking for voice-based systems. We will talk about BMW’s evolution from a hardware-driven manufacturer to an integrated software solutions provider. And how the advent of non-deterministic AI paved the way for flexible, scalabe testing solutions. As LLM-based voice assistants become embedded in modern cars, testing strategies must consider synthetic data generation, automated evaluation, and end-to-end benchmarking to ensure a reliable, safe and therefore trustworthy customer experience across navigation, infotainment and safety-relevant domains.</p>
   </article>
   <article id="talk-sorokin" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
@@ -471,21 +473,25 @@ We will bring together experts on software testing, validation, and verification
           Lev Sorokin
           <a class="speaker-website" href="https://www.linkedin.com/in/lev-sorokin-a90011190/" target="_blank" rel="noopener noreferrer">Website</a>
         </h3>
-        <p class="speaker-affiliation">BMW Group, Germany and Fortiss, Germany</p>
+        <p class="speaker-affiliation">BMW Group, Germany and TUM, Germany</p>
       </div>
     </div>
     <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
       <p>
-        Lev Sorokin is a Researcher at BMW Group, where he currently focuses on testing for Generative AI.
+        Lev Sorokin is a Researcher at BMW Group, where he currently focuses on testing conversational agents based on Generative AI.
       </p>
       <p>
-        He has a background in formal methods and software engineering, with research interests in the validation of dependable systems. His previous work at fortiss included simulation-based testing, runtime monitoring, and assurance cases for safe autonomous systems.
+        He has a background in formal methods and software engineering, with research interests in the validation of dependable systems. His work also includes simulation-based testing using evolutionary approaches to ensure the safety of autonomous driving systems.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Benchmarking Generative AI for the In-Car Domain: Methods, Tools, and Hands-On Evaluation</p>
+    <p class="talk-abstract">As generative AI becomes part of customer-facing and potentially safety-relevant workflows, systematic evaluation is essential to assess their capabilities, limitations and robustness. This talk presents scalable and automated testing approaches for evaluating Generative-AI based conversational assistants.
+
+Participants will gain insights into the design of benchmarking tasks, the construction of datasets, and the assessment of system performance using fully automated evaluation of metrics. In the accompanying hands-on session, participants will evaluate an AI-powered in-car assistant on realistic vehicle-related use cases. Through guided experiments, attendees will learn how to design benchmark scenarios, analyze system behavior, and interpret evaluation outcomes. 
+
+The session concludes with a discussion of current research challenges and emerging directions for the development and evaluation of trustworthy conversational AI systems.</p>
   </article>
 </section>
 
