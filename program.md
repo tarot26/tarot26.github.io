@@ -460,7 +460,7 @@ We will bring together experts on software testing, validation, and verification
         His work focuses on Data Science, Conversational AI, and Robotic System Integration, with applications in intelligent and autonomous automotive systems.
       </p>
     </div>
-    <p class="talk-title">Benchmarking Generative AI for the In-Car Domain: Methods, Tools, and Hands-On Evaluation</p>
+    <p class="talk-title">Benchmarking Generative AI for the In-Car Domain: Methods, Tools, and Hands-On Evaluation (Part 1/3)</p>
     <p class="talk-abstract">Generative AI in the in-car domain, particularly in conversational speech-based assistants, is redefining in-vehicle interactions through natural dialogue, contextual awareness, and proactive assistance within driving contexts.
 
 This talk centers on AI-specific testing and benchmarking for voice-based systems. We will talk about BMW’s evolution from a hardware-driven manufacturer to an integrated software solutions provider. And how the advent of non-deterministic AI paved the way for flexible, scalabe testing solutions. As LLM-based voice assistants become embedded in modern cars, testing strategies must consider synthetic data generation, automated evaluation, and end-to-end benchmarking to ensure a reliable, safe and therefore trustworthy customer experience across navigation, infotainment and safety-relevant domains.</p>
@@ -486,7 +486,7 @@ This talk centers on AI-specific testing and benchmarking for voice-based system
         He has a background in formal methods and software engineering, with research interests in the validation of dependable systems. His work also includes simulation-based testing using evolutionary approaches to ensure the safety of autonomous driving systems.
       </p>
     </div>
-    <p class="talk-title">Benchmarking Generative AI for the In-Car Domain: Methods, Tools, and Hands-On Evaluation</p>
+    <p class="talk-title">Benchmarking Generative AI for the In-Car Domain: Methods, Tools, and Hands-On Evaluation (Part 2-3)</p>
     <p class="talk-abstract">As generative AI becomes part of customer-facing and potentially safety-relevant workflows, systematic evaluation is essential to assess their capabilities, limitations and robustness. This talk presents scalable and automated testing approaches for evaluating Generative-AI based conversational assistants.
 
 Participants will gain insights into the design of benchmarking tasks, the construction of datasets, and the assessment of system performance using fully automated evaluation of metrics. In the accompanying hands-on session, participants will evaluate an AI-powered in-car assistant on realistic vehicle-related use cases. Through guided experiments, attendees will learn how to design benchmark scenarios, analyze system behavior, and interpret evaluation outcomes. 
