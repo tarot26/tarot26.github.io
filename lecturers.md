@@ -70,7 +70,7 @@ permalink: /school/lecturers/
         <p class="org-topic">ADAS · Digital twins · AI validation</p>
       </div>
     </div>
-    <a href="https://be.linkedin.com/in/tongduyson" target="_blank" rel="noopener noreferrer" class="website-toggle" aria-label="Open Dr. Son Tong profile">Website</a>
+    <a href="https://tongduyson.com/" target="_blank" rel="noopener noreferrer" class="website-toggle" aria-label="Open Dr. Son Tong profile">Website</a>
     <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>

@@ -256,7 +256,7 @@ We will bring together experts on software testing, validation, and verification
       <div>
         <h3>
           Dr. Son Tong
-          <a class="speaker-website" href="https://be.linkedin.com/in/tongduyson" target="_blank" rel="noopener noreferrer">Website</a>
+          <a class="speaker-website" href="https://tongduyson.com/" target="_blank" rel="noopener noreferrer">Website</a>
         </h3>
         <p class="speaker-affiliation">Siemens, Belgium</p>
       </div>
@@ -271,8 +271,8 @@ We will bring together experts on software testing, validation, and verification
         He currently leads an R&amp;D team of research engineers and industrial Ph.D. students working on control, AI, generative AI, simulation, and autonomous driving.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Engineering Workflow, Reimagined with Agentic AI</p>
+    <p class="talk-abstract">Modern engineering relies on a wide range of tools for requirements management, design, simulation, optimization, validation, data analytics, and AI. This talk explores a future vision in which these tools collaborate as autonomous AI agents within an Agentic AI framework, helping engineers automate workflows, accelerate development, and improve performance while maintaining engineer-centric supervision. The session concludes with an introduction to the European AI-BOOST Generative AI Challenge on ADAS scenario generation</p>
   </article>
   <article id="talk-pastore" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
