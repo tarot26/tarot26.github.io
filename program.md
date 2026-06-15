@@ -226,8 +226,8 @@ We will bring together experts on software testing, validation, and verification
         His research interests include cyber-physical systems, runtime verification, testing, contract-based design, and real-time systems.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Robustness verification of Deep Neural Networks</p>
+    <p class="talk-abstract">Deep Neural Networks (DNNs) have become the dominant solution for perception, prediction, and decision-making tasks across a wide range of domains. As these systems are increasingly deployed in safety-critical applications, robustness has emerged as one of their most important properties, reflecting the ability of a model to maintain correct and predictable behavior under perturbations, uncertainties, and distributional variations. In this presentation, we will formally introduce the notion of robustness and discuss the challenges associated with assessing and guaranteeing robustness in DNNs. We will provide an overview of the main verification and analysis techniques that have been developed to reason about robustness, highlighting their underlying principles, strengths, and limitations. More specifically, we will examine approaches for robustness testing, verification of local robustness, and verification of global robustness, together with their representative application scenarios. Finally, we will look beyond traditional neural network architectures and discuss emerging challenges in reasoning about the robustness of modern DNN-based systems, such as large-scale foundation models.</p>
   </article>
   <article id="talk-elbaum" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
