@@ -326,8 +326,8 @@ We will bring together experts on software testing, validation, and verification
         She is also a Senior Lecturer at Mälardalen University and an Adjunct Professor at Carleton University in Ottawa, Canada.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Testing Agents and Agent Testing in Industry</p>
+    <p class="talk-abstract">The future of developing and testing any software (even AI) is AI enabled. Through carefully crafting of Agents, in an orchestration framework, you can now build agents. With the right frameworks and set up you can interactively produce a relative trustworthy test environment – the limit will be your own knowledge and ingenuity. In Industry more of the testing is now handed over to a series of agents aiding in different tasks, with the goal to provide quality systems.  We will address several layers of testing and verification approaches throughout the software life cycle.</p>
   </article>
   <article id="talk-franco" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
