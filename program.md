@@ -169,7 +169,7 @@ We will bring together experts on software testing, validation, and verification
         </th>
         <td class="slot-student">Student Talks</td>
         <td class="slot-social">Visit/Tour</td>
-        <td class="slot-social">Visit/Tour</td>
+        <td class="slot-student">Student Talks</td>
         <td class="slot-student">Student Talks</td>
         <td class="slot-empty">-</td>
       </tr>
