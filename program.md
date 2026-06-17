@@ -135,7 +135,7 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-time">14:00 - 14:45</span>
         </th>
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
-        <td class="slot-student">Student Talks</td>
+        <td class="slot-lecture"><a href="#talk-bartocci">E. Bartocci</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
         <td class="slot-lecture"><a href="#talk-eldth">S. Eldth</a></td>
         <td class="slot-empty">-</td>
