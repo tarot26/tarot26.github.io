@@ -7,10 +7,6 @@ permalink: /important-dates/
 <section class="dates-hero" aria-labelledby="dates-title">
   <p class="dates-eyebrow">TAROT 2026 schedule</p>
   <h1 id="dates-title">Important Dates</h1>
-  <p class="dates-lede">
-    Plan your participation for TAROT 2026. The school dates are confirmed, while
-    registration opening, and final programme will be published at a later date.
-  </p>
 </section>
 
 <section class="dates-section" aria-labelledby="main-dates-title">
