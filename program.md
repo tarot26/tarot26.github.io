@@ -179,8 +179,8 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-time">19:00 - 22:00</span>
         </th>
         <td class="slot-social">Reception</td>
-        <td class="slot-social">Biergarten</td>
-        <td class="slot-social">Social Dinner</td>
+        <td class="slot-social">Free Time</td>
+        <td class="slot-social">Social Event</td>
         <td class="slot-social">Biergarten</td>
         <td class="slot-empty"></td>
       </tr>
