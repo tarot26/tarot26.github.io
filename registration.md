@@ -9,7 +9,7 @@ permalink: /registration/
   <p class="registration-eyebrow">Join TAROT 2026</p>
   <h1 id="registration-title">Registration</h1>
   <p class="registration-lede">
-    Registration for TAROT 2026 is available at: <a href="https://www.events.tum.de/frontend/index.php?sub=277">https://www.events.tum.de/frontend/index.php?sub=277</a>
+    The registration for TAROT 2026 closed on 30 June 2026.
   </p>
 </section>
 
@@ -60,6 +60,7 @@ permalink: /registration/
   </div>
 </section>
 
+<!--
 <section class="registration-section registration-form-section" aria-labelledby="form-title">
   <div class="section-heading-row">
     <div>
@@ -75,6 +76,7 @@ permalink: /registration/
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmjvVVrbAmy0Wh_ozhDfkXYL2k5-KHO1t-h-cTloPHfTeqLA/viewform?embedded=true" title="TAROT 2026 pre-registration form" loading="lazy" width="100%" height="1878" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </section>
+-->
 
 <style>
 .registration-hero {
