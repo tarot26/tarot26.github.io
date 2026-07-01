@@ -49,10 +49,15 @@ permalink: /important-dates/
   <div class="updates-grid">
     <article class="update-card">
       <p class="update-kicker">Registration</p>
+      <h3>Registration closed</h3>
+      <p>We had 38 registrations from 12 countries! We're also glad to see growing participation from female scientists this year, up to 30% of registrations.</p>
+    </article>
+    
+    <article class="update-card">
+      <p class="update-kicker">Registration</p>
       <h3>Registration opening</h3>
       <p>Pre-registration is available now; full registration and payment details will be announced soon.</p>
     </article>
-
 
     <article class="update-card">
       <p class="update-kicker">Travel</p>
