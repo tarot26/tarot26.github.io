@@ -469,16 +469,6 @@ permalink: /organisation/
     <p class="section-heading-copy">For questions about participation, logistics, or the programme, contact the organising team.</p>
   </div>
 <div class="org-grid">
-  <!-- Alessio Gambi -->
-  <div class="org-card org-card-contact">
-    <a href="mailto:alessio.gambi@ait.ac.at" class="org-link org-link-contact" aria-label="Email Dr. Alessio Gambi">
-      <img class="org-icon-email" src="{{ '/assets/img/icons/email.webp' | relative_url }}" alt="Email icon" width="32" height="32">
-      <div class="org-body">
-        <h3 class="org-name">Dr. Alessio Gambi</h3>
-        <p class="org-contact-action">Email Alessio</p>
-      </div>
-    </a>
-  </div>
 
   <!-- Andrea Stocco -->
   <div class="org-card org-card-contact">
@@ -490,5 +480,17 @@ permalink: /organisation/
       </div>
     </a>
   </div>
+  
+  <!-- Alessio Gambi -->
+  <div class="org-card org-card-contact">
+    <a href="mailto:alessio.gambi@ait.ac.at" class="org-link org-link-contact" aria-label="Email Dr. Alessio Gambi">
+      <img class="org-icon-email" src="{{ '/assets/img/icons/email.webp' | relative_url }}" alt="Email icon" width="32" height="32">
+      <div class="org-body">
+        <h3 class="org-name">Dr. Alessio Gambi</h3>
+        <p class="org-contact-action">Email Alessio</p>
+      </div>
+    </a>
+  </div>
+
 </div>
 </section>
