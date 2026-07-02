@@ -33,9 +33,6 @@ permalink: /
           </div>
 
           <div class="hero-actions" aria-label="Primary actions">
-            <a href="{{ '/registration/' | relative_url }}" class="hero-btn hero-btn-primary">
-              Register here!
-            </a>
             <a href="{{ '/school/program/' | relative_url }}" class="hero-btn hero-btn-secondary">
               View program
             </a>
