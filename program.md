@@ -6,13 +6,9 @@ permalink: /school/program/
 
 
 <section class="program-hero" aria-labelledby="program-title">
-  <p class="program-eyebrow">TAROT 2026 schedule</p>
+  <p class="program-eyebrow">TAROT 2026 Schedule</p>
   <h1 id="program-title">Program</h1>
   <p class="program-lede">A five-day summer school combining lectures, student contributions, networking activities, and social events.</p>
-  <div class="program-month" aria-label="Program month">
-    <span class="program-month-label">Tentative program dates</span>
-    <span class="program-month-main">July 2026</span>
-  </div>
 </section>
 
 <!-- ## General Organization
@@ -35,7 +31,7 @@ We will bring together experts on software testing, validation, and verification
   <div class="section-heading-row">
     <div>
       <p class="program-eyebrow">Week overview</p>
-      <h2 id="schedule-title">Tentative schedule</h2>
+      <h2 id="schedule-title">Schedule</h2>
     </div>
     <p class="section-heading-copy">Use the horizontal scroll on smaller screens to explore the full weekly calendar.</p>
   </div>
