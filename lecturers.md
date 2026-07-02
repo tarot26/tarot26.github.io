@@ -169,7 +169,7 @@ permalink: /school/lecturers/
     <div class="org-link">
       <img class="org-photo" src="{{ '/assets/img/speakers/gul-calikli.png' | relative_url }}" alt="Dr. Gül Çalikli">
       <div class="org-body">
-        <h3 class="org-name">Dr. Gül Çalikli</h3>
+        <h3 class="org-name">Prof. Gül Çalikli</h3>
         <p class="org-role">Speaker</p>
         <p class="org-affiliation">University of Glasgow, Scotland</p>
         <p class="org-topic">Empirical software engineering · Human aspects · ML systems</p>
