@@ -48,14 +48,12 @@ permalink: /registration/
       <p class="pricing-kicker">Academic participants</p>
       <h3 id="student-fee-title">Student</h3>
       <p class="price-main"><span>€450</span> regular</p>
-      <p class="price-secondary"><strong>€500</strong> on-site registration</p>
     </article>
 
     <article class="pricing-card professional" aria-labelledby="professional-fee-title">
       <p class="pricing-kicker">Industry &amp; professionals</p>
       <h3 id="professional-fee-title">Professional</h3>
       <p class="price-main"><span>€600</span> regular</p>
-      <p class="price-secondary"><strong>€700</strong> on-site registration</p>
     </article>
   </div>
 </section>
