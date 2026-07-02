@@ -408,8 +408,8 @@ We will bring together experts on software testing, validation, and verification
         Her research field is empirical software engineering, with a focus on human aspects, data analytics, and machine learning. Her vision is to enhance software practitioners’ decision-making and improve software quality through techniques based on cognitive psychology and human-in-the-loop ML systems.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Context Matters: Building and Evaluating Trustworthy AI for Software Engineering</p>
+    <p class="talk-abstract">Large language models are rapidly transforming software engineering, enabling developers to generate code, refactor software, and automatically produce unit tests. Yet two fundamental questions remain: what information should AI systems use to assist developers effectively, and how should we evaluate their capabilities on realistic software projects? This lecture will present recent research on context-aware AI for software engineering. First, it will explain how augmenting AI coding assistants with developers' gaze data enables prompts to adapt to developers' cognitive states, thereby improving code comprehension and readability. This will be followed by a discussion of context-aware LLM-based unit test generation, showing how repository structure, dependency information, and retrieved examples influence the quality of generated tests. Finally, I will present a realistic evaluation framework that benchmarks AI-generated tests on post-cutoff open-source repositories using repository-native execution environments and quality measures such as mutation testing, code coverage, and maintainability, revealing substantial differences between benchmark performance and real-world behaviour.</p>
   </article>
   <article id="talk-bartocci" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
