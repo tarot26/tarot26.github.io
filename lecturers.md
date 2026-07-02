@@ -209,7 +209,7 @@ permalink: /school/lecturers/
     <div class="org-link">
       <img class="org-photo" src="{{ '/assets/img/speakers/ken-friedl.jpg' | relative_url }}" alt="Ken Friedl">
       <div class="org-body">
-        <h3 class="org-name">Ken Friedl</h3>
+        <h3 class="org-name">Ken E. Friedl</h3>
         <p class="org-role">Speaker</p>
         <p class="org-affiliation">BMW Group, Germany</p>
         <p class="org-topic">Data science · Conversational AI · Robotic systems</p>
@@ -219,7 +219,7 @@ permalink: /school/lecturers/
     <button class="bio-toggle" type="button" aria-expanded="false">Show bio</button>
     <div class="speaker-bio">
       <h4>Bio</h4>
-      <p>Ken Friedl is an engineer and researcher at BMW Group, Germany.</p>
+      <p>Ken E. Friedl is an engineer and researcher at BMW Group, Germany.</p>
       <p>His work focuses on Data Science, Conversational AI, and Robotic System Integration, with applications in intelligent and autonomous automotive systems.</p>
     </div>
   </div>
