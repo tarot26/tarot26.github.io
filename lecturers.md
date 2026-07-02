@@ -231,7 +231,7 @@ permalink: /school/lecturers/
       <div class="org-body">
         <h3 class="org-name">Lev Sorokin</h3>
         <p class="org-role">Speaker</p>
-        <p class="org-affiliation">BMW Group, Germany and Fortiss, Germany</p>
+        <p class="org-affiliation">BMW Group, Germany and TU Munich, Germany</p>
         <p class="org-topic">Testing generative AI · Simulation-based validation</p>
       </div>
     </div>
