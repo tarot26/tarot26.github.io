@@ -179,7 +179,7 @@ permalink: /
   </div>
 </section>
 
-<!-- Closing CTA -->
+<!-- Closing CTA 
 <section class="home-section">
   <div class="content final-cta" aria-labelledby="final-cta-title">
     <p class="section-eyebrow">Ready for Munich?</p>
@@ -191,6 +191,7 @@ permalink: /
     </div>
   </div>
 </section>
+-->
 <style>
 .home-hero-wrap .content,
 .home-section > .content,
