@@ -931,17 +931,30 @@ permalink: /social-events/
   .social-event-with-gallery {
     grid-template-columns: 1fr;
   }
+  .social-event-with-gallery {
+    align-items: start;
+  }
 
-  .social-photo-grid {
+  .social-photo-grid,
+  .social-photo-grid-two {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: none;
-    min-height: auto;
+    gap: 0.65rem;
+    min-height: 0;
+    height: auto;
   }
 
   .social-photo-grid img,
-  .social-photo-grid img:first-child {
+  .social-photo-grid img:first-child,
+  .social-photo-grid-two img,
+  .social-photo-grid-two img:first-child {
     grid-row: auto;
-    min-height: 170px;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
   }
 
   .social-free-options {
