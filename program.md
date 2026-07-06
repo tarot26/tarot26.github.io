@@ -119,11 +119,11 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Lunch</span>
           <span class="program-time">12:30 - 14:00</span>
         </th>
-        <td class="slot-student">Student Posters</td>
-        <td class="slot-student">Student Posters</td>
-        <td class="slot-student">Student Posters</td>
-        <td class="slot-student">Student Posters</td>
-        <td class="slot-student">Student Posters</td>
+        <td class="slot-student"><a href="#student-posters-mon">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters-tue">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters-wed">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters-thu">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters-fri">Student Posters</a></td>
       </tr>
       <tr>
         <th class="program-when">
@@ -142,7 +142,7 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-time">14:45 - 15:30</span>
         </th>
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
-        <td class="slot-student">Student Talks</td>
+        <td class="slot-student"><a href="#student-talks-tue-a2">Student Talks</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
         <td class="slot-lecture"><a href="#talk-eldth">S. Eldth</a></td>
         <td class="slot-empty">-</td>
@@ -163,10 +163,10 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Afternoon 3</span>
           <span class="program-time">16:00 - 18:00</span>
         </th>
-        <td class="slot-student">Student Talks</td>
+        <td class="slot-student"><a href="#student-talks-mon">Student Talks</a></td>
         <td class="slot-social">Visit/Tour</td>
-        <td class="slot-student">Student Talks</td>
-        <td class="slot-student">Student Talks</td>
+        <td class="slot-student"><a href="#student-talks-wed">Student Talks</a></td>
+        <td class="slot-student"><a href="#student-talks-thu">Student Talks</a></td>
         <td class="slot-empty">-</td>
       </tr>
       <tr>
@@ -576,7 +576,8 @@ The session concludes with a discussion of current research challenges and emerg
 }
 
 .program-section,
-.talk-details {
+.talk-details,
+.student-details {
   margin: 2.5rem 0;
 }
 
@@ -779,12 +780,14 @@ The session concludes with a discussion of current research challenges and emerg
   filter: brightness(0.985);
 }
 
-.talk-details {
+.talk-details,
+.student-details {
   display: grid;
   gap: 1rem;
 }
 
-.talk-card {
+.talk-card,
+.student-card {
   position: relative;
   scroll-margin-top: 100px;
   overflow: hidden;
@@ -799,7 +802,8 @@ The session concludes with a discussion of current research challenges and emerg
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
-.talk-card::before {
+.talk-card::before,
+.student-card::before {
   content: "";
   position: absolute;
   inset: 0 0 auto;
@@ -812,13 +816,17 @@ The session concludes with a discussion of current research challenges and emerg
 .talk-card:hover,
 .talk-card:focus-visible,
 .talk-card:focus-within,
-.talk-card.is-expanded {
+.talk-card.is-expanded,
+.student-card:hover,
+.student-card:focus-visible,
+.student-card:focus-within {
   transform: translateY(-4px);
   border-color: #cbd5e1;
   box-shadow: 0 28px 70px rgba(15, 23, 42, 0.13);
 }
 
-.talk-card:focus-visible {
+.talk-card:focus-visible,
+.student-card:focus-visible {
   outline: 3px solid #f59e0b;
   outline-offset: 4px;
 }
@@ -988,6 +996,57 @@ The session concludes with a discussion of current research challenges and emerg
   margin-bottom: 0;
 }
 
+.student-card h3 {
+  margin: 0 0 0.65rem;
+  color: #111827;
+  font-size: 1.25rem;
+  letter-spacing: -0.03em;
+}
+
+.student-session-meta {
+  margin: 0 0 0.4rem;
+  color: #92400e;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.student-session-copy {
+  margin: 0 0 1rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.student-session-table {
+  width: 100%;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.student-session-table th,
+.student-session-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  vertical-align: top;
+}
+
+.student-session-table th {
+  background: #f3f4f6;
+  color: #111827;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.student-session-table tr:last-child td {
+  border-bottom: 0;
+}
+
 @media (max-width: 760px) {
   .section-heading-row {
     display: block;
@@ -1004,7 +1063,8 @@ The session concludes with a discussion of current research challenges and emerg
 
 @media (max-width: 520px) {
   .program-hero,
-  .talk-card {
+  .talk-card,
+  .student-card {
     border-radius: 22px;
   }
 
@@ -1022,6 +1082,7 @@ The session concludes with a discussion of current research challenges and emerg
 @media (prefers-reduced-motion: reduce) {
   .program a,
   .talk-card,
+  .student-card,
   .speaker-bio,
   .talk-title,
   .talk-abstract {
@@ -1032,7 +1093,10 @@ The session concludes with a discussion of current research challenges and emerg
   .talk-card:hover,
   .talk-card:focus-visible,
   .talk-card:focus-within,
-  .talk-card.is-expanded {
+  .talk-card.is-expanded,
+  .student-card:hover,
+  .student-card:focus-visible,
+  .student-card:focus-within {
     transform: none;
   }
 }
@@ -1052,3 +1116,159 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
+</section>
+
+<section class="student-details" aria-labelledby="student-details-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="program-eyebrow">Student contributions</p>
+      <h2 id="student-details-title">Student Sessions</h2>
+    </div>
+    <p class="section-heading-copy">Detailed schedule of student talks and posters.</p>
+  </div>
+
+  <article id="student-posters-mon" class="student-card" tabindex="0">
+    <p class="student-session-meta">Monday 13 July · 12:30–14:00</p>
+    <h3>Student Posters</h3>
+    <p class="student-session-copy">Poster presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-talks-mon" class="student-card" tabindex="0">
+    <p class="student-session-meta">Monday 13 July · 16:00–18:00</p>
+    <h3>Student Talks</h3>
+    <p class="student-session-copy">Short research presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-posters-tue" class="student-card" tabindex="0">
+    <p class="student-session-meta">Tuesday 14 July · 12:30–14:00</p>
+    <h3>Student Posters</h3>
+    <p class="student-session-copy">Poster presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-talks-tue-a2" class="student-card" tabindex="0">
+    <p class="student-session-meta">Tuesday 14 July · 14:45–15:30</p>
+    <h3>Student Talks</h3>
+    <p class="student-session-copy">Short research presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-posters-wed" class="student-card" tabindex="0">
+    <p class="student-session-meta">Wednesday 15 July · 12:30–14:00</p>
+    <h3>Student Posters</h3>
+    <p class="student-session-copy">Poster presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-talks-wed" class="student-card" tabindex="0">
+    <p class="student-session-meta">Wednesday 15 July · 16:00–18:00</p>
+    <h3>Student Talks</h3>
+    <p class="student-session-copy">Short research presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-posters-thu" class="student-card" tabindex="0">
+    <p class="student-session-meta">Thursday 16 July · 12:30–14:00</p>
+    <h3>Student Posters</h3>
+    <p class="student-session-copy">Poster presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-talks-thu" class="student-card" tabindex="0">
+    <p class="student-session-meta">Thursday 16 July · 16:00–18:00</p>
+    <h3>Student Talks</h3>
+    <p class="student-session-copy">Short research presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article id="student-posters-fri" class="student-card" tabindex="0">
+    <p class="student-session-meta">Friday 17 July · 12:30–14:00</p>
+    <h3>Student Posters</h3>
+    <p class="student-session-copy">Poster presentations by summer school participants.</p>
+    <table class="student-session-table">
+      <thead>
+        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+      </tbody>
+    </table>
+  </article>
+</section>
