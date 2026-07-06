@@ -164,7 +164,7 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-time">16:00 - 18:00</span>
         </th>
         <td class="slot-student"><a href="#student-talks-mon">Student Talks</a></td>
-        <td class="slot-social">Visit/Tour</td>
+        <td class="slot-social"><a href="#social-bmw">Visit / Tour</a></td>
         <td class="slot-student"><a href="#student-talks-wed">Student Talks</a></td>
         <td class="slot-student"><a href="#student-talks-thu">Student Talks</a></td>
         <td class="slot-empty">-</td>
@@ -174,11 +174,18 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Evening</span>
           <span class="program-time">19:00 - 22:00</span>
         </th>
-        <td class="slot-social">Reception</td>
-        <td class="slot-social">Free Time</td>
-        <td class="slot-social">Social Event</td>
-        <td class="slot-social">Biergarten</td>
-        <td class="slot-empty"></td>
+        <td class="slot-social"><a href="#social-reception">Reception</a></td>
+        <td class="slot-social">
+          <strong>Free Time</strong>
+          <div style="margin-top:0.45rem;font-size:0.82rem;font-weight:600;">
+            <a href="#social-freetime">Tollwood</a>
+            ·
+            <a href="#social-freetime">Olympiapark</a>
+          </div>
+        </td>
+        <td class="slot-social"><a href="#social-pizza">Pizza Dinner</a></td>
+        <td class="slot-social"><a href="#social-biergarten">Biergarten</a></td>
+        <td class="slot-empty"><a href="#social-friday">Optional</a></td>
       </tr>
     </tbody>
   </table>
@@ -191,7 +198,9 @@ We will bring together experts on software testing, validation, and verification
   <span class="legend-break">Breaks / logistics</span>
   <span class="legend-neutral">Opening / closing</span>
 </div>
+
 </section>
+
 
 <section class="talk-details" aria-labelledby="talk-details-title">
   <div class="section-heading-row">
@@ -576,6 +585,7 @@ The session concludes with a discussion of current research challenges and emerg
 }
 
 .program-section,
+.social-details,
 .talk-details,
 .student-details {
   margin: 2.5rem 0;
@@ -780,6 +790,7 @@ The session concludes with a discussion of current research challenges and emerg
   filter: brightness(0.985);
 }
 
+.social-details,
 .talk-details,
 .student-details {
   display: grid;
@@ -1047,6 +1058,161 @@ The session concludes with a discussion of current research challenges and emerg
   border-bottom: 0;
 }
 
+.social-event-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 1rem;
+  scroll-margin-top: 100px;
+  padding: 1.2rem;
+  border: 1px solid rgba(229, 231, 235, 0.92);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 30%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.96));
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.social-event-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  background: linear-gradient(90deg, #f59e0b, #38bdf8, #111827);
+  opacity: 0.75;
+}
+
+.social-event-card:hover,
+.social-event-card:focus-visible,
+.social-event-card:focus-within {
+  transform: translateY(-4px);
+  border-color: #cbd5e1;
+  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.13);
+}
+
+.social-event-card:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 4px;
+}
+
+.social-event-featured {
+  background:
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 28%),
+    linear-gradient(180deg, #ffffff, #fff7ed);
+}
+
+.social-event-with-image {
+  grid-template-columns: 92px minmax(0, 0.85fr) minmax(320px, 0.85fr);
+  align-items: stretch;
+}
+
+.social-event-date {
+  display: grid;
+  place-items: center;
+  align-self: start;
+  min-height: 92px;
+  border-radius: 22px;
+  background: #111827;
+  color: #fff;
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.18);
+}
+
+.social-event-date span {
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.social-event-date strong {
+  margin-top: -0.35rem;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.08em;
+}
+
+.social-event-kicker {
+  margin: 0 0 0.35rem;
+  color: #0369a1;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.social-event-card h3 {
+  margin: 0;
+  color: #111827;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.social-event-time {
+  margin: 0.6rem 0 0;
+  color: #92400e;
+  font-weight: 900;
+}
+
+.social-event-copy {
+  margin: 0.75rem 0 0;
+  color: #374151;
+  line-height: 1.65;
+}
+
+.social-event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0.52rem 0.8rem;
+  border-radius: 999px;
+  background: #111827;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.18);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.social-pill:hover {
+  transform: translateY(-2px);
+  background: #020617;
+}
+
+.social-pill:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 4px;
+}
+
+.social-event-image {
+  position: relative;
+  margin: 0;
+  min-height: 240px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #e5e7eb;
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+}
+
+.social-event-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
 @media (max-width: 760px) {
   .section-heading-row {
     display: block;
@@ -1058,6 +1224,31 @@ The session concludes with a discussion of current research challenges and emerg
 
   .program {
     border-radius: 22px;
+  }
+
+  .social-event-card,
+  .social-event-with-image {
+    grid-template-columns: 1fr;
+    border-radius: 22px;
+  }
+
+  .social-event-date {
+    display: flex;
+    gap: 0.6rem;
+    width: fit-content;
+    min-height: auto;
+    padding: 0.65rem 0.9rem;
+  }
+
+  .social-event-date strong {
+    margin-top: 0;
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+
+  .social-event-image,
+  .social-event-image img {
+    min-height: 220px;
   }
 }
 
@@ -1081,6 +1272,8 @@ The session concludes with a discussion of current research challenges and emerg
 
 @media (prefers-reduced-motion: reduce) {
   .program a,
+  .social-event-card,
+  .social-pill,
   .talk-card,
   .student-card,
   .speaker-bio,
@@ -1090,6 +1283,10 @@ The session concludes with a discussion of current research challenges and emerg
   }
 
   .program a:hover,
+  .social-event-card:hover,
+  .social-event-card:focus-visible,
+  .social-event-card:focus-within,
+  .social-pill:hover,
   .talk-card:hover,
   .talk-card:focus-visible,
   .talk-card:focus-within,
@@ -1270,5 +1467,118 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
       </tbody>
     </table>
+  </article>
+</section>
+
+<section class="social-details" aria-labelledby="social-details-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="program-eyebrow">Social program</p>
+      <h2 id="social-details-title">Social Events</h2>
+    </div>
+    <p class="section-heading-copy">A compact overview of the informal activities planned throughout the week.</p>
+  </div>
+
+  <article id="social-reception" class="social-event-card social-event-with-image" tabindex="0">
+    <div class="social-event-date"><span>Mon</span><strong>13</strong></div>
+    <div class="social-event-main">
+      <p class="social-event-kicker">Welcome evening</p>
+      <h3>Reception</h3>
+      <p class="social-event-time">Monday evening · Time TBA</p>
+      <p class="social-event-copy">The welcome reception will take place on the balcony of the TUM-IAS Building, the main venue of TAROT 2026.</p>
+      <div class="social-event-actions">
+        <a href="https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=TUM-IAS%20Building%2C%20Lichtenbergstra%C3%9Fe%202a%2C%2085748%20Garching%2C%20Germany" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+      </div>
+    </div>
+    <figure class="social-event-image">
+      <img src="{{ '/assets/img/attractions/reception.jpg' | relative_url }}" alt="Reception area at the TUM-IAS Building">
+    </figure>
+  </article>
+
+  <article id="social-bmw" class="social-event-card social-event-with-image" tabindex="0">
+    <div class="social-event-date"><span>Tue</span><strong>14</strong></div>
+    <div class="social-event-main">
+      <p class="social-event-kicker">Visit / Tour</p>
+      <h3>BMW Welt</h3>
+      <p class="social-event-time">Tuesday · 16:00–18:00</p>
+      <p class="social-event-copy">The organized Tuesday afternoon visit takes us to BMW Welt, an iconic Munich venue dedicated to mobility, design, and automotive technology.</p>
+      <div class="social-event-actions">
+        <a href="https://www.bmw-welt.com/en/index.html" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=BMW%20Welt%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+      </div>
+    </div>
+    <figure class="social-event-image">
+      <img src="{{ '/assets/img/attractions/welt2.webp' | relative_url }}" alt="BMW Welt in Munich">
+    </figure>
+  </article>
+
+  <article id="social-freetime" class="social-event-card social-event-with-image" tabindex="0">
+    <div class="social-event-date"><span>Tue</span><strong>14</strong></div>
+    <div class="social-event-main">
+      <p class="social-event-kicker">Tuesday evening</p>
+      <h3>Free Time near Olympiapark</h3>
+      <p class="social-event-time">Tuesday evening · Optional</p>
+      <p class="social-event-copy">We expect to finish the BMW Welt visit around 18:00. Since we will already be next to Olympiapark, we recommend staying in the area for the evening, for example at the Tollwood Summer Festival or Olympiapark.</p>
+      <div class="social-event-actions">
+        <a href="https://www.tollwood.de/en/tollwood-sommerfestival/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Tollwood</a>
+        <a href="https://www.olympiapark.de/en" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Olympiapark</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Tollwood%20Summer%20Festival%20Olympiapark%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+      </div>
+    </div>
+    <figure class="social-event-image">
+      <img src="{{ '/assets/img/attractions/tollwood.jpg.webp' | relative_url }}" alt="Tollwood Summer Festival in Munich">
+    </figure>
+  </article>
+
+  <article id="social-pizza" class="social-event-card social-event-with-image" tabindex="0">
+    <div class="social-event-date"><span>Wed</span><strong>15</strong></div>
+    <div class="social-event-main">
+      <p class="social-event-kicker">Dinner together</p>
+      <h3>Pizza at L’Osteria Künstlerhaus</h3>
+      <p class="social-event-time">Wednesday evening · Time TBA</p>
+      <p class="social-event-copy">A casual mid-week group dinner in the city center.</p>
+      <div class="social-event-actions">
+        <a href="https://losteria.net/de-en/restaurants/restaurant/muenchen-kuenstlerhaus/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=L%27Osteria%20K%C3%BCnstlerhaus%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+      </div>
+    </div>
+    <figure class="social-event-image">
+      <img src="{{ '/assets/img/attractions/osteria1.jpg' | relative_url }}" alt="L’Osteria Künstlerhaus">
+    </figure>
+  </article>
+
+  <article id="social-biergarten" class="social-event-card social-event-with-image" tabindex="0">
+    <div class="social-event-date"><span>Thu</span><strong>16</strong></div>
+    <div class="social-event-main">
+      <p class="social-event-kicker">Bavarian evening</p>
+      <h3>Augustiner Keller Biergarten</h3>
+      <p class="social-event-time">Thursday evening · Time TBA</p>
+      <p class="social-event-copy">A classic Munich beer garden evening near Hauptbahnhof for the final full evening of the summer school.</p>
+      <div class="social-event-actions">
+        <a href="https://www.augustinerkeller.de/en" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Augustiner%20Keller%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+      </div>
+    </div>
+    <figure class="social-event-image">
+      <img src="{{ '/assets/img/attractions/augustiner1.jpg' | relative_url }}" alt="Augustiner Keller Biergarten">
+    </figure>
+  </article>
+
+  <article id="social-friday" class="social-event-card social-event-with-image" tabindex="0">
+    <div class="social-event-date"><span>Fri</span><strong>17</strong></div>
+    <div class="social-event-main">
+      <p class="social-event-kicker">Optional afternoon</p>
+      <h3>Free time after lunch</h3>
+      <p class="social-event-time">Friday · After lunch</p>
+      <p class="social-event-copy">For participants staying longer, the local student team proposes a walk through the English Garden. We will take a look at the famous Eisbach surfers, and those interested can also take a swim at the Nordeisbach, a local Munich summer tradition.</p>
+      <div class="social-event-actions">
+        <a href="https://www.muenchen.de/en/sights/attractions/english-garden" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=English%20Garden%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+      </div>
+    </div>
+    <figure class="social-event-image">
+      <img src="{{ '/assets/img/attractions/eng1.webp' | relative_url }}" alt="English Garden in Munich">
+    </figure>
   </article>
 </section>
