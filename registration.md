@@ -35,11 +35,11 @@ permalink: /registration/
 <section class="registration-section" aria-labelledby="fees-title">
   <div class="section-heading-row">
     <div>
-      <p class="registration-eyebrow">Planned fees</p>
+      <p class="registration-eyebrow">Fees</p>
       <h2 id="fees-title">Registration Fees</h2>
     </div>
     <p class="section-heading-copy">
-      The following fees are planned for TAROT 2026. Further payment details will be announced soon.
+      The following fees apply for TAROT 2026. 
     </p>
   </div>
 
