@@ -357,26 +357,50 @@ permalink: /organisation/
     </div>
   </div>
 <div class="org-grid">
-  <!-- Severin Kacianka -->
+  <!-- Stefano Carlo Lambertenghi -->
   <div class="org-card">
-    <a href="https://kacianka.at" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/org/severin.jpg' | relative_url }}" alt="Dr. Severin Kacianka">
+    <a href="https://www.linkedin.com/in/stefano-carlo-lambertenghi-a30b9592/" target="_blank" rel="noopener noreferrer" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/stefano-Lambertenghi.jpg' | relative_url }}" alt="Stefano Carlo Lambertenghi">
       <div class="org-body">
-        <h3 class="org-name">Dr. Severin Kacianka</h3>
-        <p class="org-role">Organizer</p>
+        <h3 class="org-name">Stefano Carlo Lambertenghi</h3>
+        <p class="org-role">Web Chair &amp; Local Organizer</p>
         <p class="org-affiliation">Technical University of Munich (TUM) and Fortiss, Germany</p>
       </div>
     </a>
   </div>
 
-  <!-- Stefano Carlo Lambertenghi -->
+  <!-- Oliver Weißl -->
   <div class="org-card">
-    <a href="https://www.fortiss.org/ergebnisse/publikationen/autor/stefano-carlo-lambertenghi" target="_blank" rel="noopener noreferrer" class="org-link">
-      <img class="org-photo" src="{{ '/assets/img/org/stefano-Lambertenghi.jpg' | relative_url }}" alt="Stefano Carlo Lambertenghi">
+    <a href="https://www.linkedin.com/in/oliver-weissl/" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/oliver-weissl.jpeg' | relative_url }}" alt="Oliver Weißl">
       <div class="org-body">
-        <h3 class="org-name">Stefano Carlo Lambertenghi</h3>
-        <p class="org-role">Web Chair</p>
+        <h3 class="org-name">Oliver Weißl</h3>
+        <p class="org-role">Local Organizer</p>
+        <p class="org-affiliation">Technical University of Munich (TUM), Germany</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Xingchen Chen -->
+  <div class="org-card">
+    <a href="https://www.linkedin.com/in/xingcheng-chen-aab980263/" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/xingcheng-chen.jpeg' | relative_url }}" alt="Xingchen Chen">
+      <div class="org-body">
+        <h3 class="org-name">Xingchen Chen</h3>
+        <p class="org-role">Local Organizer</p>
         <p class="org-affiliation">Technical University of Munich (TUM) and Fortiss, Germany</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Manfredi Napolitano -->
+  <div class="org-card">
+    <a href="https://www.linkedin.com/in/manfredi-napolitano/" class="org-link">
+      <img class="org-photo" src="{{ '/assets/img/org/manfredi-napolitano.jpeg' | relative_url }}" alt="Manfredi Napolitano">
+      <div class="org-body">
+        <h3 class="org-name">Manfredi Napolitano</h3>
+        <p class="org-role">Local Organizer</p>
+        <p class="org-affiliation">Università degli Studi di Napoli Federico II, Italy</p>
       </div>
     </a>
   </div>
