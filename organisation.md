@@ -330,7 +330,7 @@ permalink: /organisation/
       <div class="org-body">
         <h3 class="org-name">Prof. Andrea Stocco</h3>
         <p class="org-role">Organizer</p>
-        <p class="org-affiliation">Technical University of Munich (TUM) and Fortiss, Germany</p>
+        <p class="org-affiliation">Technical University of Munich (TUM) and fortiss, Germany</p>
       </div>
     </a>
   </div>
