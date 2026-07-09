@@ -20,7 +20,7 @@ permalink: /social-events/
 
 <section class="venue-context" aria-label="About the social program">
   <p>
-    The social events are informal and designed to help participants meet each other, continue discussions from the lectures, and enjoy Munich together. Some evenings are organized as group activities, while others leave room for smaller groups to explore the city.
+    The social events are included in the TAROT 2026 summer school program and are open to registered participants. They are informal and designed to help participants meet each other, continue discussions from the lectures, and enjoy Munich together. Some evenings are organized as group activities, while others leave room for smaller groups to explore the city.
   </p>
 </section>
 
@@ -30,7 +30,7 @@ permalink: /social-events/
       <p class="venue-eyebrow">Week overview</p>
       <h2 id="social-week-title">Social Events</h2>
     </div>
-    <p class="section-heading-copy">Planned activities after the academic program. Details may be updated closer to the summer school.</p>
+    <p class="section-heading-copy">These activities are part of the TAROT 2026 program for registered participants. Details may be updated closer to the summer school.</p>
   </div>
 
   <div class="social-event-grid">
@@ -42,8 +42,8 @@ permalink: /social-events/
       <div class="social-event-main">
         <p class="social-event-kicker">Welcome evening</p>
         <h3>Reception</h3>
-        <p class="social-event-time">Monday evening · Time TBA</p>
-        <p class="social-event-copy">The welcome reception will take place on the balcony of the TUM-IAS Building, the main venue of TAROT 2026.</p>
+        <p class="social-event-time">Monday · 19:00</p>
+        <p class="social-event-copy">The welcome reception will take place on the terrace of the TUM-IAS Building, the main venue of TAROT 2026.</p>
         <div class="social-event-actions">
           <a href="https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
           <a href="https://www.google.com/maps/search/?api=1&query=TUM-IAS%20Building%2C%20Lichtenbergstra%C3%9Fe%202a%2C%2085748%20Garching%2C%20Germany" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
@@ -125,7 +125,7 @@ permalink: /social-events/
       <div class="social-event-main">
         <p class="social-event-kicker">Dinner together</p>
         <h3>Pizza at L’Osteria Künstlerhaus</h3>
-        <p class="social-event-time">Wednesday evening · Time TBA</p>
+        <p class="social-event-time">Wednesday · 19:00</p>
         <p class="social-event-copy">A casual mid-week group dinner in the city center.</p>
         <div class="social-event-actions">
           <a href="https://losteria.net/de-en/restaurants/restaurant/muenchen-kuenstlerhaus/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
@@ -147,7 +147,7 @@ permalink: /social-events/
       <div class="social-event-main">
         <p class="social-event-kicker">Bavarian evening</p>
         <h3>Augustiner Keller Biergarten</h3>
-        <p class="social-event-time">Thursday evening · Time TBA</p>
+        <p class="social-event-time">Thursday · 19:00</p>
         <p class="social-event-copy">A classic Munich beer garden evening near Hauptbahnhof for the final full evening of the summer school.</p>
         <div class="social-event-actions">
           <a href="https://www.augustinerkeller.de/en" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>

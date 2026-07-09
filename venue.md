@@ -60,7 +60,7 @@ permalink: /venue/
 
       <details>
         <summary>From Munich Airport (MUC)</summary>
-        <p>Take the S8 suburban train to Marienplatz, then switch to the U6 subway in the direction of Garching-Forschungszentrum. Total travel time is about 45 minutes.</p>
+        <p>Option 1: take the S8 suburban train to Marienplatz, then switch to the U6 subway in the direction of Garching-Forschungszentrum. Option 2: take the S-Bahn to Ismaning, then continue by bus toward Garching-Forschungszentrum. Please check MVV or DB Navigator for the best connection on the day of travel.</p>
       </details>
 
       <details>
@@ -146,6 +146,46 @@ Between lectures, participants can explore campus attractions like the iconic Pa
     </a>
     <a href="https://www.google.com/maps/search/?api=1&query=Deutsches%20Museum%20Munich" target="_blank" rel="noopener noreferrer" class="explore-map-link" aria-label="Open Deutsches Museum in Google Maps">Maps</a>
   </div>
+  </div>
+</section>
+
+<section class="munich-info-section" aria-labelledby="munich-practical-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="venue-eyebrow">Useful information</p>
+      <h2 id="munich-practical-title">Practical Munich Tips</h2>
+    </div>
+    <p class="section-heading-copy">A few apps, phrases, and local customs that can make the week easier.</p>
+  </div>
+
+  <div class="munich-info-grid">
+    <article class="munich-info-card">
+      <h3>Useful apps &amp; resources</h3>
+      <ul>
+        <li><strong>MVGo app</strong> — public transport journey planner and ticket purchase for Munich.</li>
+        <li><strong>DB Navigator</strong> — train planning and tickets for wider travel across Germany and Europe.</li>
+        <li><strong>Augustiner Finder</strong> — helps you find Augustiner beer, from Munich to Hawaii to Turin.</li>
+      </ul>
+      <p><strong>Public transport tickets:</strong> for the summer school week, we recommend checking the weekly ticket covering Munich and Garching, usually <strong>Zone M-2</strong>. Tickets can be bought in the MVGo app, through the <a href="https://ticketshop.mvv-muenchen.de/index.php/standardProductSale" target="_blank" rel="noopener noreferrer">MVV ticket shop</a>, or at ticket machines in any station.</p>
+      <p>If you use a digital ticket in the MVV/MVGo app, keep an internet connection available during travel. Ticket inspectors do not accept screenshots; the valid ticket must be shown inside the running app.</p>
+    </article>
+
+    <article class="munich-info-card">
+      <h3>Language &amp; culture</h3>
+      <p>English is widely spoken in central Munich, especially in hotels, restaurants, and tourist areas. A few German words are always appreciated: <strong>Bitte</strong> (please), <strong>Danke</strong> (thank you), <strong>Entschuldigung</strong> (excuse me), and <strong>Servus</strong> (hello or goodbye in Bavarian).</p>
+      <ul>
+        <li><strong>Wait for the green pedestrian light:</strong> jaywalking is frowned upon and can result in a small fine.</li>
+        <li><strong>People may start formally:</strong> Bavarians are generally warm and hospitable, and you will not be fined for smiling or making a joke.</li>
+        <li><strong>Menus:</strong> many restaurants in tourist areas offer English menus. Outside the centre, German-only menus are common, so a translation app is useful.</li>
+      </ul>
+    </article>
+
+    <article class="munich-info-card munich-info-card-wide">
+      <h3>Food &amp; drink</h3>
+      <p>Bavarian cuisine is hearty. Local classics include <strong>Weisswurst</strong> (white veal sausage, traditionally eaten before noon with sweet mustard; do not eat the skin), <strong>Schweinshaxe</strong> (roasted pork knuckle), <strong>Leberkäse</strong> (baked meat, often served as a sandwich), <strong>Obatzda</strong> (spiced cheese spread), and <strong>Brezn</strong> (pretzels). For dessert, try <strong>Kaiserschmarrn</strong> or <strong>Apfelstrudel</strong>.</p>
+      <p>Vegetarian options are common in modern restaurants, and vegan options are increasingly available in the city centre. Traditional Bavarian restaurants may offer fewer choices, but dishes such as <strong>Käsespätzle</strong> and vegetable soups are often available. If you have dietary restrictions, please explain them at the restaurant; they are taken seriously and staff can help you choose suitable dishes.</p>
+      <p>Beer culture is a major part of Munich. The city is home to famous breweries such as Hofbräu, Augustiner, and Paulaner, and Bavaria is associated with the beer purity law dating back to 1516. Beer gardens are a local institution: in many of them you may bring your own food, but drinks are expected to be bought there. Non-alcoholic drinks and good coffee are also widely available.</p>
+    </article>
   </div>
 </section>
 
@@ -486,6 +526,65 @@ Between lectures, participants can explore campus attractions like the iconic Pa
   margin: 2.6rem 0;
 }
 
+.munich-info-section {
+  margin: 2.8rem 0;
+  padding: clamp(1.15rem, 3vw, 1.6rem);
+  border: 1px solid #e5e7eb;
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at top left, rgba(245, 158, 11, 0.1), transparent 28%),
+    linear-gradient(180deg, #ffffff, #f8fafc);
+  box-shadow: 0 18px 44px rgba(15, 23, 42, 0.08);
+}
+
+.munich-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.munich-info-card {
+  padding: 1.1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.055);
+}
+
+.munich-info-card-wide {
+  grid-column: 1 / -1;
+}
+
+.munich-info-card h3 {
+  margin: 0 0 0.7rem;
+  color: #111827;
+  font-size: 1.18rem;
+  letter-spacing: -0.03em;
+}
+
+.munich-info-card p,
+.munich-info-card li {
+  color: #4b5563;
+  line-height: 1.65;
+}
+
+.munich-info-card p {
+  margin: 0.7rem 0 0;
+}
+
+.munich-info-card p:first-of-type {
+  margin-top: 0;
+}
+
+.munich-info-card ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.munich-info-card li + li {
+  margin-top: 0.45rem;
+}
+
 .section-heading-row {
   display: flex;
   align-items: end;
@@ -703,6 +802,9 @@ Between lectures, participants can explore campus attractions like the iconic Pa
     justify-self: stretch;
   }
 
+  .munich-info-grid {
+    grid-template-columns: 1fr;
+  }
   .section-heading-row {
     display: block;
   }

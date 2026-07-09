@@ -119,11 +119,11 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Lunch</span>
           <span class="program-time">12:30 - 14:00</span>
         </th>
-        <td class="slot-student"><a href="#student-posters-mon">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters-tue">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters-wed">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters-thu">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters-fri">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
+        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
       </tr>
       <tr>
         <th class="program-when">
@@ -134,7 +134,7 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-bartocci">E. Bartocci</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
         <td class="slot-lecture"><a href="#talk-eldth">S. Eldth</a></td>
-        <td class="slot-empty">-</td>
+        <td class="slot-social"><a href="#social-friday">Optional</a></td>
       </tr>
       <tr>
         <th class="program-when">
@@ -161,12 +161,41 @@ We will bring together experts on software testing, validation, and verification
       <tr>
         <th class="program-when">
           <span class="program-session">Afternoon 3</span>
-          <span class="program-time">16:00 - 18:00</span>
+          <span class="program-time">16:00 - 17:00</span>
         </th>
         <td class="slot-student"><a href="#student-talks-mon">Student Talks</a></td>
         <td class="slot-social"><a href="#social-bmw">Visit / Tour</a></td>
         <td class="slot-student"><a href="#student-talks-wed">Student Talks</a></td>
         <td class="slot-student"><a href="#student-talks-thu">Student Talks</a></td>
+        <td class="slot-empty">-</td>
+      </tr>
+      <tr>
+        <th class="program-when">
+          <span class="program-session">Afternoon 4</span>
+          <span class="program-time">17:00 - 18:00</span>
+        </th>
+        <td class="slot-empty">-</td>
+        <td class="slot-social"><a href="#social-bmw">Visit / Tour</a></td>
+        <td class="slot-empty">-</td>
+        <td class="slot-empty">-</td>
+        <td class="slot-empty">-</td>
+      </tr>
+      <tr>
+        <th class="program-when">
+          <span class="program-session">Free Time</span>
+          <span class="program-time">18:00 - 19:00</span>
+        </th>
+        <td class="slot-empty">-</td>
+        <td class="slot-social">
+          <strong>Free Time</strong>
+          <div style="margin-top:0.45rem;font-size:0.82rem;font-weight:600;">
+            <a href="#social-freetime">Tollwood</a>
+            ·
+            <a href="#social-freetime">Olympiapark</a>
+          </div>
+        </td>
+        <td class="slot-empty">-</td>
+        <td class="slot-empty">-</td>
         <td class="slot-empty">-</td>
       </tr>
       <tr>
@@ -185,7 +214,7 @@ We will bring together experts on software testing, validation, and verification
         </td>
         <td class="slot-social"><a href="#social-pizza">Pizza Dinner</a></td>
         <td class="slot-social"><a href="#social-biergarten">Biergarten</a></td>
-        <td class="slot-empty"><a href="#social-friday">Optional</a></td>
+        <td class="slot-empty">-</td>
       </tr>
     </tbody>
   </table>
@@ -1314,8 +1343,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-</section>
-
 <section class="student-details" aria-labelledby="student-details-title">
   <div class="section-heading-row">
     <div>
@@ -1325,24 +1352,14 @@ document.addEventListener('DOMContentLoaded', function () {
     <p class="section-heading-copy">Detailed schedule of student talks and posters.</p>
   </div>
 
-  <article id="student-posters-mon" class="student-card" tabindex="0">
-    <p class="student-session-meta">Monday 13 July · 12:30–14:00</p>
+  <article id="student-posters" class="student-card" tabindex="0">
+    <p class="student-session-meta">Monday–Friday</p>
     <h3>Student Posters</h3>
-    <p class="student-session-copy">Poster presentations by summer school participants.</p>
-    <table class="student-session-table">
-      <thead>
-        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-      </tbody>
-    </table>
+    <p class="student-session-copy">The poster session is located on the <strong>1st floor</strong>, directly next to the lunch area. Student posters remain on display from Monday to Friday, and during every lunch break participants are encouraged to visit the posters, meet the authors, and discuss their work informally while having lunch.</p>
   </article>
 
   <article id="student-talks-mon" class="student-card" tabindex="0">
-    <p class="student-session-meta">Monday 13 July · 16:00–18:00</p>
+    <p class="student-session-meta">Monday 13 July · 16:00–17:00</p>
     <h3>Student Talks</h3>
     <p class="student-session-copy">Short research presentations by summer school participants.</p>
     <table class="student-session-table">
@@ -1350,31 +1367,16 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>16:00–16:20</td><td>Manfredi Napolitano</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:20–16:40</td><td>Wasim Essbai</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:40–17:00</td><td>Ignacio D. Lopez-Miguel</td><td>Talk Title TBA</td></tr>
       </tbody>
     </table>
   </article>
 
-  <article id="student-posters-tue" class="student-card" tabindex="0">
-    <p class="student-session-meta">Tuesday 14 July · 12:30–14:00</p>
-    <h3>Student Posters</h3>
-    <p class="student-session-copy">Poster presentations by summer school participants.</p>
-    <table class="student-session-table">
-      <thead>
-        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-      </tbody>
-    </table>
-  </article>
 
   <article id="student-talks-tue-a2" class="student-card" tabindex="0">
-    <p class="student-session-meta">Tuesday 14 July · 14:45–15:30</p>
+    <p class="student-session-meta">Tuesday 14 July · 14:45–15:25</p>
     <h3>Student Talks</h3>
     <p class="student-session-copy">Short research presentations by summer school participants.</p>
     <table class="student-session-table">
@@ -1382,31 +1384,15 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>14:45–15:05</td><td>Elena Masserini</td><td>Talk Title TBA</td></tr>
+        <tr><td>15:05–15:25</td><td>Petr Kaška</td><td>Talk Title TBA</td></tr>
       </tbody>
     </table>
   </article>
 
-  <article id="student-posters-wed" class="student-card" tabindex="0">
-    <p class="student-session-meta">Wednesday 15 July · 12:30–14:00</p>
-    <h3>Student Posters</h3>
-    <p class="student-session-copy">Poster presentations by summer school participants.</p>
-    <table class="student-session-table">
-      <thead>
-        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-      </tbody>
-    </table>
-  </article>
 
   <article id="student-talks-wed" class="student-card" tabindex="0">
-    <p class="student-session-meta">Wednesday 15 July · 16:00–18:00</p>
+    <p class="student-session-meta">Wednesday 15 July · 16:00–17:00</p>
     <h3>Student Talks</h3>
     <p class="student-session-copy">Short research presentations by summer school participants.</p>
     <table class="student-session-table">
@@ -1414,31 +1400,16 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>16:00–16:20</td><td>Masoud Jamshidiyantehrani</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:20–16:40</td><td>Fabio Cavaleri</td><td>Talk Title TBA</td></tr>
+      </tbody>
       </tbody>
     </table>
   </article>
 
-  <article id="student-posters-thu" class="student-card" tabindex="0">
-    <p class="student-session-meta">Thursday 16 July · 12:30–14:00</p>
-    <h3>Student Posters</h3>
-    <p class="student-session-copy">Poster presentations by summer school participants.</p>
-    <table class="student-session-table">
-      <thead>
-        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-      </tbody>
-    </table>
-  </article>
 
   <article id="student-talks-thu" class="student-card" tabindex="0">
-    <p class="student-session-meta">Thursday 16 July · 16:00–18:00</p>
+    <p class="student-session-meta">Thursday 16 July · 16:00–17:00</p>
     <h3>Student Talks</h3>
     <p class="student-session-copy">Short research presentations by summer school participants.</p>
     <table class="student-session-table">
@@ -1446,28 +1417,12 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
+        <tr><td>16:00–16:20</td><td>Xingcheng Chen</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:20–16:40</td><td>Oliver Weissl</td><td>Talk Title TBA</td></tr>
       </tbody>
     </table>
   </article>
 
-  <article id="student-posters-fri" class="student-card" tabindex="0">
-    <p class="student-session-meta">Friday 17 July · 12:30–14:00</p>
-    <h3>Student Posters</h3>
-    <p class="student-session-copy">Poster presentations by summer school participants.</p>
-    <table class="student-session-table">
-      <thead>
-        <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-        <tr><td>TBA</td><td>Student Name</td><td>Presentation Title</td></tr>
-      </tbody>
-    </table>
-  </article>
 </section>
 
 <section class="social-details" aria-labelledby="social-details-title">
@@ -1485,7 +1440,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p class="social-event-kicker">Welcome evening</p>
       <h3>Reception</h3>
       <p class="social-event-time">Monday evening · Time TBA</p>
-      <p class="social-event-copy">The welcome reception will take place on the balcony of the TUM-IAS Building, the main venue of TAROT 2026.</p>
+      <p class="social-event-copy">The welcome reception will take place on the terrace of the TUM-IAS Building, the main venue of TAROT 2026.</p>
       <div class="social-event-actions">
         <a href="https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
         <a href="https://www.google.com/maps/search/?api=1&query=TUM-IAS%20Building%2C%20Lichtenbergstra%C3%9Fe%202a%2C%2085748%20Garching%2C%20Germany" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
