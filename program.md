@@ -1367,9 +1367,9 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>16:00–16:20</td><td>Manfredi Napolitano</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:00–16:20</td><td>Manfredi Napolitano</td><td>E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios</td></tr>
         <tr><td>16:20–16:40</td><td>Wasim Essbai</td><td>Talk Title TBA</td></tr>
-        <tr><td>16:40–17:00</td><td>Ignacio D. Lopez-Miguel</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:40–17:00</td><td>Ignacio D. Lopez-Miguel</td><td>Explaining, Testing and Improving RL Policies via Rule Learning</td></tr>
       </tbody>
     </table>
   </article>
@@ -1384,8 +1384,8 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>14:45–15:05</td><td>Elena Masserini</td><td>Talk Title TBA</td></tr>
-        <tr><td>15:05–15:25</td><td>Petr Kaška</td><td>Talk Title TBA</td></tr>
+        <tr><td>14:45–15:05</td><td>Elena Masserini</td><td>Robustness Testing of Conversational Agents</td></tr>
+        <tr><td>15:05–15:25</td><td>Petr Kaška</td><td>Survival of the Safest: Automating LLM Defense with Genetic Programming</td></tr>
       </tbody>
     </table>
   </article>
@@ -1400,8 +1400,8 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>16:00–16:20</td><td>Masoud Jamshidiyantehrani</td><td>Talk Title TBA</td></tr>
-        <tr><td>16:20–16:40</td><td>Fabio Cavaleri</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:00–16:20</td><td>Masoud Jamshidiyantehrani</td><td>Security Testing of Autonomous Vehicles Using Adversarial Machine Learning</td></tr>
+        <tr><td>16:20–16:40</td><td>Fabio Cavaleri</td><td>Automatic Testing of Interacting Autonomous Vehicles</td></tr>
       </tbody>
       </tbody>
     </table>
@@ -1417,8 +1417,8 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><th>Time</th><th>Presenter</th><th>Title</th></tr>
       </thead>
       <tbody>
-        <tr><td>16:00–16:20</td><td>Xingcheng Chen</td><td>Talk Title TBA</td></tr>
-        <tr><td>16:20–16:40</td><td>Oliver Weissl</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:00–16:20</td><td>Xingcheng Chen</td><td>XMutant: XAI-based Fuzzing for Deep Learning Systems</td></tr>
+        <tr><td>16:20–16:40</td><td>Oliver Weissl</td><td>Targeted Deep Learning System Boundary Testing</td></tr>
       </tbody>
     </table>
   </article>
