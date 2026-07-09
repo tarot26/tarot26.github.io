@@ -371,7 +371,7 @@ permalink: /organisation/
 
   <!-- Oliver Weißl -->
   <div class="org-card">
-    <a href="https://www.linkedin.com/in/oliver-weissl/" class="org-link">
+    <a href="https://www.linkedin.com/in/oliver-weissl/" target="_blank" rel="noopener noreferrer" class="org-link">
       <img class="org-photo" src="{{ '/assets/img/org/oliver-weissl.jpeg' | relative_url }}" alt="Oliver Weißl">
       <div class="org-body">
         <h3 class="org-name">Oliver Weißl</h3>
@@ -383,7 +383,7 @@ permalink: /organisation/
 
   <!-- Xingchen Chen -->
   <div class="org-card">
-    <a href="https://www.linkedin.com/in/xingcheng-chen-aab980263/" class="org-link">
+    <a href="https://www.linkedin.com/in/xingcheng-chen-aab980263/" target="_blank" rel="noopener noreferrer" class="org-link">
       <img class="org-photo" src="{{ '/assets/img/org/xingcheng-chen.jpeg' | relative_url }}" alt="Xingchen Chen">
       <div class="org-body">
         <h3 class="org-name">Xingchen Chen</h3>
@@ -395,7 +395,7 @@ permalink: /organisation/
 
   <!-- Manfredi Napolitano -->
   <div class="org-card">
-    <a href="https://www.linkedin.com/in/manfredi-napolitano/" class="org-link">
+    <a href="https://www.linkedin.com/in/manfredi-napolitano/" target="_blank" rel="noopener noreferrer" class="org-link">
       <img class="org-photo" src="{{ '/assets/img/org/manfredi-napolitano.jpeg' | relative_url }}" alt="Manfredi Napolitano">
       <div class="org-body">
         <h3 class="org-name">Manfredi Napolitano</h3>
