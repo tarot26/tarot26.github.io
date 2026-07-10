@@ -111,7 +111,7 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
         <td class="slot-lecture"><a href="#talk-bartocci">E. Bartocci</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
-        <td class="slot-lecture"><a href="#talk-eldth">S. Eldth</a></td>
+        <td class="slot-lecture"><a href="#talk-eldth">S. Eldh</a></td>
         <td class="slot-neutral">Closing</td>
       </tr>
       <tr>
@@ -133,7 +133,7 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
         <td class="slot-lecture"><a href="#talk-bartocci">E. Bartocci</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
-        <td class="slot-lecture"><a href="#talk-eldth">S. Eldth</a></td>
+        <td class="slot-lecture"><a href="#talk-eldth">S. Eldh</a></td>
         <td class="slot-social"><a href="#social-friday">Optional</a></td>
       </tr>
       <tr>
@@ -144,7 +144,7 @@ We will bring together experts on software testing, validation, and verification
         <td class="slot-lecture"><a href="#talk-nickovic">D. Ničković</a></td>
         <td class="slot-student"><a href="#student-talks-tue-a2">Student Talks</a></td>
         <td class="slot-lecture"><a href="#talk-elbaum">S. Elbaum</a></td>
-        <td class="slot-lecture"><a href="#talk-eldth">S. Eldth</a></td>
+        <td class="slot-lecture"><a href="#talk-eldth">S. Eldh</a></td>
         <td class="slot-empty">-</td>
       </tr>
       <tr>
