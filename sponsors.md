@@ -85,13 +85,13 @@ permalink: /sponsors/
 <h2 id="current-sponsors-title">Sponsors</h2>
 
 <div class="sponsors-logos" aria-label="Current sponsors">
-  <!-- SIGSOFT -->
-  <a href="https://www2.sigsoft.org" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit SIGSOFT website">
-    <img src="{{ '/assets/img/sponsors/sigsoft.png' | relative_url }}" alt="SIGSOFT logo">
-  </a>
   <!-- TUM -->
   <a href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit Technical University of Munich website">
     <img src="{{ '/assets/img/sponsors/tum.png' | relative_url }}" alt="Technical University of Munich logo">
+  </a>
+  <!-- SIGSOFT -->
+  <a href="https://www2.sigsoft.org" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit SIGSOFT website">
+    <img src="{{ '/assets/img/sponsors/sigsoft.png' | relative_url }}" alt="SIGSOFT logo">
   </a>
   <!-- BeamNG -->
   <a href="https://www.beamng.com/game/" target="_blank" rel="noopener noreferrer" class="sponsor-logo" aria-label="Visit BeamNG website">
