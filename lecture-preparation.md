@@ -28,7 +28,7 @@ sitemap: false
   </div>
   <div class="prep-summary-card">
     <strong>No preparation needed</strong>
-    <span>S. Tong · E. Bartocci · S. Elbaum · S. Eldth</span>
+    <span>S. Tong · E. Bartocci · N. Franco · S. Elbaum · S. Eldth · G. Calikli</span>
   </div>
 </section>
 
@@ -118,19 +118,14 @@ sitemap: false
     <p>No preparation is required.</p>
   </article>
 
-  <article class="prep-card prep-card-pending">
+  <article class="prep-card prep-card-compact">
     <div class="prep-card-heading">
       <div>
-        <p class="prep-status prep-status-pending">Pending</p>
+        <p class="prep-status prep-status-none">No preparation</p>
         <h3>N. Franco</h3>
       </div>
     </div>
-    <p>Preparation information has not yet been provided.</p>
-    <div class="prep-resource-grid">
-      <span>Paper: pending</span>
-      <span>Slides: pending</span>
-      <span>Tooling: pending</span>
-    </div>
+    <p>No preparation is required.</p>
   </article>
 
   <article class="prep-card prep-card-compact">
@@ -238,19 +233,14 @@ python.exe sim_gui.py</code></pre>
     <p>No preparation is required.</p>
   </article>
 
-  <article class="prep-card prep-card-pending">
+  <article class="prep-card prep-card-compact">
     <div class="prep-card-heading">
       <div>
-        <p class="prep-status prep-status-pending">Pending</p>
+        <p class="prep-status prep-status-none">No preparation</p>
         <h3>G. Calikli</h3>
       </div>
     </div>
-    <p>Preparation information is still pending.</p>
-    <div class="prep-resource-grid">
-      <span>Paper: pending</span>
-      <span>Slides: pending</span>
-      <span>Tooling: pending</span>
-    </div>
+    <p>No preparation is required.</p>
   </article>
 </section>
 
