@@ -134,6 +134,10 @@ permalink: /sponsors/
     <img src="{{ '/assets/img/sponsors/logoFCSP.png' | relative_url }}" alt="Fondazione Compagnia di San Paolo logo">
   </div>
 
+  <div class="sponsor-logo">
+    <img src="{{ '/assets/img/sponsors/AI-BOOST.png' | relative_url }}" alt="AI BOOST">
+  </div>
+
 </div>
 </section>
 
