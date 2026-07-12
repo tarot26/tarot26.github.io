@@ -135,7 +135,7 @@ permalink: /sponsors/
   </div>
 
   <div class="sponsor-logo">
-    <img src="{{ '/assets/img/sponsors/AI-BOOST.png' | relative_url }}" alt="AI BOOST">
+    <img src="{{ '/assets/img/sponsors/AI-BOOST_horizontal.png' | relative_url }}" alt="AI BOOST">
   </div>
 
 </div>
