@@ -470,8 +470,9 @@ We will bring together experts on software testing, validation, and verification
         His research focuses on formal methods and computational tools for ensuring the safety, security, energy efficiency, and correctness of AI-based cyber-physical systems, with a strong emphasis on sustainability.
       </p>
     </div>
-    <p class="talk-title">Talk title TBA</p>
-    <p class="talk-abstract">Abstract TBA.</p>
+    <p class="talk-title">Agentic AI: Foundations and Failure Modes</p>
+    <p class="talk-abstract">Wired into a loop with tools, memory, and a goal, large language models have become agents that plan, act, and change the world on their own — and this breaks the classical testing contract. Behaviour is stochastic, the "specification" is an ambiguous natural-language goal, memory makes runs stateful and tests non-idempotent, and errors compound over ever-longer task horizons. The stakes rise sharply when such agents are embedded in cyber-physical systems — robot task planning, autonomous laboratories, industrial control, in-vehicle assistants — where a wrong action is not a wrong answer but a physical hazard, and is often irreversible.
+This lecture dissects what an agent actually is (the reason–act–observe loop, chain-of-thought, memory, tool use, multi-agent coordination), explains why testing and benchmarking under-determine the reliability of such systems, and presents a structured taxonomy of agent failures grounded in empirical studies of real execution traces (MAST) and the adversarial failure modes of the OWASP Top 10 for Agentic Applications. It closes by arguing that an LLM agent is, formally, a reactive system whose behaviour is a trace — making the specification and runtime monitoring machinery long established for cyber-physical systems the natural instrument for its assurance, and setting up the companion session on runtime assurance for agentic AI.</p>
   </article>
   <article id="talk-friedl" class="talk-card" tabindex="0" aria-expanded="false">
     <div class="talk-speaker-header">
