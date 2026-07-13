@@ -1,18 +1,22 @@
 ---
-title: Lecture Preparation
+title: Lecture Preparation, Slides, and Additional Material
 layout: default
 permalink: /lecture-preparation/
 sitemap: false
 ---
+<section class="prep-footer-note" aria-label="Updates">
+  <p>This page is not included in the main navigation. Please keep the link available and check it again before the summer school for updates.</p>
+</section>
 
 <section class="prep-hero" aria-labelledby="prep-title">
   <div>
     <p class="prep-eyebrow">TAROT 2026 Attendee Guide</p>
-    <h1 id="prep-title">Lecture Preparation</h1>
+    <h1 id="prep-title">Lecture Preparation, Slides, and Additional Material</h1>
     <p class="prep-hero-text">
-      Some lecturers have suggested optional reading or software setup before their sessions.
-      Most lectures require no preparation. Please review the relevant instructions below and
-      bring a laptop where indicated.
+      This page contains software setup instructions and optional readings that lectures suggested to do before their sessions.
+      Most lectures require no preparation. Please review the relevant instructions below and bring a laptop where indicated.
+
+      The page also contains the slides and additional material that lectures shared with the audience.
     </p>
   </div>
 </section>
@@ -37,6 +41,34 @@ sitemap: false
     <p class="prep-eyebrow">By lecturer</p>
     <h2 id="prep-instructions-title">Preparation Instructions</h2>
   </div>
+
+  <article class="prep-card">
+    <div class="prep-card-heading">
+      <div>
+        <p class="prep-status prep-status-optional">Optional</p>
+        <h3>Andrea Stocco, Alessio Gambi, Eva Pigova, Valeria Morra, and Vladimir Estivill-Castro </h3>
+      </div>
+    </div>
+    <p>Opening Slides.</p>
+    <div class="prep-actions">
+      <a class="prep-button prep-button-primary" href="{{ '/assets/slides/TAROT2026-kickoff-slides.pdf' | relative_url }}">
+        Kick-off Slides
+      </a>
+    </div>
+    <p>BeamNG.</p>
+    <div class="prep-actions">
+      <a class="prep-button prep-button-primary" href="https://beamng.tech/" target="_blank" rel="noopener noreferrer">BeamNG.tech Homepage</a>
+      <a class="prep-button prep-button-primary" href="https://youtu.be/U3noTPttv0g?is=jr9ilnUvKazDePei" target="_blank" rel="noopener noreferrer"> `Promo Video (YouTube)</a>
+    </div>
+    <p>AI-BOOST.</p>
+    <div class="prep-actions">
+      <a class="prep-button prep-button-primary" href="{{ '/assets/slides/AI-BOOST.pdf' | relative_url }}">
+        AI BOOST and Challenges Slides
+      </a>
+    </div>
+
+  </article>
+
 
   <article class="prep-card">
     <div class="prep-card-heading">
