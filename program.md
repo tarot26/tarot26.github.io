@@ -185,8 +185,8 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Free Time</span>
           <span class="program-time">18:00 - 19:00</span>
         </th>
-        <td class="slot-empty">-</td>
-        <td class="slot-social">
+        <td class="slot-social"><a href="#social-reception">Reception</a></td>
+        <td class="slot-empty">
           <strong>Free Time</strong>
           <div style="margin-top:0.45rem;font-size:0.82rem;font-weight:600;">
             <a href="#social-freetime">Tollwood</a>
