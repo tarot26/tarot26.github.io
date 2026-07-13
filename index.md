@@ -33,6 +33,9 @@ permalink: /
           </div>
 
           <div class="hero-actions" aria-label="Primary actions">
+          <a href="{{ '/assets/TAROT2026-kickoff-slides.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-secondary flyer-open-btn">
+            Kick-off Slides
+          </a>
             <a href="{{ '/school/program/' | relative_url }}" class="hero-btn hero-btn-secondary">
               View program
             </a>
