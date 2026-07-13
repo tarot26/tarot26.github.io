@@ -1404,7 +1404,6 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><td>16:00–16:20</td><td>Masoud Jamshidiyantehrani</td><td>Security Testing of Autonomous Vehicles Using Adversarial Machine Learning</td></tr>
         <tr><td>16:20–16:40</td><td>Fabio Cavaleri</td><td>Automatic Testing of Interacting Autonomous Vehicles</td></tr>
       </tbody>
-      </tbody>
     </table>
   </article>
 
