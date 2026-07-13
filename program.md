@@ -201,7 +201,7 @@ We will bring together experts on software testing, validation, and verification
       <tr>
         <th class="program-when">
           <span class="program-session">Evening</span>
-          <span class="program-time">19:00 - 22:00</span>
+          <span class="program-time">19:00 - 21:00</span>
         </th>
         <td class="slot-social"><a href="#social-reception">Reception</a></td>
         <td class="slot-social">
