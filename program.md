@@ -1356,7 +1356,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <article id="student-posters" class="student-card" tabindex="0">
     <p class="student-session-meta">Monday–Friday</p>
     <h3>Student Posters</h3>
-    <p class="student-session-copy">The poster session is located on the <strong>1st floor</strong>, directly next to the lunch area. Student posters remain on display from Monday to Friday, and during every lunch break participants are encouraged to visit the posters, meet the authors, and discuss their work informally while having lunch.</p>
+    <p class="student-session-copy">The poster session is located on the <strong>1st floor</strong>, directly next to the coffee area. Student posters remain on display from Monday to Friday, and during every lunch break participants are encouraged to visit the posters, meet the authors, and discuss their work informally while having lunch.</p>
   </article>
 
   <article id="student-talks-mon" class="student-card" tabindex="0">
