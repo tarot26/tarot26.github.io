@@ -1369,7 +1369,7 @@ document.addEventListener('DOMContentLoaded', function () {
       </thead>
       <tbody>
         <tr><td>16:00–16:20</td><td>Manfredi Napolitano</td><td>E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios</td></tr>
-        <tr><td>16:20–16:40</td><td>Wasim Essbai</td><td>Talk Title TBA</td></tr>
+        <tr><td>16:20–16:40</td><td>Wasim Essbai</td><td>Into Monitoring Neural Networks</td></tr>
         <tr><td>16:40–17:00</td><td>Ignacio D. Lopez-Miguel</td><td>Explaining, Testing and Improving RL Policies via Rule Learning</td></tr>
       </tbody>
     </table>
