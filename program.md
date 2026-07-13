@@ -86,11 +86,11 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Coffee Break</span>
           <span class="program-time">10:30 - 11:00</span>
         </th>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
       </tr>
       <tr>
         <th class="program-when">
@@ -119,11 +119,11 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Lunch</span>
           <span class="program-time">12:30 - 14:00</span>
         </th>
-        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
-        <td class="slot-student"><a href="#student-posters">Student Posters</a></td>
+        <td class="slot-student">Lunch and Break</td>
+        <td class="slot-student">Lunch and Break</td>
+        <td class="slot-student">Lunch and Break</td>
+        <td class="slot-student">Lunch and Break</td>
+        <td class="slot-student">Lunch and Break</td>
       </tr>
       <tr>
         <th class="program-when">
@@ -152,10 +152,10 @@ We will bring together experts on software testing, validation, and verification
           <span class="program-session">Coffee Break</span>
           <span class="program-time">15:30 - 16:00</span>
         </th>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
-        <td class="slot-break">Coffee Break</td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
+        <td class="slot-break"><a href="#student-posters">Coffee Break and Student Posters</a></td>
         <td class="slot-empty">-</td>
       </tr>
       <tr>
@@ -1355,8 +1355,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   <article id="student-posters" class="student-card" tabindex="0">
     <p class="student-session-meta">Monday–Friday</p>
-    <h3>Student Posters</h3>
-    <p class="student-session-copy">The poster session is located on the <strong>1st floor</strong>, directly next to the coffee area. Student posters remain on display from Monday to Friday, and during every lunch break participants are encouraged to visit the posters, meet the authors, and discuss their work informally while having lunch.</p>
+    <h3>Student Posters and Coffee breaks</h3>
+    <p class="student-session-copy">The poster session is located on the <strong>1st floor</strong>, directly next to the coffee area. Student posters remain on display from Monday to Friday, and during every coffee break participants are encouraged to visit the posters, meet the authors, and discuss their work informally while having a break.</p>
   </article>
 
   <article id="student-talks-mon" class="student-card" tabindex="0">
