@@ -53,7 +53,6 @@ permalink: /social-events/
         <img src="{{ '/assets/img/attractions/reception.jpg' | relative_url }}" alt="Reception area at the TUM-IAS Building">
       </figure>
     </article>
-
     <article class="social-event-card social-event-tuesday">
       <div class="social-event-date">
         <span>Tue</span>
@@ -63,7 +62,6 @@ permalink: /social-events/
         <p class="social-event-kicker">Tuesday program</p>
         <h3>BMW Welt visit and free time</h3>
         <p class="social-event-copy">Tuesday is organized as one sequence: first the BMW Welt visit from 16:00 to 18:00, then optional free time nearby.</p>
-
         <div class="social-tuesday-steps">
           <section class="social-step-card">
             <p class="social-option-label">Step 1 · Visit / Tour</p>
@@ -71,16 +69,31 @@ permalink: /social-events/
             <p class="social-event-time">Tuesday · 16:00–18:00</p>
             <p>The organized Tuesday afternoon visit takes us to BMW Welt, an iconic Munich venue dedicated to mobility, design, and automotive technology.</p>
             <div class="social-event-actions">
-              <a href="https://www.bmw-welt.com/en/index.html" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
-              <a href="https://www.google.com/maps/search/?api=1&query=BMW%20Welt%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
-            </div>
+            <a href="https://www.bmw-welt.com/en/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-pill social-website-link">
+              Website
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=BMW%20Welt%20Munich"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-pill social-map-link">
+              Maps
+            </a>
+            <a href="{{ 'assets/pdf/bmw_welt_details.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-pill social-website-link">
+              PDF Details
+            </a>
+          </div>
             <div class="social-photo-grid" aria-label="BMW Welt photos">
               <img src="{{ '/assets/img/attractions/welt2.webp' | relative_url }}" alt="BMW">
               <img src="{{ '/assets/img/attractions/welt1.webp' | relative_url }}" alt="BMW">
               <img src="{{ '/assets/img/attractions/welt3.webp' | relative_url }}" alt="BMW">
             </div>
           </section>
-
           <section class="social-step-card social-step-card-warm">
             <p class="social-option-label">Step 2 · Free time</p>
             <h4>Choose your evening</h4>
@@ -116,7 +129,6 @@ permalink: /social-events/
         </div>
       </div>
     </article>
-
     <article class="social-event-card social-event-with-gallery">
       <div class="social-event-date">
         <span>Wed</span>
@@ -138,7 +150,6 @@ permalink: /social-events/
         <img src="{{ '/assets/img/attractions/osteria3.jpg' | relative_url }}" alt="Pizza dinner at L’Osteria">
       </div>
     </article>
-
     <article class="social-event-card social-event-with-gallery">
       <div class="social-event-date">
         <span>Thu</span>
@@ -159,7 +170,6 @@ permalink: /social-events/
         <img src="{{ '/assets/img/attractions/augustiner2.webp' | relative_url }}" alt="Augustiner Keller tables">
       </div>
     </article>
-
     <article class="social-event-card social-event-with-gallery">
       <div class="social-event-date">
         <span>Fri</span>
