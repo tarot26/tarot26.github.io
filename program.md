@@ -1386,7 +1386,6 @@ document.addEventListener('DOMContentLoaded', function () {
       </thead>
       <tbody>
         <tr><td>14:45–15:05</td><td>Elena Masserini</td><td>Robustness Testing of Conversational Agents</td></tr>
-        <tr><td>15:05–15:25</td><td>Petr Kaška</td><td>Survival of the Safest: Automating LLM Defense with Genetic Programming</td></tr>
       </tbody>
     </table>
   </article>
@@ -1403,6 +1402,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tbody>
         <tr><td>16:00–16:20</td><td>Masoud Jamshidiyantehrani</td><td>Security Testing of Autonomous Vehicles Using Adversarial Machine Learning</td></tr>
         <tr><td>16:20–16:40</td><td>Fabio Cavaleri</td><td>Automatic Testing of Interacting Autonomous Vehicles</td></tr>
+        <tr><td>16:40–17:00</td><td>Petr Kaška</td><td>Survival of the Safest: Automating LLM Defense with Genetic Programming</td></tr>
       </tbody>
     </table>
   </article>
