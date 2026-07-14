@@ -3,32 +3,47 @@ title: Pictures
 layout: default
 permalink: /event-pictures/
 ---
-<section class="org-hero" aria-labelledby="org-title">
-  <p class="org-eyebrow">Event Pictures</p>
-  <h1 id="org-title">Pictures</h1>
-  <p class="org-lede">Here you can find pictures taken during TAROT 2026.</p>
+
+<section class="pictures-hero" aria-labelledby="pictures-title">
+  <p class="pictures-eyebrow">TAROT 2026</p>
+
+  <h1 id="pictures-title">Pictures</h1>
+
+  <p class="pictures-lede">
+    A selection of pictures from the lectures and social events
+    of TAROT 2026.
+  </p>
 </section>
 
 <style>
-.org-hero {
+.pictures-hero {
   position: relative;
   overflow: hidden;
-  margin: 0 0 2rem;
+  margin-bottom: 2.5rem;
   padding: clamp(2rem, 5vw, 4rem);
   border: 1px solid #e5e7eb;
   border-radius: 30px;
   background:
-    radial-gradient(circle at 12% 6%, rgba(245, 158, 11, 0.22), transparent 30%),
-    radial-gradient(circle at 88% 12%, rgba(14, 165, 233, 0.14), transparent 28%),
+    radial-gradient(
+      circle at 12% 6%,
+      rgba(245, 158, 11, 0.22),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 88% 12%,
+      rgba(14, 165, 233, 0.14),
+      transparent 28%
+    ),
     linear-gradient(135deg, #111827, #1f2937 58%, #374151);
-  color: #fff;
+  color: #ffffff;
   box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
 }
 
-.org-hero::after {
+.pictures-hero::after {
   content: "";
   position: absolute;
-  inset: auto -7rem -8rem auto;
+  right: -7rem;
+  bottom: -8rem;
   width: 18rem;
   height: 18rem;
   border-radius: 999px;
@@ -36,7 +51,7 @@ permalink: /event-pictures/
   pointer-events: none;
 }
 
-.org-eyebrow {
+.pictures-eyebrow {
   margin: 0 0 0.7rem;
   color: #fbbf24;
   font-size: 0.78rem;
@@ -45,305 +60,467 @@ permalink: /event-pictures/
   text-transform: uppercase;
 }
 
-.org-hero h1 {
+.pictures-hero h1 {
   margin: 0;
-  color: #fff;
+  color: #ffffff;
   font-size: clamp(2.6rem, 8vw, 5.2rem);
   line-height: 0.95;
   letter-spacing: -0.07em;
 }
 
-.org-lede {
-  max-width: 780px;
+.pictures-lede {
+  max-width: 760px;
   margin: 1.1rem 0 0;
   color: #e5e7eb;
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   line-height: 1.65;
 }
 
-.org-section {
+.pictures-section {
   margin: 2.5rem 0;
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+  border: 1px solid #e5e7eb;
+  border-radius: 26px;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.07);
 }
 
-.section-heading-row {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 1.5rem;
-  margin-bottom: 1.35rem;
+.pictures-section-header {
+  margin-bottom: 1.25rem;
 }
 
-.section-heading-row .org-eyebrow {
-  color: #92400e;
-}
-
-.section-heading-row h2 {
+.pictures-section-header h2 {
   margin: 0;
   color: #111827;
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
   line-height: 1.05;
   letter-spacing: -0.05em;
 }
 
-.section-heading-copy {
-  max-width: 430px;
-  margin: 0;
+.pictures-section-header p {
+  max-width: 700px;
+  margin: 0.6rem 0 0;
   color: #4b5563;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
-.org-grid {
+.pictures-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  gap: 1.15rem;
-  margin: 0;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.75rem;
 }
 
-.org-card {
+.picture-item {
   position: relative;
-  height: 100%;
+  display: block;
   overflow: hidden;
-  border: 1px solid rgba(229, 231, 235, 0.92);
-  border-radius: 26px;
-  background:
-    radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 30%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.96));
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.075);
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  background: #e5e7eb;
 }
 
-.org-card::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto;
-  height: 5px;
-  background: linear-gradient(90deg, #f59e0b, #38bdf8, #111827);
-  opacity: 0.75;
-}
-
-
-.org-card-affiliation-placeholder {
-  background:
-    radial-gradient(circle at 86% 18%, rgba(15, 23, 42, 0.08), transparent 30%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(248, 250, 252, 0.96));
-}
-
-.org-card-affiliation-placeholder .org-link::after {
-  content: "Affiliation logo pending";
-  position: absolute;
-  right: 1rem;
-  bottom: 0.45rem;
-  z-index: -1;
-  display: grid;
-  place-items: center;
-  width: clamp(6rem, 16vw, 9rem);
-  aspect-ratio: 1;
-  padding: 0.9rem;
-  border: 2px dashed rgba(15, 23, 42, 0.12);
-  border-radius: 28px;
-  color: rgba(15, 23, 42, 0.18);
-  font-size: 0.72rem;
-  font-weight: 900;
-  line-height: 1.15;
-  letter-spacing: 0.08em;
-  text-align: center;
-  text-transform: uppercase;
-  pointer-events: none;
-  transform: rotate(-6deg);
-}
-
-.org-link {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 1rem;
-  align-items: flex-start;
+.picture-item img {
+  display: block;
+  width: 100%;
   height: 100%;
-  padding: 1.25rem;
-  color: inherit;
-  text-decoration: none;
-}
-
-.org-link:focus-visible {
-  outline: 3px solid #f59e0b;
-  outline-offset: -6px;
-  border-radius: 26px;
-}
-
-.org-photo {
-  width: 78px;
-  height: 78px;
   object-fit: cover;
-  border-radius: 24px;
-  flex: 0 0 auto;
-  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.16);
+  transition: transform 0.25s ease;
 }
 
-.org-body {
-  min-width: 0;
-  padding-bottom: 1.25rem;
+.picture-item:hover img {
+  transform: scale(1.04);
 }
 
-.org-name {
-  margin: 0 0 0.4rem;
-  color: #111827;
-  font-size: clamp(1.05rem, 2vw, 1.2rem);
-  line-height: 1.2;
-  letter-spacing: -0.03em;
+.picture-item:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
 }
 
-.org-role {
-  display: inline-flex;
-  margin: 0 0 0.65rem;
-  padding: 0.22rem 0.6rem;
-  border-radius: 999px;
-  background: #e0f2fe;
-  color: #075985;
-  font-size: 0.74rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.album-area {
+  margin: 3rem 0;
+  text-align: center;
 }
 
-.org-affiliation {
-  margin: 0.15rem 0 0;
+.album-area p {
+  margin: 0 0 1rem;
   color: #4b5563;
-  font-size: 0.92rem;
-  line-height: 1.38;
+  line-height: 1.6;
 }
 
-.org-card-contact {
-  background:
-    radial-gradient(circle at top right, rgba(245, 158, 11, 0.1), transparent 30%),
-    linear-gradient(180deg, #ffffff, #f8fafc);
-}
-
-
-.org-link-contact {
-  align-items: center;
-  min-height: 112px;
-}
-
-.org-icon-email {
-  width: 38px;
-  height: 38px;
-  object-fit: contain;
-  flex: 0 0 auto;
-  filter: drop-shadow(0 8px 14px rgba(15, 23, 42, 0.12));
-}
-
-.org-contact-action {
+.album-button {
   display: inline-flex;
-  margin: 0.35rem 0 0;
-  padding: 0.24rem 0.65rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.25rem;
   border-radius: 999px;
-  background: #f3f4f6;
-  color: #374151;
-  font-size: 0.78rem;
+  background: #111827;
+  color: #ffffff;
   font-weight: 900;
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease;
+}
+
+.album-button:hover {
+  transform: translateY(-1px);
+  background: #1f2937;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.2);
+}
+
+.album-button:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+@media (max-width: 1000px) {
+  .pictures-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
-  .section-heading-row {
-    display: block;
-  }
-
-  .section-heading-copy {
-    margin-top: 0.75rem;
-  }
-
-  .org-grid {
-    grid-template-columns: 1fr;
+  .pictures-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 520px) {
-  .org-hero {
-    border-radius: 22px;
+  .pictures-hero,
+  .pictures-section {
+    border-radius: 20px;
   }
 
-  .org-link {
-    grid-template-columns: auto minmax(0, 1fr);
-    align-items: flex-start;
-    gap: 0.85rem;
-    padding: 1rem;
-  }
-
-  .org-link-contact {
-    grid-template-columns: auto minmax(0, 1fr);
-    align-items: center;
-  }
-
-  .org-photo {
-    width: 64px;
-    height: 64px;
-    border-radius: 18px;
-  }
-
-
-  .org-body {
-    padding-bottom: 1.4rem;
-  }
-
-  .org-name {
-    font-size: 1rem;
-  }
-
-  .org-role {
-    margin-bottom: 0.5rem;
-    font-size: 0.68rem;
-  }
-
-  .org-affiliation {
-    font-size: 0.86rem;
-  }
-
-  .org-card-affiliation-placeholder .org-link::after {
-    right: 0.7rem;
-    bottom: 0.25rem;
-    width: 6rem;
-    border-radius: 22px;
-    font-size: 0.62rem;
+  .pictures-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .org-card {
+  .picture-item img,
+  .album-button {
     transition: none;
   }
 }
 </style>
 
-<section class="org-section" aria-labelledby="organising-title">
-  <div class="section-heading-row">
-    <div>
-      <p class="org-eyebrow">Speakers pictures</p>
-      <h2 id="organising-title">Speakers</h2>
-    </div>
+<section
+  class="pictures-section"
+  aria-labelledby="speakers-pictures-title"
+>
+  <div class="pictures-section-header">
+    <h2 id="speakers-pictures-title">Speakers and sessions</h2>
+
+    <p>
+      Pictures from lectures and presentations.
+    </p>
   </div>
-<div class="org-grid">
-</div>
+
+  <div class="pictures-grid">
+    <a
+      class="picture-item"
+      href="{{ 'assets/images/events/pics-coming.jpeg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 1"
+    >
+      <img
+        src="{{ 'assets/images/events/pics-coming.jpeg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <!-- <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-02.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 2"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-02.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-03.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 3"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-03.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-04.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 4"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-04.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-05.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 5"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-05.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-06.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 6"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-06.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-07.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 7"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-07.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-08.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 8"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-08.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-09.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 9"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-09.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-10.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 10"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-10.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-11.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 11"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-11.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-12.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 12"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-12.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-13.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 13"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-13.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-14.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 14"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-14.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-15.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 15"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-15.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-16.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 16"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-16.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-17.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 17"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-17.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-18.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 18"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-18.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-19.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 19"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-19.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a>
+
+    <a
+      class="picture-item"
+      href="{{ '/assets/images/events/speakers/speaker-20.jpg' | relative_url }}"
+      target="_blank"
+      aria-label="Open speaker picture 20"
+    >
+      <img
+        src="{{ '/assets/images/events/speakers/speaker-20.jpg' | relative_url }}"
+        alt="Lecture"
+        loading="lazy"
+      >
+    </a> -->
+  </div>
 </section>
 
-<section class="org-section" aria-labelledby="organising-title">
-  <div class="section-heading-row">
-    <div>
-      <p class="org-eyebrow">Social events pictures</p>
-      <h2 id="organising-title">Social events</h2>
-    </div>
+<section
+  class="pictures-section"
+  aria-labelledby="social-pictures-title"
+>
+  <div class="pictures-section-header">
+    <h2 id="social-pictures-title">Social events</h2>
+
+    <p>
+      Pictures from BMW Welt, Tollwood Olympiapark, dinners,
+      informal gatherings, and other moments around Munich.
+    </p>
   </div>
-<div class="org-grid">
-</div>
+
+  <div class="pictures-grid">
+    <a
+      class="picture-item"
+      href="{{ 'assets/images/events/pics-coming.jpeg' | relative_url }}"
+      target="_blank"
+      aria-label="Open social event picture 1"
+    >
+      <img
+        src="{{ 'assets/images/events/pics-coming.jpeg' | relative_url }}"
+        alt="TAROT 2026 social event"
+        loading="lazy"
+      >
+    </a>
+
+  </div>
 </section>
 
-<section class="org-section" aria-labelledby="organising-title">
-  <div class="section-heading-row">
-    <div>
-      <p class="org-eyebrow">Explore the full album</p>
-      <h2 id="organising-title">Full Album</h2>
-    </div>
-  </div>
-<div class="org-grid">
-</div>
-</section>
+<!-- <div class="album-area">
+  <p>
+    Browse all available pictures in the complete shared Google Photos album.
+  </p>
+
+  <a
+    class="album-button"
+    href="GOOGLE_PHOTOS_FULL_ALBUM_URL"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Open complete Google Photos album
+  </a>
+</div> -->
