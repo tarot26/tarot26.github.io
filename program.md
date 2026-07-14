@@ -1461,6 +1461,12 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class="social-event-actions">
         <a href="https://www.bmw-welt.com/en/index.html" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
         <a href="https://www.google.com/maps/search/?api=1&query=BMW%20Welt%20Munich" target="_blank" rel="noopener noreferrer" class="social-pill social-map-link">Maps</a>
+        <a href="{{ 'assets/pdf/bmw_welt_details.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-pill social-website-link">
+              PDF Details
+        </a>
       </div>
     </div>
     <figure class="social-event-image">
