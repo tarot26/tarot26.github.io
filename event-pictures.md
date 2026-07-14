@@ -314,3 +314,36 @@ permalink: /event-pictures/
   }
 }
 </style>
+
+<section class="org-section" aria-labelledby="organising-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="org-eyebrow">Speakers pictures</p>
+      <h2 id="organising-title">Speakers</h2>
+    </div>
+  </div>
+<div class="org-grid">
+</div>
+</section>
+
+<section class="org-section" aria-labelledby="organising-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="org-eyebrow">Social events pictures</p>
+      <h2 id="organising-title">Social events</h2>
+    </div>
+  </div>
+<div class="org-grid">
+</div>
+</section>
+
+<section class="org-section" aria-labelledby="organising-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="org-eyebrow">Explore the full album</p>
+      <h2 id="organising-title">Full Album</h2>
+    </div>
+  </div>
+<div class="org-grid">
+</div>
+</section>
