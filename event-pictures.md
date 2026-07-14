@@ -487,10 +487,6 @@ permalink: /event-pictures/
   <div class="pictures-section-header">
     <h2 id="social-pictures-title">Social events</h2>
 
-    <p>
-      Pictures from BMW Welt, Tollwood Olympiapark, dinners,
-      informal gatherings, and other moments around Munich.
-    </p>
   </div>
 
   <div class="pictures-grid">
