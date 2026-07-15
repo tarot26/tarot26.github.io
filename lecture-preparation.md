@@ -148,6 +148,9 @@ sitemap: false
       </div>
     </div>
     <div class="prep-actions">
+      <a class="prep-button prep-button-primary" href="https://www.trustcps.eu/insights/agentic-ai-runtime-assurance.html">
+      Link to Agentic AI Runtime Assurance's page
+      </a>
       <a class="prep-button prep-button-primary" href="{{ '/assets/slides/tarot_bartocci.pdf' | relative_url }}">
         Lecture Slides and Additional Material
       </a>
