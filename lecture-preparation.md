@@ -147,7 +147,12 @@ sitemap: false
         <h3>E. Bartocci</h3>
       </div>
     </div>
-    <p>No preparation is required.</p>
+    <div class="prep-actions">
+      <a class="prep-button prep-button-primary" href="{{ '/assets/slides/tarot_bartocci.pdf' | relative_url }}">
+        Lecture Slides and Additional Material
+      </a>
+    </div>
+
   </article>
 
   <article class="prep-card prep-card-compact">
