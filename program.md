@@ -1497,7 +1497,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="social-event-main">
       <p class="social-event-kicker">Dinner together</p>
       <h3>Pizza at L’Osteria Künstlerhaus</h3>
-      <p class="social-event-time">Wednesday evening · Time TBA</p>
+      <p class="social-event-time">Wednesday evening · 19:00-21:00</p>
       <p class="social-event-copy">A casual mid-week group dinner in the city center.</p>
       <div class="social-event-actions">
         <a href="https://losteria.net/de-en/restaurants/restaurant/muenchen-kuenstlerhaus/" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
@@ -1514,7 +1514,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="social-event-main">
       <p class="social-event-kicker">Bavarian evening</p>
       <h3>Augustiner Keller Biergarten</h3>
-      <p class="social-event-time">Thursday evening · Time TBA</p>
+      <p class="social-event-time">Thursday evening · 19:00-21:00</p>
       <p class="social-event-copy">A classic Munich beer garden evening near Hauptbahnhof for the final full evening of the summer school.</p>
       <div class="social-event-actions">
         <a href="https://www.augustinerkeller.de/en" target="_blank" rel="noopener noreferrer" class="social-pill social-website-link">Website</a>
