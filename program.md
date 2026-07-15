@@ -1403,6 +1403,8 @@ document.addEventListener('DOMContentLoaded', function () {
         <tr><td>16:00–16:20</td><td>Masoud Jamshidiyantehrani</td><td>Security Testing of Autonomous Vehicles Using Adversarial Machine Learning</td></tr>
         <tr><td>16:20–16:40</td><td>Fabio Cavaleri</td><td>Automatic Testing of Interacting Autonomous Vehicles</td></tr>
         <tr><td>16:40–17:00</td><td>Petr Kaška</td><td>Survival of the Safest: Automating LLM Defense with Genetic Programming</td></tr>
+        <tr><td>17:00–17:10</td><td>Stefano Carlo Lambertenghi</td><td>Measuring and Mitigating the Reality Gap
+       + Hands on with Fortuna, our self driving vehicle.</td></tr>
       </tbody>
     </table>
   </article>
